@@ -102,6 +102,25 @@ Dev tools, SDKs, orchestration, model serving, cloud platforms, safety tooling, 
 
 - **Skills as cross-platform abstraction** — Skills solidifying across agent stacks (Claude Code, OpenClaw, Manus, etc.): progressive disclosure, session distillation, CI-triggered skills, self-improving skills. MCP resources as distribution mechanism solves staleness/versioning.
   > *"Progressive disclosure, session distillation, CI-triggered, self-improving."* — [mstockton](https://x.com/mstockton/status/2034095691648098606) · Mar 18
+- **Anthropic Skills** — Anthropic's public agent skills repo. 99.9k stars, trending +686/day on GitHub. Standardized skill format for Claude Code: folder with scripts/assets/data, trigger conditions in description.
+  > *"Public repository for Agent Skills."* — [Anthropics](https://github.com/anthropics/skills) · Mar 22
+
+---
+
+### Trending GitHub — Notable AI Repos
+
+- **everything-claude-code** — Agent harness optimization system for Claude Code, Codex, Opencode, Cursor. 97k stars, **+3.6k/day**. Skills, instincts, memory, security, and research-first development.
+  > *"Agent harness performance optimization system."* — [affaan-m](https://github.com/affaan-m/everything-claude-code) · Mar 22
+- **deer-flow** (ByteDance) — Open-source SuperAgent harness for research, coding, creation. 34.9k stars, +2.5k/day. Sandboxes, memories, tools, skills, subagents.
+  > *"An open-source SuperAgent harness that researches, codes, and creates."* — [bytedance](https://github.com/bytedance/deer-flow) · Mar 22
+- **TradingAgents** — Multi-Agents LLM Financial Trading Framework. 36.8k stars, +1.4k/day. Finance-specific multi-agent system with real-world trading integration.
+  > *"Multi-Agents LLM Financial Trading Framework."* — [TauricResearch](https://github.com/TauricResearch/TradingAgents) · Mar 22
+- **claude-peers-mcp** — TypeScript. Allow all Claude Codes to message each other ad-hoc. 728 stars. Peer-to-peer agent communication.
+  > *"Allow all your Claude Codes to message each other ad-hoc."* — [louislva](https://github.com/louislva/claude-peers-mcp) · Mar 23
+- **weixin-agent-sdk** — TypeScript. WeChat agent SDK — enables AI agents to interact via WeChat. 663 stars.
+  > *"WeChat agent SDK."* — [wong2](https://github.com/wong2/weixin-agent-sdk) · Mar 23
+- **claude-plugin-weixin** — TypeScript. Claude Code plugin for WeChat integration. 487 stars.
+  > *"Claude Code plugin for WeChat."* — [m1heng](https://github.com/m1heng/claude-plugin-weixin) · Mar 23
 
 ---
 
