@@ -121,6 +121,10 @@ Dev tools, SDKs, orchestration, model serving, cloud platforms, safety tooling, 
   > *"WeChat agent SDK."* — [wong2](https://github.com/wong2/weixin-agent-sdk) · Mar 23
 - **claude-plugin-weixin** — TypeScript. Claude Code plugin for WeChat integration. 487 stars.
   > *"Claude Code plugin for WeChat."* — [m1heng](https://github.com/m1heng/claude-plugin-weixin) · Mar 23
+- **ClawTeam** (HKUDS) — Agent Swarm Intelligence for one-command full automation. 3k+ stars in first days. Multi-agent swarm coordination gaining rapid traction; fork available for OpenClaw.
+  > *"Agent Swarm Intelligence (One Command → Full Automation)."* — [HKUDS](https://github.com/HKUDS/ClawTeam) · Mar 23
+- **VoltAgent/awesome-codex-subagents** — Curated collection of 130+ specialized Codex subagents. 2.2k stars. Ecosystem density play: standardizing agent sub-specialties across development use cases.
+  > *"A collection of 130+ specialized Codex subagents."* — [VoltAgent](https://github.com/VoltAgent/awesome-codex-subagents) · Mar 23
 
 ---
 
