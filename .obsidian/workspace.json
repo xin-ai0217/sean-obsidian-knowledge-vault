@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "0109c5003761eb44",
@@ -186,6 +187,7 @@
   },
   "active": "a741dfa1527cb132",
   "lastOpenFiles": [
+    "daily-ai-trends.sh",
     "2026-03-23.md",
     "AI Trends.md",
     "Welcome.md",
