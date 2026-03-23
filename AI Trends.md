@@ -6,45 +6,14 @@
 
 ## 🧠 Foundation Models
 
-Entries sorted alphabetically by topic. Cross-listed items show "→ also in [Section]" note.
-
----
-
-### Anthropic
-
-- **Claude** — Anthropic expands Claude Code beyond terminal into Telegram & Discord channels, pushing toward persistent developer workflows and ambient agent access.
-  > *"Persistent developer workflows and ambient agent access."* — [Anthropic](https://x.com/neilhtennek/status/2034762196576805123) · Mar 19
-
----
-
-### Astral
-
-- **uv / ruff / ty** — Acquired by OpenAI Codex team. Widely seen as OpenAI strengthening its developer platform moat through ownership of foundational Python tooling.
-  > *"Strengthening developer platform moat through Python tooling ownership."* — [Simon Willison](https://x.com/simonw/status/2034672725088997879) · Mar 19
-  → *also in ⚙️ Infra*
+Model releases, benchmarks, weights, training breakthroughs. Sorted alphabetically by provider.
 
 ---
 
 ### Cartesia
 
-- **Mamba-3** — SSM optimized for inference-heavy workloads. Early focus on hybrid transformer integration: replacing Gated DeltaNet in next-gen Qwen3.5 / Kimi Linear, unlocking Muon for SSMs.
+- **Mamba-3** — SSM optimized for inference-heavy workloads. Hybrid transformer integration: replacing Gated DeltaNet in next-gen Qwen3.5 / Kimi Linear, unlocking Muon for SSMs.
   > *"Unlocking Muon for SSMs in next-gen Qwen3.5 / Kimi Linear."* — [Cartesia](https://x.com/cartesia/status/2034338862559121475) · Mar 18
-
----
-
-### Cognition
-
-- **Manus Teams** — Devin decomposes work and delegates to parallel Devins running in separate VMs, scaling agent coordination.
-  > *"Agent coordination via work decomposition."* — [Cognition](https://x.com/cognition/status/2034679897084264659) · Mar 19
-  → *also in 🚀 Applications*
-
----
-
-### Cursor
-
-- **Composer 2** — Built on Kimi K2.5. ~1/4 compute from Kimi base, rest from continued pretraining + high-compute RL. Sparked industry-wide debate on base model attribution and open-model licensing.
-  > *"1/4 compute from Kimi base, rest from continued pretraining + RL."* — [Cursor](https://x.com/cursor_ai/status/2034668950240329837) · Mar 19
-  → *also in 🚀 Applications*
 
 ---
 
@@ -55,17 +24,9 @@ Entries sorted alphabetically by topic. Cross-listed items show "→ also in [Se
 
 ---
 
-### LangChain
-
-- **LangSmith Fleet** — Enterprise agent fleet management OS. Agent identity, credential management, permissions, Slack exposure, audit trails. Key signal: "agent" is no longer a useful abstraction — fleet/runtime management is the new center of gravity.
-  > *"Agent identity, credentials, permissions, Slack exposure, auditability."* — [LangChain](https://x.com/LangChain/status/2034679590250258855) · Mar 19
-  → *also in ⚙️ Infra*
-
----
-
 ### MiniMax
 
-- **M2.7** — Self-evolving agent model. First MiniMax model that "deeply participated in its own evolution." Recursive self-improvement: internal harness iteratively improved eval sets, skills, MCP, memory. Matches GLM-5 SOTA performance at **1/3 the cost** (~$176 vs ~$600). 56.22% SWE-Pro, 57.0% Terminal Bench 2, 97% skill adherence.
+- **M2.7** — Self-evolving agent model. First MiniMax model that "deeply participated in its own evolution." Recursive self-improvement: internal harness iteratively improved eval sets, skills, MCP, memory. Matches GLM-5 SOTA at **1/3 cost** (~$176 vs ~$600). 56.22% SWE-Pro, 57.0% Terminal Bench 2, 97% skill adherence.
   > *"First model deeply participated in its own evolution."* — [MiniMax](https://x.com/MiniMax_AI/status/2034315320337522881) · Mar 18
   > *"Matches GLM-5 SOTA at 1/3 cost."* — [Artificial Analysis](https://x.com/ArtificialAnlys/status/2034313314420019462) · Mar 18
 
@@ -73,17 +34,15 @@ Entries sorted alphabetically by topic. Cross-listed items show "→ also in [Se
 
 ### NVIDIA
 
-- **Nemotron-Cascade 2** — 30B MoE / 3B active params. Gold-medal level on IMO 2025, IOI 2025, ICPC World Finals 2025. Beats Qwen3.5-35B-A3B and Qwen3.5-122B-A10B variants. Cascade RL + multi-domain on-policy distillation.
+- **Nemotron-Cascade 2** — 30B MoE / 3B active params. Gold-medal level on IMO 2025, IOI 2025, ICPC World Finals 2025. Beats Qwen3.5-35B-A3B and Qwen3.5-122B-A10B. Cascade RL + multi-domain on-policy distillation.
   > *"Best-in-class math/code/alignment, beats Qwen3.5-35B-A3B."* — [NVIDIA](https://x.com/_weiping/status/2034877099908243746) · Mar 20
-  → *also in ⚙️ Infra*
 
 ---
 
 ### OpenAI
 
-- **Astral acquisition** — Acquired Astral (uv, ruff, ty) into OpenAI Codex team. Broader push down-stack toward developer platform ownership.
+- **Model releases** — OpenAI moving down-stack with Astral acquisition (see Infra). Broader push toward persistent developer workflows and ambient agent access.
   > *"OpenAI strengthening its developer platform moat through ownership of foundational Python tooling."* — [Simon Willison](https://x.com/simonw/status/2034672725088997879) · Mar 19
-  → *also in ⚙️ Infra*
 
 ---
 
@@ -103,45 +62,77 @@ Entries sorted alphabetically by topic. Cross-listed items show "→ also in [Se
 
 ## ⚙️ Infra
 
----
-
-### Anthropic
-
-- **Claude Code Channels** — Beyond terminal into Telegram & Discord. Part of Anthropic's ambient agent vision.
-  > *"Persistent developer workflows and ambient agent access."* — [Anthropic](https://x.com/neilhtennek/status/2034762196576805123) · Mar 19
+Dev tools, SDKs, orchestration, model serving, cloud platforms, safety tooling, developer infrastructure. Sorted alphabetically.
 
 ---
 
 ### LangChain
 
-- **LangSmith Fleet** — Enterprise fleet OS: memory, tools, permissions, channel integrations. Shift from "single agent" to fleet management as the primary abstraction.
+- **LangSmith Fleet** — Enterprise agent fleet management OS. Agent identity, credential management, permissions, Slack exposure, audit trails. Key signal: "agent" abstraction expanding toward fleet/runtime management.
   > *"Agent identity, credentials, permissions, Slack exposure, auditability."* — [LangChain](https://x.com/LangChain/status/2034679590250258855) · Mar 19
-- **LangSmith Sandboxes + Polly GA** — Secure code execution for agents; in-product debugging/improvement assistant.
+- **LangSmith Sandboxes + Polly GA** — Secure code execution for agents; in-product debugging/improvement assistant for production AI systems.
   > *"Secure code execution for agents."* — [LangChain](https://x.com/samecrowder/status/2034123616720421210) · Mar 18
+- **MCP momentum** — Google Colab MCP server enabling local agents to drive Colab GPU runtimes; Gemini API adding built-in tools + custom functions in one call. But visible skepticism: *"MCP was a mistake. Long live CLIs."*
+  > *"MCP was a mistake. Long live CLIs."* — [skirano](https://x.com/skirano/status/2034269154404868314) · Mar 18
+
+---
+
+### LlamaIndex
+
+- **LiteParse** — Local, zero-dependency PDF/Office parser for agents. Layout-aware, spatial preservation, built-in OCR options, targets agent pipelines.
+  > *"Layout-aware, spatial preservation, built-in OCR options."* — [LlamaIndex](https://x.com/llama_index/status/2034661997644808638) · Mar 19
 
 ---
 
 ### NVIDIA
 
-- **NemoClaw** — Safety-first agent infra. Zero permissions by default, sandboxed subagents, infra-enforced private inference.
+- **NemoClaw** — Safety-first agent infra. Zero permissions by default, sandboxed subagents, infra-enforced private inference. NVIDIA's answer to OpenClaw-style safety concerns.
   > *"Zero permissions by default, sandboxed subagents, infra-enforced private inference."* — [Baseten](https://x.com/baseten/status/2034649896523874356) · Mar 19
 
 ---
 
 ### OpenAI
 
-- **Astral (uv/ruff/ty) acquisition** — OpenAI acquiring Astral team into Codex. Python tooling moat via foundational devtool ownership.
+- **Astral (uv/ruff/ty) acquisition** — Astral team (creator of uv, ruff, ty) joining OpenAI Codex. Python tooling moat via ownership of foundational devtools.
   > *"Strengthening developer platform moat through Python tooling ownership."* — [Simon Willison](https://x.com/simonw/status/2034672725088997879) · Mar 19
+
+---
+
+### Skills / Agent Abstraction
+
+- **Skills as cross-platform abstraction** — Skills solidifying across agent stacks (Claude Code, OpenClaw, Manus, etc.): progressive disclosure, session distillation, CI-triggered skills, self-improving skills. MCP resources as distribution mechanism solves staleness/versioning.
+  > *"Progressive disclosure, session distillation, CI-triggered, self-improving."* — [mstockton](https://x.com/mstockton/status/2034095691648098606) · Mar 18
+- **Anthropic Skills** — Anthropic's public agent skills repo. 99.9k stars, trending +686/day on GitHub. Standardized skill format for Claude Code: folder with scripts/assets/data, trigger conditions in description.
+  > *"Public repository for Agent Skills."* — [Anthropics](https://github.com/anthropics/skills) · Mar 22
+
+---
+
+### Trending GitHub — Notable AI Repos
+
+- **everything-claude-code** — Agent harness optimization system for Claude Code, Codex, Opencode, Cursor. 97k stars, **+3.6k/day**. Skills, instincts, memory, security, and research-first development.
+  > *"Agent harness performance optimization system."* — [affaan-m](https://github.com/affaan-m/everything-claude-code) · Mar 22
+- **deer-flow** (ByteDance) — Open-source SuperAgent harness for research, coding, creation. 34.9k stars, +2.5k/day. Sandboxes, memories, tools, skills, subagents.
+  > *"An open-source SuperAgent harness that researches, codes, and creates."* — [bytedance](https://github.com/bytedance/deer-flow) · Mar 22
+- **TradingAgents** — Multi-Agents LLM Financial Trading Framework. 36.8k stars, +1.4k/day. Finance-specific multi-agent system with real-world trading integration.
+  > *"Multi-Agents LLM Financial Trading Framework."* — [TauricResearch](https://github.com/TauricResearch/TradingAgents) · Mar 22
+- **claude-peers-mcp** — TypeScript. Allow all Claude Codes to message each other ad-hoc. 728 stars. Peer-to-peer agent communication.
+  > *"Allow all your Claude Codes to message each other ad-hoc."* — [louislva](https://github.com/louislva/claude-peers-mcp) · Mar 23
+- **weixin-agent-sdk** — TypeScript. WeChat agent SDK — enables AI agents to interact via WeChat. 663 stars.
+  > *"WeChat agent SDK."* — [wong2](https://github.com/wong2/weixin-agent-sdk) · Mar 23
+- **claude-plugin-weixin** — TypeScript. Claude Code plugin for WeChat integration. 487 stars.
+  > *"Claude Code plugin for WeChat."* — [m1heng](https://github.com/m1heng/claude-plugin-weixin) · Mar 23
 
 ---
 
 ## 🚀 Applications
 
+User-facing products and agents — end-users interact with these directly. Sorted alphabetically.
+
 ---
 
 ### Anthropic
 
-- **Claude Code Channels** — Ambient agent access via Telegram & Discord.
+- **Claude Code Channels** — Claude Code expanding beyond terminal into Telegram & Discord. Ambient agent access for developers in messaging platforms.
   > *"Persistent developer workflows and ambient agent access."* — [Anthropic](https://x.com/neilhtennek/status/2034762196576805123) · Mar 19
 
 ---
@@ -153,43 +144,21 @@ Entries sorted alphabetically by topic. Cross-listed items show "→ also in [Se
 
 ---
 
-### Cursor
+### Cognition
 
-- **Composer 2** — Built on Kimi K2.5. Controversy over base model attribution. Product differentiation shifting toward domain-specific RL/evals/UX.
-  > *"1/4 compute from Kimi base, rest from continued pretraining + RL."* — [Cursor](https://x.com/cursor_ai/status/2034668950240329837) · Mar 19
-
----
-
-### LlamaIndex
-
-- **LiteParse** — Local, zero-dependency PDF/Office parser for agents. Layout-aware, spatial preservation, built-in OCR options, targets agent pipelines.
-  > *"Layout-aware, spatial preservation, built-in OCR options."* — [LlamaIndex](https://x.com/llama_index/status/2034661997644808638) · Mar 19
-
----
-
-### Manus
-
-- **Manus Teams** — Parallel Devins in separate VMs. Agent coordination via work decomposition.
+- **Manus Teams** — Devin decomposes work and delegates to parallel Devins in separate VMs. Agentic product scaling coordination via work decomposition.
   > *"Agent coordination via work decomposition."* — [Cognition](https://x.com/cognition/status/2034679897084264659) · Mar 19
 
 ---
 
-### OpenAI
+### Cursor
 
-- **Headless SaaS** — Traditional software rebuilt as agent-first APIs with no human UI.
+- **Composer 2** — AI coding product built on Kimi K2.5. ~1/4 compute from Kimi base, rest from continued pretraining + high-compute RL. Sparked debate on base model attribution and open-model licensing.
+  > *"1/4 compute from Kimi base, rest from continued pretraining + RL."* — [Cursor](https://x.com/cursor_ai/status/2034668950240329837) · Mar 19
+
+---
+
+### Headless SaaS
+
+- **Agent-first APIs** — Traditional software rebuilt as agent-first APIs with no human UI. Meeting-notes apps evolving into broader AI context/data apps. Rippling launching AI analyst.
   > *"No human UI, just agent-accessible APIs."* — [ivanburazin](https://x.com/ivanburazin/status/2034042095548187072) · Mar 18
-
----
-
-### Skills / MCP Ecosystem
-
-- **Skills as abstraction** — Skills solidifying as shared cross-platform abstraction (Claude Code, OpenClaw, Manus, etc.). Progressive disclosure, session distillation, CI-triggered, self-improving. MCP gaining adoption but visible skepticism: *"MCP was a mistake. Long live CLIs."*
-  > *"Progressive disclosure, session distillation, CI-triggered, self-improving."* — [mstockton](https://x.com/mstockton/status/2034095691648098606) · Mar 18
-  > *"MCP was a mistake. Long live CLIs."* — [skirano](https://x.com/skirano/status/2034269154404868314) · Mar 18
-
----
-
-### Xiaomi
-
-- **MiMo-V2-Pro** — Efficient reasoning model with strong token efficiency, lower hallucination.
-  > *"Stronger token efficiency, lower hallucination vs peers."* — [Artificial Analysis](https://x.com/ArtificialAnlys/status/2034239267052896516) · Mar 18
