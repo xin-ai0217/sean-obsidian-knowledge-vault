@@ -1,6 +1,6 @@
 # AI Trends
 
-> Curated AI developments from [smol.ai](https://news.smol.ai) / [Latent Space](https://www.latent.space/p/2026). Auto-updated daily. See [GitHub](https://github.com/xin-ai0217/sean-obsidian-knowledge-vault) for full history.
+> Curated AI developments from [smol.ai](https://news.smol.ai), [Product Hunt](https://www.producthunt.com), and [GitHub Trending](https://github.com/OpenGithubs/github-daily-rank). Auto-updated daily. See [GitHub](https://github.com/xin-ai0217/sean-obsidian-knowledge-vault) for full history.
 
 ---
 
