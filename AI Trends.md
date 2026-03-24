@@ -232,3 +232,13 @@ User-facing products and agents — end-users interact with these directly. Sort
   > *"No human UI, just agent-accessible APIs."* — [ivanburazin](https://x.com/ivanburazin/status/2034042095548187072) · Mar 18
 
   **💡 What this means (layman):** A new breed of "headless" software products — apps that have no buttons, no website, no interface at all. They're purely API-driven, designed for AI agents to use, not humans. An AI agent calls the API to do things like generate meeting notes or analyze HR data. Traditional SaaS companies (like Rippling) are building AI "analysts" this way — think of it as giving AI its own software layer to work with.
+
+---
+
+## 💡 AI Startup Ideas
+
+_Generated daily based on trends observed. Not financial advice — just an AI founder thinking out loud._
+
+_T Criteria: (1) MVP-executable, solves a real pain point in a niche market (2) Long-term bet, not a short-term whim (3) Doesn't compete with OpenAI, Google, or Anthropic._
+
+_(To be populated by daily cron job based on findings)_
