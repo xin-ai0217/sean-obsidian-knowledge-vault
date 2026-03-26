@@ -147,10 +147,22 @@ Dev tools, SDKs, orchestration, model serving, cloud platforms, safety tooling, 
 
   **💡 What this means (layman):** A mega-collection of tricks and tools to make AI coding assistants (Claude Code, Cursor, Codex) work better. Includes memory systems, security hardening, and "instincts" (pre-programmed behaviors). If you're using an AI coding assistant professionally, this is the equivalent of power-user configs — helps squeeze out maximum performance.
 
-- **deer-flow** (ByteDance) — Open-source SuperAgent harness for research, coding, creation. 34.9k stars, +2.5k/day. Sandboxes, memories, tools, skills, subagents.
-  > *"An open-source SuperAgent harness that researches, codes, and creates."* — [bytedance](https://github.com/bytedance/deer-flow) · Mar 22
+- **deer-flow** (ByteDance) — Open-source SuperAgent harness for research, coding, creation. 45.9k stars, **+3.1k/day**. Sandboxes, memories, tools, skills, subagents.
+  > *"An open-source SuperAgent harness that researches, codes, and creates."* — [bytedance](https://github.com/bytedance/deer-flow) · Mar 25
 
-  **💡 What this means (layman):** ByteDance (TikTok's parent company) released an open-source AI agent framework that chains together multiple agents — one for research, one for coding, one for content creation — sharing memory and tools between them. Think of it as a team of AI agents that collaborate on complex tasks instead of one agent doing everything poorly.
+  **💡 What this means (layman):** ByteDance (TikTok's parent company) released an open-source AI agent framework that chains together multiple agents — one for research, one for coding, one for content creation — sharing memory and tools between them. Think of it as a team of AI agents that collaborate on complex tasks instead of one agent doing everything poorly. Now at nearly 46k stars, it's one of the fastest-growing AI projects.
+
+- **last30days-skill** — AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web — then synthesizes a grounded summary. 7.2k stars, **+1.7k/day**.
+  > *"Researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web."* — [mvanhorn](https://github.com/mvanhorn/last30days-skill) · Mar 25
+
+  **💡 What this means (layman):** A Claude Code skill that lets you type "research [topic]" and get a comprehensive brief synthesized from Reddit discussions, Twitter debates, YouTube videos, Hacker News, prediction markets, and the broader web — all in one shot. Solves the "I need to get up to speed on something fast" problem that normally requires manually checking 10 different sources. Strong signal that AI research agents are becoming consumer-grade tools.
+
+- **OpenSpace** — "Make Your Agents: Smarter, Low-Cost, Self-Evolving." Community agent self-evolution framework. 898 stars.
+  > *"OpenSpace: Make Your Agents: Smarter, Low-Cost, Self-Evolving."* — [Open-Space](https://github.com/open-space/open-space) · Mar 23
+
+  **💡 What this means (layman):** OpenSpace is a community framework for making AI agents that improve themselves over time — they learn from their mistakes, get access to cheaper tools as they appear, and evolve their strategies based on what works. Instead of static agents that do the same thing forever, these agents get smarter and cheaper as they operate. The "self-evolving" property is rare and valuable for long-running agent deployments.
+
+  **💡 What this means (layman):** ByteDance (TikTok's parent company) released an open-source AI agent framework that chains together multiple agents — one for research, one for coding, one for content creation — sharing memory and tools between them. Think of it as a team of AI agents that collaborate on complex tasks instead of one agent doing everything poorly. Now at nearly 46k stars, it's one of the fastest-growing AI projects.
 
 - **TradingAgents** — Multi-Agents LLM Financial Trading Framework. 36.8k stars, +1.4k/day. Finance-specific multi-agent system with real-world trading integration.
   > *"Multi-Agents LLM Financial Trading Framework."* — [TauricResearch](https://github.com/TauricResearch/TradingAgents) · Mar 22
@@ -235,10 +247,64 @@ User-facing products and agents — end-users interact with these directly. Sort
 
 ---
 
+### Proactive AI Agents
+
+- **Viktor (Zeta Labs)** — Proactive Slack AI colleague. Monitors team conversations, chimes in when relevant, suggests and builds automations proactively. Lives where teams already communicate.
+  > *"Doesn't wait for you to ask. Observes how your team works and suggests automations you didn't think to set up."* — [Product Hunt](https://www.producthunt.com/posts/viktor) · Mar 25
+
+  **💡 What this means (layman):** Viktor is an AI agent that lives inside Slack and watches what your team is discussing — then proactively jumps in when it spots something it can help with, or builds automations you didn't know you needed. Unlike bots that just answer questions, it takes initiative. The insight: AI agents are evolving from "ask me anything" to "I'll watch and act when the time is right."
+
+- **Drift** — AI agent to run robot simulations faster and reliably. Targets robotics simulation acceleration.
+  > *"AI agent to run robot simulations faster and reliably."* — [Product Hunt](https://www.producthunt.com/posts/drift-ai) · Mar 25
+
+  **💡 What this means (layman):** Robotics simulation is notoriously slow — testing a robot's behavior in software can take hours or days. Drift is an AI agent that orchestrates the simulation process itself, figuring out which scenarios to test, how to parallelize runs, and when to stop early. Like having a senior robotics engineer managing the simulation farm instead of a human running manual scripts.
+
+---
+
 ## 💡 AI Startup Ideas
 
 _Generated daily based on trends observed. Not financial advice — just an AI founder thinking out loud._
 
-_T Criteria: (1) MVP-executable, solves a real pain point in a niche market (2) Long-term bet, not a short-term whim (3) Doesn't compete with OpenAI, Google, or Anthropic._
+_Criteria: (1) MVP-executable, solves a real pain point in a niche market (2) Long-term bet, not a short-term whim (3) Doesn't compete with OpenAI, Google, or Anthropic._
 
-_(To be populated by daily cron job based on findings)_
+---
+
+### AgentInbox — AI Agent Communication Layer for Enterprises
+
+**Problem:** AI agents working in enterprises need to communicate — with humans, with other agents, with legacy systems — but there's no standard "inbox" or "outbox." Agents miss messages, steps get duplicated, and humans have zero visibility into what agents are planning to do.
+
+**Market:** Mid-to-large enterprises deploying 10-100+ AI agents. The agent orchestration market is projected to hit $10B+ by 2028. Every company deploying agents needs this.
+
+**Why now:** Products like Viktor (proactive Slack agent) and jared.so (conversation-monitoring agent) reveal the pattern: agents that proactively communicate in human channels are winning adoption. But there's no infrastructure layer for agent-to-human and agent-to-agent communication that enterprises trust. Email/Slack aren't the answer — they're designed for humans.
+
+**MVP hint:** Build a simple web app + email address + Slack bot. Each agent gets an "inbox" where humans can approve/deny actions and other agents can send tasks. Integrates with SMTP and Slack. Prove that agents who route through a shared inbox have higher human trust scores.
+
+**Why this wins long-term:** Communication infrastructure is a platform play. Once agents and humans in an organization are routing through your inbox, you own the visibility layer — making auditing, compliance, and orchestration natural upsells. Hard to displace once adopted org-wide.
+
+---
+
+### VoiceAgent Profiler — The Datadog for Conversational AI
+
+**Problem:** Voice AI agents (phone trees, customer service bots, AI receptionists) have entirely different failure modes than text agents. Latency in speech feels unnatural. Long pauses break rapport. Interruption handling is awkward. But there's no profiling tool to measure these specific metrics — teams tune blindly.
+
+**Market:** Voice AI vendors and enterprises running voice agents: call centers ($20B+ market), healthcare appointment bots, hospitality, legal intake. Voice AI is exploding with models like GPT-4o and Gemini that are natively voice-capable.
+
+**Why now:** Cekura (voice/chat AI observability) and Drift (robot simulation) both signal the broader pattern: "AI that does things" is scaling, but debugging it is still artisanal. Voice is the most acute pain point because the failure modes are felt viscerally by customers. No dedicated profiler exists yet.
+
+**MVP hint:** Build a simple CLI + dashboard. Accept audio recordings or API calls of voice agent conversations. Return metrics: median response latency, interruption rate, silence detection, task completion rate. Integrate with Twilio, Voiceflow, or Vapi. Charge per analyzed call minute.
+
+**Why this wins long-term:** Voice AI debugging data is gold. The metrics you collect at scale reveal which conversation flows fail, which voice models perform better on different languages/accents, and where to intervene with human handoff. Becomes the voice AI equivalent of Honeycomb — differentiated by being the only tool built specifically for conversational interface observability.
+
+---
+
+### AgentCompliance — Policy Enforcement for Agentic AI in Regulated Industries
+
+**Problem:** When an AI agent acts on behalf of an employee in finance, healthcare, or law — executing trades, accessing medical records, sending legal notices — regulators require an audit trail. Current agent frameworks have zero compliance infrastructure: no policy enforcement, no human-in-the-loop approvals, no immutable logs.
+
+**Market:** Regulated enterprises (financial services, healthcare, legal, government) deploying AI agents. The AI governance market is $1.5B+ growing at 35% CAGR. These companies cannot deploy agents without compliance coverage.
+
+**Why now:** NVIDIA's NemoClaw (zero-permissions, sandboxed agents, private inference) shows big tech is waking up to agent security. But the compliance layer — the regulatory part — is untouched. Regulators are actively writing AI agent rules (EU AI Act, SEC guidance on AI trading bots). The compliance gap is widest right now, before regulators mandate it.
+
+**MVP hint:** Start with a narrow vertical: AI agents that execute trades in mid-size hedge funds. Build a middleware layer that intercepts agent actions, checks them against configurable policy rules (e.g., "no trade >$1M without human approval"), maintains immutable audit logs, and enforces human-in-the-loop gates. Integrate with LangChain or OpenAI Agents SDK. Charge a platform fee per monitored agent.
+
+**Why this wins long-term:** Compliance infrastructure in regulated industries is the ultimate lock-in. Once your audit logs are the ones regulators accept, switching costs are enormous. And as AI agent deployment accelerates, the liability risk for enterprises without proper compliance tooling grows proportionally — making this not just a nice-to-have but a board-level imperative.
