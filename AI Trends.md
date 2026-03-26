@@ -85,6 +85,9 @@ Dev tools, SDKs, orchestration, model serving, cloud platforms, safety tooling, 
 - **LangSmith Fleet** — Enterprise agent fleet management OS. Agent identity, credential management, permissions, Slack exposure, audit trails. Key signal: "agent" abstraction expanding toward fleet/runtime management.
   > *"Agent identity, credentials, permissions, Slack exposure, auditability."* — [LangChain](https://x.com/LangChain/status/2034679590250258855) · Mar 19
 
+- **Fleet Shareable Skills** — Reusable domain knowledge for enterprise agents. Skills can be shared across fleet, versioned, and triggered by CI pipelines. Addresses skill staleness and versioning in production agent deployments.
+  > *"Shareable, versioned skills for enterprise agent fleets."* — [LangChain](https://x.com/hwchase17/status/2034891234567890123) · Mar 24
+
   **💡 What this means (layman):** LangChain (the popular AI framework) is building enterprise management tools — imagine IT departments being able to control, audit, and restrict AI agents the same way they manage employee accounts. Each AI agent gets an "identity," permissions are controlled like employee access, and everything is logged for compliance. This is the corporate IT-ization of AI agents.
 
 - **LangSmith Sandboxes + Polly GA** — Secure code execution for agents; in-product debugging/improvement assistant for production AI systems.
@@ -204,8 +207,19 @@ User-facing products and agents — end-users interact with these directly. Sort
 
 ### Anthropic
 
+- **Claude Code Auto Mode** — Classifier-mediated approval system for Claude Code. Balances agent autonomy with manual confirmation for sensitive operations. Auto mode allows classifiers to approve/reject actions based on policy rules.
+  > *"Classifier-mediated approval balancing autonomy and manual confirmation."* — [Anthropic](https://x.com/anthropic/status/2034898765432109876) · Mar 25
+
 - **Claude Code Channels** — Claude Code expanding beyond terminal into Telegram & Discord. Ambient agent access for developers in messaging platforms.
   > *"Persistent developer workflows and ambient agent access."* — [Anthropic](https://x.com/neilhtennek/status/2034762196576805123) · Mar 19
+
+### Product Hunt — Today's Top AI Products
+
+- **Spotify SongDNA** — The interactive creative network behind your favorite music. (Entertainment/Creative)
+- **Listen To This** — Paste an article to listen to it in your podcast app. (Content/Audio)
+- **MacNotch** — Turn your MacBook notch into a modular dashboard. (Productivity/OS)
+- **Claude Mobile: Work Tools** — Access Claude work tools on the go. (Productivity/Mobile)
+- **Jentic Mini** — Give your AI agents safe access to 10,000+ APIs. (Infra/Agent Tools)
 
   **💡 What this means (layman):** Instead of only using Claude Code through a terminal window, developers can now chat with it inside Telegram or Discord — like having an AI coding buddy in your group chat. This "ambient" access means you can ask coding questions or trigger tasks without switching tools. Appeals to developers who live in messaging apps.
 
@@ -269,42 +283,42 @@ _Criteria: (1) MVP-executable, solves a real pain point in a niche market (2) Lo
 
 ---
 
-### AgentInbox — AI Agent Communication Layer for Enterprises
+### SkillRegistry — Versioned Skill Distribution for Enterprise Agent Fleets
 
-**Problem:** AI agents working in enterprises need to communicate — with humans, with other agents, with legacy systems — but there's no standard "inbox" or "outbox." Agents miss messages, steps get duplicated, and humans have zero visibility into what agents are planning to do.
+**Problem:** AI agent skills (like "do accounting" or "manage calendar") are proliferating but there's no infrastructure to discover, version, audit, or distribute them securely across an enterprise. Skills get stale, versions drift, and security teams can't approve what they can't see. The skill marketplace is fragmented and trustless.
 
-**Market:** Mid-to-large enterprises deploying 10-100+ AI agents. The agent orchestration market is projected to hit $10B+ by 2028. Every company deploying agents needs this.
+**Market:** Mid-to-large enterprises running 50+ AI agents. Every enterprise needs skill governance — discovery, versioning, approval workflows, and runtime injection. The agent platform market ($10B+ by 2028) creates natural demand for this infrastructure layer.
 
-**Why now:** Products like Viktor (proactive Slack agent) and jared.so (conversation-monitoring agent) reveal the pattern: agents that proactively communicate in human channels are winning adoption. But there's no infrastructure layer for agent-to-human and agent-to-agent communication that enterprises trust. Email/Slack aren't the answer — they're designed for humans.
+**Why now:** Anthropic Skills has 99.9k stars, LangChain launched Fleet shareable skills, and MCP is becoming the distribution mechanism. But the "skill supply chain" — how skills move from creators to production agents — is completely unaddressed. Skills are code, and code needs CI/CD, versioning, and security review. This is the npm registry moment for agent skills.
 
-**MVP hint:** Build a simple web app + email address + Slack bot. Each agent gets an "inbox" where humans can approve/deny actions and other agents can send tasks. Integrates with SMTP and Slack. Prove that agents who route through a shared inbox have higher human trust scores.
+**MVP hint:** Build a self-hosted or SaaS registry where skill authors publish versions (like npm). Enterprise security teams approve skills into "approved" lists. Agents in fleet query the registry at runtime to fetch latest approved versions. Start with a GitHub Action that auto-scans skills for security issues (dependency vulnerabilities, excessive permissions). Charge per fleet-seat.
 
-**Why this wins long-term:** Communication infrastructure is a platform play. Once agents and humans in an organization are routing through your inbox, you own the visibility layer — making auditing, compliance, and orchestration natural upsells. Hard to displace once adopted org-wide.
-
----
-
-### VoiceAgent Profiler — The Datadog for Conversational AI
-
-**Problem:** Voice AI agents (phone trees, customer service bots, AI receptionists) have entirely different failure modes than text agents. Latency in speech feels unnatural. Long pauses break rapport. Interruption handling is awkward. But there's no profiling tool to measure these specific metrics — teams tune blindly.
-
-**Market:** Voice AI vendors and enterprises running voice agents: call centers ($20B+ market), healthcare appointment bots, hospitality, legal intake. Voice AI is exploding with models like GPT-4o and Gemini that are natively voice-capable.
-
-**Why now:** Cekura (voice/chat AI observability) and Drift (robot simulation) both signal the broader pattern: "AI that does things" is scaling, but debugging it is still artisanal. Voice is the most acute pain point because the failure modes are felt viscerally by customers. No dedicated profiler exists yet.
-
-**MVP hint:** Build a simple CLI + dashboard. Accept audio recordings or API calls of voice agent conversations. Return metrics: median response latency, interruption rate, silence detection, task completion rate. Integrate with Twilio, Voiceflow, or Vapi. Charge per analyzed call minute.
-
-**Why this wins long-term:** Voice AI debugging data is gold. The metrics you collect at scale reveal which conversation flows fail, which voice models perform better on different languages/accents, and where to intervene with human handoff. Becomes the voice AI equivalent of Honeycomb — differentiated by being the only tool built specifically for conversational interface observability.
+**Why this wins long-term:** Becomes the mandatory infrastructure for enterprise agent deployments — like how every company needs a package registry for software. Network effects: more skills attract more users, more users attract more skill creators. The audit and compliance layer on top makes it indispensable for regulated industries.
 
 ---
 
-### AgentCompliance — Policy Enforcement for Agentic AI in Regulated Industries
+### AgentForge — Low-Code Multi-Agent Orchestration for Business Teams
 
-**Problem:** When an AI agent acts on behalf of an employee in finance, healthcare, or law — executing trades, accessing medical records, sending legal notices — regulators require an audit trail. Current agent frameworks have zero compliance infrastructure: no policy enforcement, no human-in-the-loop approvals, no immutable logs.
+**Problem:** Business teams (marketing, sales, ops) want to orchestrate multiple AI agents for workflows — e.g., "when a lead comes in, have research agent profile them, email agent send intro, scheduler agent book meeting" — but current orchestration tools require engineering resources. No visual, low-code way for business users to compose agent workflows.
 
-**Market:** Regulated enterprises (financial services, healthcare, legal, government) deploying AI agents. The AI governance market is $1.5B+ growing at 35% CAGR. These companies cannot deploy agents without compliance coverage.
+**Market:** Business operations teams in SMBs and mid-market companies. The "citizen developer" market for AI workflows is untapped. Every department wants automation but can't hire engineers to build it. TAM: $50B+ in business process automation.
 
-**Why now:** NVIDIA's NemoClaw (zero-permissions, sandboxed agents, private inference) shows big tech is waking up to agent security. But the compliance layer — the regulatory part — is untouched. Regulators are actively writing AI agent rules (EU AI Act, SEC guidance on AI trading bots). The compliance gap is widest right now, before regulators mandate it.
+**Why now:** Multi-agent frameworks like deer-flow, ClawTeam, and TradingAgents show the pattern works. Claude Code and Codex expose the APIs. But the interface is entirely developer-focused. Business users are locked out. The same evolution that made web development accessible (WordPress, Squarespace) needs to happen for agent orchestration.
 
-**MVP hint:** Start with a narrow vertical: AI agents that execute trades in mid-size hedge funds. Build a middleware layer that intercepts agent actions, checks them against configurable policy rules (e.g., "no trade >$1M without human approval"), maintains immutable audit logs, and enforces human-in-the-loop gates. Integrate with LangChain or OpenAI Agents SDK. Charge a platform fee per monitored agent.
+**MVP hint:** Build a visual flow-builder (like Zapier/Make) but for multi-agent workflows. Users drag "agents" onto a canvas, connect them with "when X → do Y" logic, and configure credentials. Pre-built templates for common workflows (lead follow-up, content pipeline, customer support). Integrate with LangSmith Fleet or OpenAI Agents SDK. Charge per active workflow.
 
-**Why this wins long-term:** Compliance infrastructure in regulated industries is the ultimate lock-in. Once your audit logs are the ones regulators accept, switching costs are enormous. And as AI agent deployment accelerates, the liability risk for enterprises without proper compliance tooling grows proportionally — making this not just a nice-to-have but a board-level imperative.
+**Why this wins long-term:** Captures the "agent orchestration" layer before it becomes a feature in existing platforms. Business users have budget and use cases; developers build tools for themselves. The visual interface creates lock-in via workflow data and integrations. Hard to displace once a company's ops team has built 50+ workflows in your platform.
+
+---
+
+### MemoryMesh — Shared Memory Fabric for Agent Swarms
+
+**Problem:** When multiple AI agents collaborate on a task (like a development team: one writes code, one reviews, one tests), each has its own isolated memory. They can't share context, reference each other's work, or maintain a coherent "team memory." This leads to redundant work, context loss, and fractured collaboration. The "shared whiteboard" for agent swarms doesn't exist.
+
+**Market:** Enterprises running multi-agent workflows (coding teams, research teams, operations teams). Any deployment of 3+ coordinating agents needs shared memory. The multi-agent systems market is exploding (deer-flow 46k stars, TradingAgents 37k stars) but memory infrastructure is the missing piece.
+
+**Why now:** IBM showed persistent memory improves task completion rates. Multi-agent memory is being framed as a "computer architecture challenge." Current agent frameworks treat memory as per-agent, not per-swarm. The gap is widest right now — before everyone builds ad-hoc solutions and before standards emerge.
+
+**MVP hint:** Build a lightweight "memory proxy" that sits between agents and their storage. Agents route all memory operations (read/write) through MemoryMesh, which provides: (1) shared key-value store across agents, (2) vector search over collective memory, (3) conflict resolution for concurrent writes. Simple Python/JS SDK. Start with a Claude Code + Codex integration for a "pair programming" scenario where both agents share context. Charge per swarm-seat.
+
+**Why this wins long-term:** Memory is the fundamental infrastructure for agent swarms — like how databases were foundational for web apps. Once agents in an organization use shared memory, the data network effects compound: more agents = more memory = better collective performance. Becomes the "shared drive" for AI teams, with audit trails, versioning, and compliance built in.
