@@ -10,12 +10,26 @@ Model releases, benchmarks, weights, training breakthroughs. Sorted alphabetical
 
 ---
 
-### Cartesia
+### Mistral AI
+
+- **Voxtral TTS** — 3B params open-weights TTS. Outperforms ElevenLabs Flash v2.5 in human preference tests. Runs on ~3GB RAM, 90ms time-to-first-audio, 9 languages.
+  > *"3B parameter text-to-speech model with open weights."* — [Mistral AI](https://www.reddit.com/r/LocalLLaMA/comments/1s46ylj/mistral_ai_to_release_voxtral_tts_a/) · Mar 24
+
+  **💡 What this means (layman):** Mistral released a free, open-source text-to-speech model that beats ElevenLabs (the dominant TTS company) in user preference tests. It runs on a single consumer GPU with 3GB VRAM and has ultra-low latency (90ms) — competitive with real-time conversation. This is significant because TTS has been dominated by closed, expensive APIs; now developers can self-host a SOTA model.
 
 - **Mamba-3** — SSM optimized for inference-heavy workloads. Hybrid transformer integration: replacing Gated DeltaNet in next-gen Qwen3.5 / Kimi Linear, unlocking Muon for SSMs.
   > *"Unlocking Muon for SSMs in next-gen Qwen3.5 / Kimi Linear."* — [Cartesia](https://x.com/cartesia/status/2034338862559121475) · Mar 18
 
   **💡 What this means (layman):** Cartesia released a faster, cheaper AI architecture (Mamba-3) designed for tasks like code completion and real-time chat where speed matters most. It also signals that future versions of popular Chinese AI models (Qwen, Kimi) will use this tech — meaning your AI coding assistants and chatbots should get snappier without needing more expensive hardware.
+
+---
+
+### Intel
+
+- **Arc Pro B70/B65** — 32GB VRAM GPUs at $949. 602 GB/s bandwidth, 290W. Day-one vLLM support. Targeted at local AI inference workloads.
+  > *"32GB VRAM at $949, beneficial for local AI applications."* — [PCMag](https://www.pcmag.com/news/intel-targets-ai-workstations-with-memory-stuffed-arc-pro-b70-and-b65-gpus) · Mar 24
+
+  **💡 What this means (layman):** Intel released GPUs with 32GB VRAM at $949 — more memory than NVIDIA's RTX 5070 at a lower price. For local AI, more VRAM = larger models you can run. The 4-pack at $4,000 gives 128GB total — competitive for running 70B models locally. Day-one vLLM support means inference frameworks work out of the box.
 
 ---
 
@@ -215,11 +229,11 @@ User-facing products and agents — end-users interact with these directly. Sort
 
 ### Product Hunt — Today's Top AI Products
 
-- **Spotify SongDNA** — The interactive creative network behind your favorite music. (Entertainment/Creative)
-- **Listen To This** — Paste an article to listen to it in your podcast app. (Content/Audio)
-- **MacNotch** — Turn your MacBook notch into a modular dashboard. (Productivity/OS)
-- **Claude Mobile: Work Tools** — Access Claude work tools on the go. (Productivity/Mobile)
-- **Jentic Mini** — Give your AI agents safe access to 10,000+ APIs. (Infra/Agent Tools)
+- **Cockpit AI** — Run revenue agents across every channel. (Applications/Agent Platforms)
+- **Agentation** — The visual feedback tool for AI agents. (Infra/Dev Tools)
+- **Benchspan** — Run agent benchmarks in minutes, not hours. (Infra/Testing)
+- **Claude Code auto-fix** — Auto-fix PRs in the cloud while you stay hands-off. (Infra/Dev Tools)
+- **Gemini Export Studio** — Export Gemini projects to run anywhere. (Infra/Developer)
 
   **💡 What this means (layman):** Instead of only using Claude Code through a terminal window, developers can now chat with it inside Telegram or Discord — like having an AI coding buddy in your group chat. This "ambient" access means you can ask coding questions or trigger tasks without switching tools. Appeals to developers who live in messaging apps.
 
@@ -283,42 +297,42 @@ _Criteria: (1) MVP-executable, solves a real pain point in a niche market (2) Lo
 
 ---
 
-### SkillRegistry — Versioned Skill Distribution for Enterprise Agent Fleets
+### TTSForge — Production-Grade Open TTS Infrastructure for Agent Fleets
 
-**Problem:** AI agent skills (like "do accounting" or "manage calendar") are proliferating but there's no infrastructure to discover, version, audit, or distribute them securely across an enterprise. Skills get stale, versions drift, and security teams can't approve what they can't see. The skill marketplace is fragmented and trustless.
+**Problem:** Text-to-speech remains dominated by expensive closed APIs (ElevenLabs, OpenAI TTS). Now Mistral open-sourced Voxtral TTS (SOTA, beats ElevenLabs), but there's no infrastructure for deploying, managing, and scaling TTS in production agent workflows. Developers still hand-roll brittle integrations.
 
-**Market:** Mid-to-large enterprises running 50+ AI agents. Every enterprise needs skill governance — discovery, versioning, approval workflows, and runtime injection. The agent platform market ($10B+ by 2028) creates natural demand for this infrastructure layer.
+**Market:** AI developers building voice agents,客服 bots, accessibility tools, podcasting. The voice AI market is $15B+. Most developers want open alternatives but lack DevOps expertise to run TTS at scale.
 
-**Why now:** Anthropic Skills has 99.9k stars, LangChain launched Fleet shareable skills, and MCP is becoming the distribution mechanism. But the "skill supply chain" — how skills move from creators to production agents — is completely unaddressed. Skills are code, and code needs CI/CD, versioning, and security review. This is the npm registry moment for agent skills.
+**Why now:** Mistral released Voxtral TTS that beats ElevenLabs in human preference tests. It's open-weight, runs on 3GB RAM, 90ms latency. This is the "Llama moment" for TTS — but like early LLMs, deployment infrastructure is missing. Someone needs to build the "Vercel for TTS."
 
-**MVP hint:** Build a self-hosted or SaaS registry where skill authors publish versions (like npm). Enterprise security teams approve skills into "approved" lists. Agents in fleet query the registry at runtime to fetch latest approved versions. Start with a GitHub Action that auto-scans skills for security issues (dependency vulnerabilities, excessive permissions). Charge per fleet-seat.
+**MVP hint:** Build a serverless TTS API that auto-scales based on Voxtral (and future open models). Add voice presets, SSML support, batch processing, and webhooks. Offer a free tier, then per-minute pricing. Start with one model (Voxtral), show it's 10x cheaper than ElevenLabs, then expand to support new models as they emerge.
 
-**Why this wins long-term:** Becomes the mandatory infrastructure for enterprise agent deployments — like how every company needs a package registry for software. Network effects: more skills attract more users, more users attract more skill creators. The audit and compliance layer on top makes it indispensable for regulated industries.
-
----
-
-### AgentForge — Low-Code Multi-Agent Orchestration for Business Teams
-
-**Problem:** Business teams (marketing, sales, ops) want to orchestrate multiple AI agents for workflows — e.g., "when a lead comes in, have research agent profile them, email agent send intro, scheduler agent book meeting" — but current orchestration tools require engineering resources. No visual, low-code way for business users to compose agent workflows.
-
-**Market:** Business operations teams in SMBs and mid-market companies. The "citizen developer" market for AI workflows is untapped. Every department wants automation but can't hire engineers to build it. TAM: $50B+ in business process automation.
-
-**Why now:** Multi-agent frameworks like deer-flow, ClawTeam, and TradingAgents show the pattern works. Claude Code and Codex expose the APIs. But the interface is entirely developer-focused. Business users are locked out. The same evolution that made web development accessible (WordPress, Squarespace) needs to happen for agent orchestration.
-
-**MVP hint:** Build a visual flow-builder (like Zapier/Make) but for multi-agent workflows. Users drag "agents" onto a canvas, connect them with "when X → do Y" logic, and configure credentials. Pre-built templates for common workflows (lead follow-up, content pipeline, customer support). Integrate with LangSmith Fleet or OpenAI Agents SDK. Charge per active workflow.
-
-**Why this wins long-term:** Captures the "agent orchestration" layer before it becomes a feature in existing platforms. Business users have budget and use cases; developers build tools for themselves. The visual interface creates lock-in via workflow data and integrations. Hard to displace once a company's ops team has built 50+ workflows in your platform.
+**Why this wins long-term:** Becomes the "cloudflare for voice" — cheap, fast, globally distributed TTS inference. Network effects: more users → more data to fine-tune voice quality → better product. Defensible moat: optimized inference kernels, voice processing pipeline, and global edge deployment.
 
 ---
 
-### MemoryMesh — Shared Memory Fabric for Agent Swarms
+### AgentBench Cloud — Standardized Agent Benchmarking Platform
 
-**Problem:** When multiple AI agents collaborate on a task (like a development team: one writes code, one reviews, one tests), each has its own isolated memory. They can't share context, reference each other's work, or maintain a coherent "team memory." This leads to redundant work, context loss, and fractured collaboration. The "shared whiteboard" for agent swarms doesn't exist.
+**Problem:** There's no standard way to evaluate AI agents. Companies claim SOTA on different benchmarks, metrics are inconsistent, and comparing agents across frameworks is nearly impossible. Benchspan just launched on Product Hunt — validating clear demand for agent benchmarking tools.
 
-**Market:** Enterprises running multi-agent workflows (coding teams, research teams, operations teams). Any deployment of 3+ coordinating agents needs shared memory. The multi-agent systems market is exploding (deer-flow 46k stars, TradingAgents 37k stars) but memory infrastructure is the missing piece.
+**Market:** AI developers, enterprises evaluating agent vendors, research labs. The agent evaluation market is fragmented and growing as more companies deploy agents in production.
 
-**Why now:** IBM showed persistent memory improves task completion rates. Multi-agent memory is being framed as a "computer architecture challenge." Current agent frameworks treat memory as per-agent, not per-swarm. The gap is widest right now — before everyone builds ad-hoc solutions and before standards emerge.
+**Why now:** The agent ecosystem is exploding (deer-flow 46k stars, ClawTeam, TradingAgents all trending). But no standard benchmarks exist. Like how lm-eval-harness became essential for LLM evaluation, agent benchmarks will become essential for agent evaluation. The gap is wide open.
 
-**MVP hint:** Build a lightweight "memory proxy" that sits between agents and their storage. Agents route all memory operations (read/write) through MemoryMesh, which provides: (1) shared key-value store across agents, (2) vector search over collective memory, (3) conflict resolution for concurrent writes. Simple Python/JS SDK. Start with a Claude Code + Codex integration for a "pair programming" scenario where both agents share context. Charge per swarm-seat.
+**MVP hint:** Build a unified benchmarking platform where developers submit their agents (via API or SDK) and get scored on multiple dimensions: code quality, task completion, latency, cost, safety. Provide pre-built benchmark suites (SWE-bench for coding, GAIA for general agents, plus custom domains). Offer free tier for individual developers, enterprise plans for vendor comparison.
 
-**Why this wins long-term:** Memory is the fundamental infrastructure for agent swarms — like how databases were foundational for web apps. Once agents in an organization use shared memory, the data network effects compound: more agents = more memory = better collective performance. Becomes the "shared drive" for AI teams, with audit trails, versioning, and compliance built in.
+**Why this wins long-term:** Becomes the "PCMark for AI agents" — the de facto standard for evaluating agent performance. Large enterprises will pay for vendor-agnostic benchmarking to make procurement decisions. The benchmark design itself is valuable intellectual property.
+
+---
+
+### LocalGPU — Optimization Layer for Consumer GPU Inference
+
+**Problem:** Intel just launched Arc Pro GPUs with 32GB VRAM at $949 — promising for local AI inference, but production deployments require significant optimization (batch inference, KV cache quantization, dynamic batching). The "last mile" infrastructure for running large models on consumer GPUs is immature.
+
+**Market:** Developers and startups wanting to run AI inference locally (privacy, cost, latency). The local AI market is growing as models become more efficient and hardware becomes affordable.
+
+**Why now:** Intel Arc Pro + AMD R9700 + NVIDIA consumer GPUs are all competing on price/VRAM. But software support lags. vLLM has day-one support, but optimal performance requires tuning. This is similar to early GPU cloud days — infrastructure layers emerge after hardware becomes accessible.
+
+**MVP hint:** Build an optimization layer (Python library + CLI) that sits between the model and the inference engine. Auto-tunes batch sizes, applies quantization, manages KV cache efficiently. Include one-click deployment scripts for common model + GPU combinations. Charge per GPU-license or as a SaaS tier.
+
+**Why this wins long-term:** As local AI grows (fueled by cheaper GPUs + efficient models), optimization infrastructure becomes essential. Network effects: more GPU configurations supported → more users → more data to improve auto-tuning → better performance. Hard to displace once users have tuned configs.
