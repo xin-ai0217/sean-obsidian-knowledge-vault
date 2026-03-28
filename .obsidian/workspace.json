@@ -27,16 +27,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI Trends.md",
+                "file": "TODO：.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AI Trends"
+              "title": "TODO："
+            }
+          },
+          {
+            "id": "da6656c692ea3820",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Stratechery.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Stratechery"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -199,12 +213,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e57b301e0d55920f",
+  "active": "da6656c692ea3820",
   "lastOpenFiles": [
+    "TODO：.md",
+    "Stratechery.md",
+    "AI Trends.md",
     "Vault_change_notify",
     "Knowledge",
-    "TODO：.md",
-    "AI Trends.md",
     "Untitled",
     "daily-ai-trends.sh",
     "2026-03-23.md",
