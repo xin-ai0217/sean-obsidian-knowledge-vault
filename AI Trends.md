@@ -237,11 +237,12 @@ User-facing products and agents — end-users interact with these directly. Sort
 
 ### Product Hunt — Today's Top AI Products
 
+- **Glance** — Real browser for Claude Code Test, Screenshot, Automate. (Infra/Dev Tools)
+- **Aera Browser** — The browser built for automation. (Infra/Dev Tools)
+- **Cohere Transcribe** — AI-powered transcription service. (Applications)
+- **Remodex** — (AI-related) (Applications)
 - **Cockpit AI** — Run revenue agents across every channel. (Applications/Agent Platforms)
-- **Agentation** — The visual feedback tool for AI agents. (Infra/Dev Tools)
 - **Benchspan** — Run agent benchmarks in minutes, not hours. (Infra/Testing)
-- **Claude Code auto-fix** — Auto-fix PRs in the cloud while you stay hands-off. (Infra/Dev Tools)
-- **Gemini Export Studio** — Export Gemini projects to run anywhere. (Infra/Developer)
 
   **💡 What this means (layman):** Instead of only using Claude Code through a terminal window, developers can now chat with it inside Telegram or Discord — like having an AI coding buddy in your group chat. This "ambient" access means you can ask coding questions or trigger tasks without switching tools. Appeals to developers who live in messaging apps.
 
@@ -309,42 +310,42 @@ _Criteria: (1) MVP-executable, solves a real pain point in a niche market (2) Lo
 
 ---
 
-### TTSForge — Production-Grade Open TTS Infrastructure for Agent Fleets
+### SkillSync — Marketplace for Enterprise Agent Skills
 
-**Problem:** Text-to-speech remains dominated by expensive closed APIs (ElevenLabs, OpenAI TTS). Now Mistral open-sourced Voxtral TTS (SOTA, beats ElevenLabs), but there's no infrastructure for deploying, managing, and scaling TTS in production agent workflows. Developers still hand-roll brittle integrations.
+**Problem:** LangChain's Fleet Shareable Skills just launched, and Anthropic has 99.9k stars on skills repo. But there's no marketplace for discovering, buying, selling, and versioning enterprise agent skills. Skills become stale, no distribution mechanism, no monetization path for skill creators.
 
-**Market:** AI developers building voice agents,客服 bots, accessibility tools, podcasting. The voice AI market is $15B+. Most developers want open alternatives but lack DevOps expertise to run TTS at scale.
+**Market:** Enterprise developers building AI agents (e.g., for HR, finance, legal workflows). The enterprise AI agent market is growing rapidly. Currently skills are built in-house or lost — no community marketplace exists.
 
-**Why now:** Mistral released Voxtral TTS that beats ElevenLabs in human preference tests. It's open-weight, runs on 3GB RAM, 90ms latency. This is the "Llama moment" for TTS — but like early LLMs, deployment infrastructure is missing. Someone needs to build the "Vercel for TTS."
+**Why now:** LangChain Fleet + Anthropic Skills both launched shareable skills in the same week. This is the "WordPress plugins" moment for AI agents. But skills need distribution, versioning, monetization, and quality signals — a marketplace is the natural next layer.
 
-**MVP hint:** Build a serverless TTS API that auto-scales based on Voxtral (and future open models). Add voice presets, SSML support, batch processing, and webhooks. Offer a free tier, then per-minute pricing. Start with one model (Voxtral), show it's 10x cheaper than ElevenLabs, then expand to support new models as they emerge.
+**MVP hint:** Build a skill registry where developers publish skills with metadata (capability, security audit status, last updated). Add versioning, testing harness, and "install to fleet" buttons. Start with 50 high-quality skills for common enterprise tasks (expense reporting, contract review, meeting scheduling). Take 10% transaction fee.
 
-**Why this wins long-term:** Becomes the "cloudflare for voice" — cheap, fast, globally distributed TTS inference. Network effects: more users → more data to fine-tune voice quality → better product. Defensible moat: optimized inference kernels, voice processing pipeline, and global edge deployment.
-
----
-
-### AgentBench Cloud — Standardized Agent Benchmarking Platform
-
-**Problem:** There's no standard way to evaluate AI agents. Companies claim SOTA on different benchmarks, metrics are inconsistent, and comparing agents across frameworks is nearly impossible. Benchspan just launched on Product Hunt — validating clear demand for agent benchmarking tools.
-
-**Market:** AI developers, enterprises evaluating agent vendors, research labs. The agent evaluation market is fragmented and growing as more companies deploy agents in production.
-
-**Why now:** The agent ecosystem is exploding (deer-flow 46k stars, ClawTeam, TradingAgents all trending). But no standard benchmarks exist. Like how lm-eval-harness became essential for LLM evaluation, agent benchmarks will become essential for agent evaluation. The gap is wide open.
-
-**MVP hint:** Build a unified benchmarking platform where developers submit their agents (via API or SDK) and get scored on multiple dimensions: code quality, task completion, latency, cost, safety. Provide pre-built benchmark suites (SWE-bench for coding, GAIA for general agents, plus custom domains). Offer free tier for individual developers, enterprise plans for vendor comparison.
-
-**Why this wins long-term:** Becomes the "PCMark for AI agents" — the de facto standard for evaluating agent performance. Large enterprises will pay for vendor-agnostic benchmarking to make procurement decisions. The benchmark design itself is valuable intellectual property.
+**Why this wins long-term:** Becomes the "npm for agent skills" — the central registry where enterprises source AI capabilities. Network effects: more skills → more users → more demand for new skills → virtuous cycle. Hard to replicate once you have the ecosystem.
 
 ---
 
-### LocalGPU — Optimization Layer for Consumer GPU Inference
+### AgentSupply — Managed Infrastructure for Self-Evolving Agents
 
-**Problem:** Intel just launched Arc Pro GPUs with 32GB VRAM at $949 — promising for local AI inference, but production deployments require significant optimization (batch inference, KV cache quantization, dynamic batching). The "last mile" infrastructure for running large models on consumer GPUs is immature.
+**Problem:** OpenSpace just launched the first "self-evolving" agent framework, but deploying and managing self-evolving agents in production is extremely complex. Agents need to: (1) evaluate their own performance, (2) modify their own code/behavior, (3) rollback on failure, (4) manage compute costs during self-modification. No managed infrastructure exists.
 
-**Market:** Developers and startups wanting to run AI inference locally (privacy, cost, latency). The local AI market is growing as models become more efficient and hardware becomes affordable.
+**Market:** Enterprises running long-running AI agents that need to improve over time (customer support, data monitoring, operations automation). The "self-evolving" property is valuable but requires infrastructure most teams don't have.
 
-**Why now:** Intel Arc Pro + AMD R9700 + NVIDIA consumer GPUs are all competing on price/VRAM. But software support lags. vLLM has day-one support, but optimal performance requires tuning. This is similar to early GPU cloud days — infrastructure layers emerge after hardware becomes accessible.
+**Why now:** OpenSpace launched the first community self-evolving framework — showing demand exists. But adoption will be limited until someone packages it as a managed service. This is similar to how early Docker needed infrastructure before Kubernetes emerged.
 
-**MVP hint:** Build an optimization layer (Python library + CLI) that sits between the model and the inference engine. Auto-tunes batch sizes, applies quantization, manages KV cache efficiently. Include one-click deployment scripts for common model + GPU combinations. Charge per GPU-license or as a SaaS tier.
+**MVP hint:** Build a managed platform that runs OpenSpace-style self-evolving agents with built-in: (1) automatic performance eval, (2) safe sandboxed self-modification with git-like versioning, (3) cost controls for compute-intensive self-improvement, (4) rollback capabilities. Charge per agent-instance per month. Start with one vertical (e.g., customer support agents).
 
-**Why this wins long-term:** As local AI grows (fueled by cheaper GPUs + efficient models), optimization infrastructure becomes essential. Network effects: more GPU configurations supported → more users → more data to improve auto-tuning → better performance. Hard to displace once users have tuned configs.
+**Why this wins long-term:** Self-evolving agents are the future of AI labor. The infrastructure layer that makes them safe and manageable is essential — like how AWS made cloud computing accessible. Becomes the "Heroku for self-evolving agents."
+
+---
+
+### ContextVault — Long-Context Memory Layer for Multi-Agent Systems
+
+**Problem:** Today's agent systems lose context after 100K tokens. Multi-agent systems (like deer-flow, ClawTeam, TradingAgents) compound this problem — each agent has limited context, and sharing state across agents is ad-hoc. No standardized memory layer for multi-agent systems exists.
+
+**Market:** Developers building multi-agent systems (research, trading, coordination workflows). The multi-agent ecosystem is exploding (deer-flow 46k stars, ClawTeam, TradingAgents trending). Memory infrastructure is missing.
+
+**Why now:** Multiple trending projects (deer-flow, ClawTeam, TradingAgents) use multi-agent architectures. But each builds custom memory management. This is exactly the problem that needed solving in early LLM days — before LangChain/LlamaIndex emerged for single-agent context management.
+
+**MVP hint:** Build a memory layer (Python library + optional server) that: (1) manages context across multiple agents with automatic summarization and prioritization, (2) provides shared memory spaces for agent teams, (3) handles memory persistence across sessions. Include a visual debugger to see what agents remember. Target multi-agent frameworks (deer-flow, custom implementations).
+
+**Why this wins long-term:** Multi-agent systems are the next frontier. The memory infrastructure for them is currently nonexistent — this is exactly the gap LangChain/LlamaIndex filled for single agents. Becomes essential middleware for any multi-agent deployment.
