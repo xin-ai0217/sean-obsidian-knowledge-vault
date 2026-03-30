@@ -9,6 +9,20 @@
 - **In plain language:** Anthropic is quietly adding a new top-tier model above Claude Opus. It's bigger, smarter, and specifically better at coding and academic tasks. This signals a shift from simple size scaling toward targeted capability tiers for different professional use cases.
 - **For AI founders:** Capybara suggests Anthropic is building a hierarchy of expert models rather than one-size-fits-all. For AI app builders, this opens the door to routing high-value tasks to a more capable (and likely more expensive) model while keeping simpler tasks on cheaper tiers. If Anthropic exposes tiered pricing, vertical SaaS products can build cost optimization layers on top.
 
+### <span style="color: #FF9800">VibeVoice — Microsoft's Open-Source Multi-Modal Voice Model</span>
+> *"VibeVoice is Microsoft's open-source voice model for speech recognition, synthesis, and understanding. Supports large-scale training and inference, building intelligent voice systems that integrate with multi-modal models."* — [microsoft/VibeVoice](https://github.com/microsoft/VibeVoice) · March 29, 2026 · 26.8k stars, +1,491/day
+
+**💡 What this means:**
+- **In plain language:** Microsoft released an open-source voice AI model that handles transcription, synthesis, and understanding in one package. It's designed to scale and work with other multi-modal models — essentially giving developers a building block for voice-first AI apps.
+- **For AI founders:** Voice AI is moving from proprietary APIs to open-source foundations. VibeVoice signals that the "voice layer" of AI is becoming commoditized. The startup opportunity shifts from "build the voice AI" to "build the voice application" — voice-first interfaces for specific verticals (healthcare dictation, field services, accessibility).
+
+### <span style="color: #FF9800">deer-flow — ByteDance's Open-Source SuperAgent</span>
+> *"An open-source SuperAgent harness that researches, codes, and creates. With sandboxes, memories, tools, skills and subagents, it handles different levels of tasks."* — [bytedance/deer-flow](https://github.com/bytedance/deer-flow) · March 29, 2026 · 52.4k stars, +12,247/day
+
+**💡 What this means:**
+- **In plain language:** ByteDance's open-source agent framework that can research, code, and create — using sandboxes for isolation, memory systems, tools, skills, and sub-agents to handle tasks ranging from minutes to hours.
+- **For AI founders:** deer-flow shows that SuperAgents (agents that do everything) are going open-source. The competitive moat shifts from "build the agent" to "optimize the agent for your use case" and "build the workflow around the agent." The real opportunity: pre-built agent configurations for specific verticals that beat generic agents out of the box.
+
 ## ⚙️ Infra
 
 ### lean-ctx — Context Optimizer Cuts LLM Token Use by 89-99%
@@ -45,6 +59,13 @@
 **💡 What this means:**
 - **In plain language:** A backend that gives AI agents two types of memory: episodic (what happened when) and semantic (what facts they know). This lets agents maintain coherent understanding over long conversations and multiple sessions.
 - **For AI founders:** The "long-running agent" is the next big thing — but only if memory works. memoryos shows the pattern: dual-memory architecture for agents that need to work for hours/days, not minutes. Build the vertical variant: memory for legal research agents, memory for customer support agents, memory for coding agents.
+
+### <span style="color: #FF9800">Deep-Live-Cam — Real-Time AI Face Swap Goes Mainstream</span>
+> *"Deep-Live-Cam is a deep learning-based real-time face replacement project with camera support, primarily for research, entertainment, and visual effects experiments."* — [hacksider/Deep-Live-Cam](https://github.com/hacksider/Deep-Live-Cam) · March 29, 2026 · 85.1k stars, +971/day
+
+**💡 What this means:**
+- **In plain language:** An open-source project that enables real-time face swapping using deep learning — now with camera support for live video calls, streams, and content creation. It runs locally, preserving privacy.
+- **For AI founders:** Real-time face manipulation is moving from academic labs to any developer's laptop. The implications are massive for content creation, entertainment, and accessibility (helping people who can't make certain facial expressions). The startup angle: pre-built face AI tools for specific verticals — virtual avatars for remote work, personalized video messaging at scale, or accessibility tools for the speech-impaired.
 
 ## 🚀 Applications
 
@@ -90,6 +111,20 @@
 - **In plain language:** A job platform specifically for "vibe coders" — developers who build with AI first, ship fast, iterate on prompts instead of architecture, and don't follow traditional dev processes.
 - **For AI founders:** The "vibe coder" is emerging as a distinct category in tech hiring. VibeTalent proves there's a market for matching companies who want AI-native builders with builders who ship with AI. The opportunity: skill verification, portfolio demos, "vibe coding as a service" marketplaces.
 
+### <span style="color: #FF9800">Clico — Every Textbox, Supercharged</span>
+> *"Every textbox, supercharged"* — [Product Hunt](https://www.producthunt.com/products/clico) · March 29, 2026 · 414 votes
+
+**💡 What this means:**
+- **In plain language:** A Chrome extension that adds AI superpowers to every textbox on the web — rewriting, shortening, expanding, or transforming text wherever you type.
+- **For AI founders:** This is the "AI everywhere" pattern — embedding AI directly into existing workflows rather than asking users to switch contexts. The lesson: the best AI product might not be a new app, but a layer that makes existing apps smarter. Any "X + AI" where X is something people use 100x/day is a massive market.
+
+### <span style="color: #FF9800">SUN AI — Personalized AI Audio Lessons On Demand</span>
+> *"Personalized AI audio lessons generated on demand"* — [Product Hunt](https://www.producthunt.com/products/sun-ai) · March 29, 2026 · 348 votes
+
+**💡 What this means:**
+- **In plain language:** An app that generates personalized audio lessons on any topic on-demand — the AI creates the lesson, the voice speaks it, and you learn by listening.
+- **For AI founders:** Audio learning is the "sleep gym" of AI — content consumed while doing other things (commuting, exercising, cooking). This proves demand for audio-first AI education. The vertical opportunity: audio courses for specific domains (medical boards, language learning, compliance training) where the content is structured and the voice matters.
+
 ---
 
 ## 💡 AI Startup Ideas
@@ -100,27 +135,28 @@ _Criteria: (1) MVP-executable, solves a real pain point in a niche market (2) Lo
 
 ---
 
-### AgentMemory — Long-Running Agent Memory as a Service
-**Problem:** AI agents lose context after a few thousand tokens, but humans need agents that work for hours/days across sessions without expensive context windows. Existing memory is either "dump everything" (too costly) or "forget everything" (useless).
-**Market:** Developers building AI agents for long-horizon tasks: coding assistants that work across days, research agents that build over weeks, customer support agents that learn from history. ~200k+ developers building agentic apps.
-**Why now:** Omnex + memoryos show the memory architecture pattern is solved technically, but no one offers "memory for X" as a service. Vertical memory-as-a-service is wide open.
-**MVP hint:** A library (Python/JS) that provides plug-in memory for popular agent frameworks. Handles: what to store (episodic vs semantic), when to compress, how to retrieve. Charge per agent-session-month.
-**Why this wins long-term:** Memory becomes the database of agentic apps. Once an app uses your memory schema, they can't switch. Network effects: your memory improves as you see more agent patterns.
+### <span style="color: #FF9800">VoiceForge — Domain-Specific Voice AI for Professional Services</span>
+**Problem:** Generic voice AI tools (TTS, transcription) don't understand professional contexts. A doctor needs dictation of clinical notes, not just raw text. A lawyer needs deposition summaries in legal format. A real estate agent needs property descriptions in MLS format.
+**Market:** Professional services verticals: healthcare (medical scribes, $18B market), legal (deposition services, $12B), real estate (property marketing, $8B), insurance (claims adjuster notes). Each needs voice AI that outputs domain-specific formats.
+**Why now:** VibeVoice just open-sourced the voice foundation. The verticalization layer — making voice AI understand your domain's language, formats, and quality bar — is wide open. No one owns "voice AI for law" or "voice AI for healthcare" yet.
+**MVP hint:** Start with one vertical (e.g., "AI medical scribe that outputs SOAP notes"). Use VibeVoice for the voice layer + fine-tuned LLM for domain understanding. Charge per consultation transcribed.
+**Why this wins long-term:** Professional services have deep pockets and slow adoption cycles — once you own "voice AI for cardiology," the next competitor needs years of data to match. Regulatory moats (HIPAA, attorney-client privilege) keep big tech out.
 
 ---
 
-### MCPRegistry — Curated MCP Server Directory with Trust Scores
-**Problem:** There are 500+ MCP servers on GitHub but no way to know which are secure, maintained, or compatible. Developers waste days evaluating servers that are unmaintained or leak data.
-**Market:** AI developers building agents with MCP tools. Growing 20%/month as Claude Code + Cursor adoption grows.
-**Why now:** MCP is the winning standard, but discoverability is stuck in GitHub search. A curated registry with trust scores fills a clear gap.
-**MVP hint:** A directory with: weekly stars/trending, security audit badges, framework compatibility (Claude Code, LangChain, n8n), last updated date, and a "try in sandbox" button. Revenue: featured listings + security audit service.
-**Why this wins long-term:** First mover in MCP curation creates the reference directory. AI companies link to you in docs. Platform effects: more publishers list → more devs use → more publishers want to list.
+### <span style="color: #FF9800">AgentAudit — Compliance Layer for Enterprise AI Agents</span>
+**Problem:** Enterprises want to deploy AI agents but can't because they can't audit what the agent did. Financial services, healthcare, and legal need every agent decision logged, explainable, and reconcilable. Current agents are black boxes.
+**Problem (deeper):** crabtalk shows lightweight, auditable agents are technically possible. But no one offers "audit layer for enterprise" — the middleware that sits between the agent and corporate systems and logs everything.
+**Market:** Regulated enterprises: banks ($200B compliance budget), healthcare ($100B), legal ($50B). Each has explicit AI governance requirements now.
+**Why now:** New regulations (EU AI Act, SEC AI disclosure rules) require enterprises to explain AI decisions. crabtalk proves "transparent by default" is achievable. The gap: production-grade audit layers for enterprise agent deployments.
+**MVP hint:** An MCP server that wraps any agent and logs all inputs/outputs to a tamper-proof audit trail (blockchain or append-only log). Provides dashboard for compliance teams to search, replay, and export agent sessions. Charge per agent-seat-month.
+**Why this wins long-term:** Compliance is a forced adopter market — once regulation requires auditability, every enterprise agent needs an audit layer. Network effects: your audit data improves your anomaly detection, which improves your product.
 
 ---
 
-### VibeTeam — Multi-Agent Orchestration for Specific Industries
-**Problem:** General multi-agent frameworks (like oh-my-claudecode) are too generic for specific industries. A law firm doesn't need general agents — they need a research agent + brief writer + citation checker that know legal formats.
-**Market:** Professional services: law firms, accounting firms, consultancies, medical scribes. Each needs domain-specific agent teams trained on their workflows.
-**Why now:** oh-my-claudecode proves multi-agent orchestration works technically. The gap is verticalization — domain-specific agent teams that know the language, formats, and regulations of a specific industry.
-**MVP hint:** Pre-built agent teams for one vertical (e.g., "M&A due diligence team" with 3 agents: data collector, analyzer, brief writer). Each agent knows the domain, the formats, and the quality bar. Charge per monthly seat.
-**Why this wins long-term:** Professional services are slow to adopt AI but fast to pay. Domain-specific agent teams that know "how we do things here" are defensible — general agents can't match the quality without months of fine-tuning on your data.
+### <span style="color: #FF9800">ContextBank — Token-Efficient Context Management for Agents</span>
+**Problem:** Every agentic app faces the same trade-off: longer context = better performance but 10x higher API costs. lean-ctx shows 89-99% token reduction is possible, but it's a DIY tool for engineers. No one offers "context optimization as a service" for agent builders.
+**Market:** Every company building AI agents: coding assistants (Cursor, Copilot), research agents (Perplexity, Arc), customer support agents (Intercom, Zendesk). The market is 50k+ companies spending $1B+ on LLM tokens.
+**Why now:** lean-ctx proves the technical breakthrough. But it's a tool, not a product. The startup gap: a managed service that sits between your agent and the LLM, automatically compressing context, prioritizing relevant info, and reducing your token bill by 90%.
+**MVP hint:** A middleware (Python library + API) that wraps any LLM call. It analyzes the conversation, applies compression strategies, and returns the same response with 90% fewer tokens. Charge based on token savings (50% of savings = $10K/month for a company spending $20K).
+**Why this wins long-term:** Every agent company is your potential customer. The more tokens you save them, the more they pay. Moat: your compression models get better with more data, creating a flywheel. Eventually, you become the "Akamai of LLM context" — every agent passes through you.
