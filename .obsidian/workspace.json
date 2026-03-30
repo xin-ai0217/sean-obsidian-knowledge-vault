@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Stratechery.md",
+                "file": "AI Trends.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Stratechery"
+              "title": "AI Trends"
             }
           }
         ],
@@ -215,8 +215,8 @@
   },
   "active": "da6656c692ea3820",
   "lastOpenFiles": [
-    "AI Trends.md",
     "Stratechery.md",
+    "AI Trends.md",
     "TODO：.md",
     "Stratechery.md.tmp.5.1774838187646",
     "Vault_change_notify",
