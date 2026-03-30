@@ -107,7 +107,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "0109c5003761eb44",
@@ -218,6 +218,7 @@
     "AI Trends.md",
     "Stratechery.md",
     "TODO：.md",
+    "Stratechery.md.tmp.5.1774838187646",
     "Vault_change_notify",
     "Knowledge",
     "Untitled",
