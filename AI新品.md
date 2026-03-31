@@ -816,5 +816,10 @@ _（待补充）_
 - **SaaS 收费**：现有工具（Fastweb、Scholarships.com）本质上只是静态关键词搜索引擎——它们匹配词语，不匹配人，也不填写表格。AI Agent 带来两项决定性升级：语义化画像匹配；以及自主填表（将数小时的行政负担压缩至几分钟）。两者结合，才能将搜索工具真正变成把钱送到用户手里的机器
 
 ### ⚠️ 挑战
+- 太薄，claude code等通用agent也能做类似的事情
 
-_（待补充）_
+
+## 10. 其他
+1. Agent大学，测试agent的能力，延展到testing，QA，observability
+![[7ead181982fdf75e04fc7847a52c4d16 1.png|577]]
+2. Phia， 电商Agent

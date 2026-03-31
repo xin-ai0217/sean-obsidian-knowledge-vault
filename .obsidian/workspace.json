@@ -93,8 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "0109c5003761eb44",
@@ -202,14 +201,16 @@
   },
   "active": "16e2001527a3ec8e",
   "lastOpenFiles": [
-    "AI新品.md.tmp.5.1774922686714",
+    "7ead181982fdf75e04fc7847a52c4d16 1.png",
+    "7ead181982fdf75e04fc7847a52c4d16.png",
     "GTM深度推演.md",
+    "Stratechery.md",
     "AI Trends.md",
     "AI新品.md",
+    "AI新品.md.tmp.5.1774922686714",
     "TODO.md",
     "Vault_change_notify",
     "Knowledge",
-    "Stratechery.md",
     "Stratechery.md.tmp.5.1774838187646",
     "Untitled",
     "daily-ai-trends.sh",
