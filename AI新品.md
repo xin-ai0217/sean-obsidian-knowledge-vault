@@ -821,5 +821,4 @@ _（待补充）_
 
 ## 10. 其他
 1. Agent大学，测试agent的能力，延展到testing，QA，observability
-![[7ead181982fdf75e04fc7847a52c4d16 1.png|577]]
 2. Phia， 电商Agent

@@ -1,4 +1,3 @@
-1. Mizzen/listen labs 试用
-2. 按收入排序
-3. 再想两个 idea
-4. 
+1. 约Tommy会议
+2. 写文档
+3. blinkko
