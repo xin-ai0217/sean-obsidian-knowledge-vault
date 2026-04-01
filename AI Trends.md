@@ -1,22 +1,40 @@
 # AI Trends
 
-## 🧠 Foundation Models
+_Daily AI trends, startup ideas, and emerging patterns. Updated daily._
 
-### Anthropic's Capybara Tier — A New Model Above Opus 4.6
-> *"Anthropic is reportedly introducing a new AI model tier called Capybara, larger and more intelligent than Claude Opus 4.6, with improved performance in coding and academic reasoning."* — [smol.ai](https://news.smol.ai/issues/26-03-27-not-much) · March 27, 2026
+---
+
+## 🌍 Models & Research
+
+### <span style="color: #FF9800">hermes-agent — The Agent That Grows With You</span>
+> *"The agent that grows with you."* — [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) · March 31, 2026 · 18.2k stars, +1,892/day
 
 **💡 What this means:**
-- **In plain language:** Anthropic is quietly adding a new top-tier model above Claude Opus. It's bigger, smarter, and specifically better at coding and academic tasks. This signals a shift from simple size scaling toward targeted capability tiers for different professional use cases.
-- **For AI founders:** Capybara suggests Anthropic is building a hierarchy of expert models rather than one-size-fits-all. For AI app builders, this opens the door to routing high-value tasks to a more capable (and likely more expensive) model while keeping simpler tasks on cheaper tiers. If Anthropic exposes tiered pricing, vertical SaaS products can build cost optimization layers on top.
+- **In plain language:** An open-source agent framework from NousResearch designed to adapt and improve over time — learning from its interactions, expanding its capabilities, and personalizing to the user's workflow.
+- **For AI founders:** "Self-improving agents" is the holy grail. hermes-agent shows it's technically achievable. The startup angle: pre-built self-improving agents for specific domains where the agent gets better the more you use it (coding, research, sales). The winner will be whoever builds the best "learning loop" infrastructure.
 
-### <span style="color: #FF9800">VibeVoice — Microsoft's Open-Source Multi-Modal Voice Model</span>
+### <span style="color: #FF9800">claude-code-best-practice — The Definitive Claude Code Guide</span>
+> *"Best practices and patterns for using Claude Code effectively."* — [shanraisshan/claude-code-best-practice](https://github.com/shanraisshan/claude-code-best-practice) · March 31, 2026 · 25.7k stars, +1,458/day
+
+**💡 What this means:**
+- **In plain language:** A comprehensive guide to getting the most out of Claude Code — patterns, prompts, workflows, and techniques collected from the community.
+- **For AI founders:** This is the "collective knowledge" of the Claude Code ecosystem. It signals that AI coding agents have reached a maturity level where "how to use them effectively" is a standalone content category. The commercial angle: build the paid version — structured courses, certifications, and consulting for enterprises learning to use AI coders.
+
+### claude-mem — Memory That Persists Across Sessions
+> *"Memory management for Claude Code that persists across sessions."* — [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) · March 31, 2026 · 43.5k stars, +1,087/day
+
+**💡 What this means:**
+- **In plain language:** A tool that gives Claude Code persistent memory — so the agent remembers your preferences, past conversations, and project context across different sessions.
+- **For AI founders:** Memory across sessions is the difference between "smart for 5 minutes" and "smart for 5 months." claude-mem proves the demand. The product angle: build the polished, enterprise-ready version — with permission controls, team memory sharing, and compliance audit logs.
+
+### VibeVoice — Microsoft's Open-Source Voice Model
 > *"VibeVoice is Microsoft's open-source voice model for speech recognition, synthesis, and understanding. Supports large-scale training and inference, building intelligent voice systems that integrate with multi-modal models."* — [microsoft/VibeVoice](https://github.com/microsoft/VibeVoice) · March 29, 2026 · 26.8k stars, +1,491/day
 
 **💡 What this means:**
 - **In plain language:** Microsoft released an open-source voice AI model that handles transcription, synthesis, and understanding in one package. It's designed to scale and work with other multi-modal models — essentially giving developers a building block for voice-first AI apps.
 - **For AI founders:** Voice AI is moving from proprietary APIs to open-source foundations. VibeVoice signals that the "voice layer" of AI is becoming commoditized. The startup opportunity shifts from "build the voice AI" to "build the voice application" — voice-first interfaces for specific verticals (healthcare dictation, field services, accessibility).
 
-### <span style="color: #FF9800">deer-flow — ByteDance's Open-Source SuperAgent</span>
+### deer-flow — ByteDance's Open-Source SuperAgent
 > *"An open-source SuperAgent harness that researches, codes, and creates. With sandboxes, memories, tools, skills and subagents, it handles different levels of tasks."* — [bytedance/deer-flow](https://github.com/bytedance/deer-flow) · March 29, 2026 · 52.4k stars, +12,247/day
 
 **💡 What this means:**
@@ -68,6 +86,20 @@
 - **For AI founders:** Real-time face manipulation is moving from academic labs to any developer's laptop. The implications are massive for content creation, entertainment, and accessibility (helping people who can't make certain facial expressions). The startup angle: pre-built face AI tools for specific verticals — virtual avatars for remote work, personalized video messaging at scale, or accessibility tools for the speech-impaired.
 
 ## 🚀 Applications
+
+### <span style="color: #FF9800">Agentplace — Create Specialized AI Agents for Real Tasks</span>
+> *"Create specialized AI agents for real tasks and workflows."* — [Product Hunt](https://www.producthunt.com/products/agentplace) · March 31, 2026 · 708 votes
+
+**💡 What this means:**
+- **In plain language:** A platform that lets non-technical users create AI agents specialized for specific tasks — from customer support to data entry to sales outreach. Point, click, configure, and deploy.
+- **For AI founders:** This is the "no-code agent builder" wave. Agentplace proves the market wants "agent creation for everyone." The opportunity: go vertical. Instead of "build any agent," build "build agents for X" — agents for law firms, agents for real estate teams, agents for healthcare clinics. Domain-specific agents beat generic ones out of the box.
+
+### <span style="color: #FF9800">Tobira.ai — A Network Where AI Agents Find Deals</span>
+> *"A network where AI agents find deals for their humans."* — [Product Hunt](https://www.producthunt.com/products/tobira-ai) · March 31, 2026 · 708 votes
+
+**💡 What this means:**
+- **In plain language:** A marketplace/network where AI agents actively find deals, leads, and opportunities for their human users — essentially a "digital workforce" platform where agents do business development.
+- **For AI founders:** This is the first "agent marketplace" that positions agents as active deal-finders, not passive assistants. The pattern: agents that work while you sleep, scanning for opportunities and presenting them. The startup angle: build the vertical version — "agents that find your next deal" for specific industries (VC deal flow, real estate off-market leads, B2B sales prospects).
 
 ### Crossnode — Paywall Your Vibe-Coded AI Agents
 > *"Vibe code AI agents and put them behind a payment wall."* — [Product Hunt](https://www.producthunt.com/products/crossnode) · March 29, 2026 · 414 votes
@@ -135,12 +167,21 @@ _Criteria: (1) MVP-executable, solves a real pain point in a niche market (2) Lo
 
 ---
 
-### <span style="color: #FF9800">VoiceForge — Domain-Specific Voice AI for Professional Services</span>
-**Problem:** Generic voice AI tools (TTS, transcription) don't understand professional contexts. A doctor needs dictation of clinical notes, not just raw text. A lawyer needs deposition summaries in legal format. A real estate agent needs property descriptions in MLS format.
-**Market:** Professional services verticals: healthcare (medical scribes, $18B market), legal (deposition services, $12B), real estate (property marketing, $8B), insurance (claims adjuster notes). Each needs voice AI that outputs domain-specific formats.
-**Why now:** VibeVoice just open-sourced the voice foundation. The verticalization layer — making voice AI understand your domain's language, formats, and quality bar — is wide open. No one owns "voice AI for law" or "voice AI for healthcare" yet.
-**MVP hint:** Start with one vertical (e.g., "AI medical scribe that outputs SOAP notes"). Use VibeVoice for the voice layer + fine-tuned LLM for domain understanding. Charge per consultation transcribed.
-**Why this wins long-term:** Professional services have deep pockets and slow adoption cycles — once you own "voice AI for cardiology," the next competitor needs years of data to match. Regulatory moats (HIPAA, attorney-client privilege) keep big tech out.
+### <span style="color: #FF9800">DealHunter — AI Agents That Find Your Next Deal</span>
+**Problem:** Tobira.ai shows agents can find deals, but no one has built a vertical product for specific deal flows. VCs miss deal flow, real estate investors miss off-market properties, B2B sellers miss inbound leads.
+**Market:** Deal-driven professionals: VCs ($50B AUM+ actively investing), real estate investors ($1T+ market), B2B sellers ($1.5T+ in US). Each needs "eyes everywhere" that humans can't scale to.
+**Why now:** Tobira proved the pattern. The infrastructure (web scraping, API monitoring, data aggregation) is commoditized. The gap: vertical-specific deal agents that understand each industry's deal signals, sources, and qualification criteria.
+**MVP hint:** Start with one vertical (e.g., "VC deal flow agent" that monitors 50+ sources and flags startups matching your thesis). Use web scraping APIs + LLM for qualification + notification to your phone/email. Charge $500/month for "always-on deal sourcing."
+**Why this wins long-term:** Deal flow is the lifeblood of finance and sales. Once you're the "source of truth" for deal flow in a vertical, switching costs are massive — you know the market, the sources, the quality. Network effects: every user's deal criteria makes the agent smarter for everyone.
+
+---
+
+### <span style="color: #FF9800">ContextBank — Token-Efficient Context Management for Agents</span>
+**Problem:** Every agentic app faces the same trade-off: longer context = better performance but 10x higher API costs. lean-ctx shows 89-99% token reduction is possible, but it's a DIY tool for engineers. No one offers "context optimization as a service" for agent builders.
+**Market:** Every company building AI agents: coding assistants (Cursor, Copilot), research agents (Perplexity, Arc), customer support agents (Intercom, Zendesk). The market is 50k+ companies spending $1B+ on LLM tokens.
+**Why now:** lean-ctx proves the technical breakthrough. But it's a tool, not a product. The startup gap: a managed service that sits between your agent and the LLM, automatically compressing context, prioritizing relevant info, and reducing your token bill by 90%.
+**MVP hint:** A middleware (Python library + API) that wraps any LLM call. It analyzes the conversation, applies compression strategies, and returns the same response with 90% fewer tokens. Charge based on token savings (50% of savings = $10K/month for a company spending $20K).
+**Why this wins long-term:** Every agent company is your potential customer. The more tokens you save them, the more they pay. Moat: your compression models get better with more data, creating a flywheel. Eventually, you become the "Akamai of LLM context" — every agent passes through you.
 
 ---
 
@@ -151,12 +192,3 @@ _Criteria: (1) MVP-executable, solves a real pain point in a niche market (2) Lo
 **Why now:** New regulations (EU AI Act, SEC AI disclosure rules) require enterprises to explain AI decisions. crabtalk proves "transparent by default" is achievable. The gap: production-grade audit layers for enterprise agent deployments.
 **MVP hint:** An MCP server that wraps any agent and logs all inputs/outputs to a tamper-proof audit trail (blockchain or append-only log). Provides dashboard for compliance teams to search, replay, and export agent sessions. Charge per agent-seat-month.
 **Why this wins long-term:** Compliance is a forced adopter market — once regulation requires auditability, every enterprise agent needs an audit layer. Network effects: your audit data improves your anomaly detection, which improves your product.
-
----
-
-### <span style="color: #FF9800">ContextBank — Token-Efficient Context Management for Agents</span>
-**Problem:** Every agentic app faces the same trade-off: longer context = better performance but 10x higher API costs. lean-ctx shows 89-99% token reduction is possible, but it's a DIY tool for engineers. No one offers "context optimization as a service" for agent builders.
-**Market:** Every company building AI agents: coding assistants (Cursor, Copilot), research agents (Perplexity, Arc), customer support agents (Intercom, Zendesk). The market is 50k+ companies spending $1B+ on LLM tokens.
-**Why now:** lean-ctx proves the technical breakthrough. But it's a tool, not a product. The startup gap: a managed service that sits between your agent and the LLM, automatically compressing context, prioritizing relevant info, and reducing your token bill by 90%.
-**MVP hint:** A middleware (Python library + API) that wraps any LLM call. It analyzes the conversation, applies compression strategies, and returns the same response with 90% fewer tokens. Charge based on token savings (50% of savings = $10K/month for a company spending $20K).
-**Why this wins long-term:** Every agent company is your potential customer. The more tokens you save them, the more they pay. Moat: your compression models get better with more data, creating a flywheel. Eventually, you become the "Akamai of LLM context" — every agent passes through you.
