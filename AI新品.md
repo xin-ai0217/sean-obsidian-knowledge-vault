@@ -881,4 +881,4 @@ _（待补充）_
 ## 10. 其他
 1. Agent大学，测试agent的能力，延展到testing，QA，observability
 2. Phia， 电商Agent
-3. AI桌面伴侣
+3. AI桌面伴侣， proactive AI
