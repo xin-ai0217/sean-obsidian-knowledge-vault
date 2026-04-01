@@ -6,14 +6,14 @@ _Daily AI trends, startup ideas, and emerging patterns. Updated daily._
 
 ## 🌍 Models & Research
 
-### <span style="color: #FF9800">hermes-agent — The Agent That Grows With You</span>
+### hermes-agent — The Agent That Grows With You
 > *"The agent that grows with you."* — [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) · March 31, 2026 · 18.2k stars, +1,892/day
 
 **💡 What this means:**
 - **In plain language:** An open-source agent framework from NousResearch designed to adapt and improve over time — learning from its interactions, expanding its capabilities, and personalizing to the user's workflow.
 - **For AI founders:** "Self-improving agents" is the holy grail. hermes-agent shows it's technically achievable. The startup angle: pre-built self-improving agents for specific domains where the agent gets better the more you use it (coding, research, sales). The winner will be whoever builds the best "learning loop" infrastructure.
 
-### <span style="color: #FF9800">claude-code-best-practice — The Definitive Claude Code Guide</span>
+### claude-code-best-practice — The Definitive Claude Code Guide
 > *"Best practices and patterns for using Claude Code effectively."* — [shanraisshan/claude-code-best-practice](https://github.com/shanraisshan/claude-code-best-practice) · March 31, 2026 · 25.7k stars, +1,458/day
 
 **💡 What this means:**
@@ -78,7 +78,7 @@ _Daily AI trends, startup ideas, and emerging patterns. Updated daily._
 - **In plain language:** A backend that gives AI agents two types of memory: episodic (what happened when) and semantic (what facts they know). This lets agents maintain coherent understanding over long conversations and multiple sessions.
 - **For AI founders:** The "long-running agent" is the next big thing — but only if memory works. memoryos shows the pattern: dual-memory architecture for agents that need to work for hours/days, not minutes. Build the vertical variant: memory for legal research agents, memory for customer support agents, memory for coding agents.
 
-### <span style="color: #FF9800">Deep-Live-Cam — Real-Time AI Face Swap Goes Mainstream</span>
+### Deep-Live-Cam — Real-Time AI Face Swap Goes Mainstream
 > *"Deep-Live-Cam is a deep learning-based real-time face replacement project with camera support, primarily for research, entertainment, and visual effects experiments."* — [hacksider/Deep-Live-Cam](https://github.com/hacksider/Deep-Live-Cam) · March 29, 2026 · 85.1k stars, +971/day
 
 **💡 What this means:**
@@ -87,14 +87,14 @@ _Daily AI trends, startup ideas, and emerging patterns. Updated daily._
 
 ## 🚀 Applications
 
-### <span style="color: #FF9800">Agentplace — Create Specialized AI Agents for Real Tasks</span>
+### Agentplace — Create Specialized AI Agents for Real Tasks
 > *"Create specialized AI agents for real tasks and workflows."* — [Product Hunt](https://www.producthunt.com/products/agentplace) · March 31, 2026 · 708 votes
 
 **💡 What this means:**
 - **In plain language:** A platform that lets non-technical users create AI agents specialized for specific tasks — from customer support to data entry to sales outreach. Point, click, configure, and deploy.
 - **For AI founders:** This is the "no-code agent builder" wave. Agentplace proves the market wants "agent creation for everyone." The opportunity: go vertical. Instead of "build any agent," build "build agents for X" — agents for law firms, agents for real estate teams, agents for healthcare clinics. Domain-specific agents beat generic ones out of the box.
 
-### <span style="color: #FF9800">Tobira.ai — A Network Where AI Agents Find Deals</span>
+### Tobira.ai — A Network Where AI Agents Find Deals
 > *"A network where AI agents find deals for their humans."* — [Product Hunt](https://www.producthunt.com/products/tobira-ai) · March 31, 2026 · 708 votes
 
 **💡 What this means:**
@@ -143,19 +143,68 @@ _Daily AI trends, startup ideas, and emerging patterns. Updated daily._
 - **In plain language:** A job platform specifically for "vibe coders" — developers who build with AI first, ship fast, iterate on prompts instead of architecture, and don't follow traditional dev processes.
 - **For AI founders:** The "vibe coder" is emerging as a distinct category in tech hiring. VibeTalent proves there's a market for matching companies who want AI-native builders with builders who ship with AI. The opportunity: skill verification, portfolio demos, "vibe coding as a service" marketplaces.
 
-### <span style="color: #FF9800">Clico — Every Textbox, Supercharged</span>
+### Clico — Every Textbox, Supercharged
 > *"Every textbox, supercharged"* — [Product Hunt](https://www.producthunt.com/products/clico) · March 29, 2026 · 414 votes
 
 **💡 What this means:**
 - **In plain language:** A Chrome extension that adds AI superpowers to every textbox on the web — rewriting, shortening, expanding, or transforming text wherever you type.
 - **For AI founders:** This is the "AI everywhere" pattern — embedding AI directly into existing workflows rather than asking users to switch contexts. The lesson: the best AI product might not be a new app, but a layer that makes existing apps smarter. Any "X + AI" where X is something people use 100x/day is a massive market.
 
-### <span style="color: #FF9800">SUN AI — Personalized AI Audio Lessons On Demand</span>
+### SUN AI — Personalized AI Audio Lessons On Demand
 > *"Personalized AI audio lessons generated on demand"* — [Product Hunt](https://www.producthunt.com/products/sun-ai) · March 29, 2026 · 348 votes
 
 **💡 What this means:**
 - **In plain language:** An app that generates personalized audio lessons on any topic on-demand — the AI creates the lesson, the voice speaks it, and you learn by listening.
 - **For AI founders:** Audio learning is the "sleep gym" of AI — content consumed while doing other things (commuting, exercising, cooking). This proves demand for audio-first AI education. The vertical opportunity: audio courses for specific domains (medical boards, language learning, compliance training) where the content is structured and the voice matters.
+
+### <span style="color: #FF9800">ClawMetry — Visibility Into NemoClaw Sandboxes</span>
+> *"Know what's happening inside your NemoClaw sandboxes"* — [Product Hunt](https://www.producthunt.com/products/clawmetry) · March 31, 2026
+
+**💡 What this means:**
+- **In plain language:** A monitoring/observability tool specifically for NemoClaw sandboxes — giving developers visibility into what's happening inside isolated AI agent environments.
+- **For AI founders:** Agent observability is a growing need. As more AI agents run in isolated environments, developers need tools to see what's happening inside. The opportunity: build the Datadog/New Relic for AI agents — with specific instrumentation for different agent frameworks.
+
+### <span style="color: #FF9800">GeoPreview — GIS Files in Finder</span>
+> *"Preview GIS files directly in Finder (GeoJSON, SHP, GPKG)"* — [Product Hunt](https://www.producthunt.com/products/geopreview) · March 27, 2026
+
+**💡 What this means:**
+- **In plain language:** A macOS extension that previews geographic data files directly in Finder — no need to open specialized GIS software to see what's in a file.
+- **For AI founders:** This is a "AI + specific workflow" micro-tool. The pattern: identify a specific pain point in a specific profession (GIS analysts) and solve it with AI, even if the "AI" part is minimal. Niche vertical tools can command premium pricing.
+
+### <span style="color: #FF9800">Remodex — Control Codex From Your iPhone</span>
+> *"Control Codex on your iPhone"* — [Product Hunt](https://www.producthunt.com/products/remodex-codex-remote-control) · March 31, 2026
+
+**💡 What this means:**
+- **In plain language:** A remote control app that lets you control Claude Code (Codex) from your iPhone — enabling mobile AI agent management.
+- **For AI founders:** The "remote control for AI" category is emerging. As AI agents become more capable, people want to manage them from anywhere. The opportunity: build mobile-first agent management dashboards for specific use cases.
+
+### <span style="color: #FF9800">VoiceZeroAI — Catch Complaints Before Bad Reviews</span>
+> *"AI voice feedback that catches complaints before bad reviews"* — [Product Hunt](https://www.producthunt.com/products/voicezeroai-2) · March 24, 2026
+
+**💡 What this means:**
+- **In plain language:** A voice AI tool that analyzes customer calls in real-time, detecting complaints and dissatisfaction signals before they result in bad reviews.
+- **For AI founders:** Voice-first customer service AI is a massive market ($50B+). The insight: detect problems BEFORE they become reviews. Vertical opportunity: industry-specific voice analytics (restaurant, hotel, healthcare) with custom complaint detection models.
+
+### AI-Scientist-v2 — Sakana AI's Research Agent
+> *"AI-Scientist-v2 from Sakana AI — automating scientific discovery with AI agents."* — [SakanaAI/AI-Scientist-v2](https://github.com/SakanaAI/AI-Scientist-v2) · April 1, 2026 · Trending
+
+**💡 What this means:**
+- **In plain language:** Sakana AI released version 2 of their AI Scientist — an agent that can autonomously conduct scientific research, from literature review to hypothesis generation to running experiments.
+- **For AI founders:** AI-driven scientific discovery is moving from concept to reality. The opportunity: vertical research agents for specific domains (drug discovery, materials science, quantitative finance) that can read papers, design experiments, and analyze results faster than human researchers.
+
+### <span style="color: #FF9800">open-agent-sdk-typescript — Open-Source TypeScript Agent SDK</span>
+> *"Agent-SDK without CLI dependencies, as an alternative to claude-agent-sdk, completely open source."* — [codeany-ai/open-agent-sdk-typescript](https://github.com/codeany-ai/open-agent-sdk-typescript) · April 1, 2026
+
+**💡 What this means:**
+- **In plain language:** A TypeScript-native agent SDK that works without CLI dependencies — offering an alternative to Claude's agent SDK with full open-source transparency.
+- **For AI founders:** The agent SDK landscape is fragmenting. This shows demand for "not Claude-only" tooling. The opportunity: build the best-in-class SDK for specific languages (TypeScript, Go, Rust) with opinionated patterns for specific use cases.
+
+### <span style="color: #FF9800">phantom — AI Co-Worker with Persistent Memory</span>
+> *"An AI co-worker with its own computer. Self-evolving, persistent memory, MCP server, secure credential collection, email identity."* — [ghostwright/phantom](https://github.com/ghostwright/phantom) · April 1, 2026
+
+**💡 What this means:**
+- **In plain language:** An AI agent that's designed as a "co-worker" — it has its own persistent memory, can authenticate with services, manages credentials securely, and can act on your behalf in email and other systems.
+- **For AI founders:** The "AI employee" is closer than we think. phantom shows the pattern: agents that don't just assist but actually do work autonomously. The startup angle: pre-configured "employees" for specific roles (research assistant, sales development rep, customer support agent) that come with all the integrations built in.
 
 ---
 
@@ -167,28 +216,27 @@ _Criteria: (1) MVP-executable, solves a real pain point in a niche market (2) Lo
 
 ---
 
-### <span style="color: #FF9800">DealHunter — AI Agents That Find Your Next Deal</span>
-**Problem:** Tobira.ai shows agents can find deals, but no one has built a vertical product for specific deal flows. VCs miss deal flow, real estate investors miss off-market properties, B2B sellers miss inbound leads.
-**Market:** Deal-driven professionals: VCs ($50B AUM+ actively investing), real estate investors ($1T+ market), B2B sellers ($1.5T+ in US). Each needs "eyes everywhere" that humans can't scale to.
-**Why now:** Tobira proved the pattern. The infrastructure (web scraping, API monitoring, data aggregation) is commoditized. The gap: vertical-specific deal agents that understand each industry's deal signals, sources, and qualification criteria.
-**MVP hint:** Start with one vertical (e.g., "VC deal flow agent" that monitors 50+ sources and flags startups matching your thesis). Use web scraping APIs + LLM for qualification + notification to your phone/email. Charge $500/month for "always-on deal sourcing."
-**Why this wins long-term:** Deal flow is the lifeblood of finance and sales. Once you're the "source of truth" for deal flow in a vertical, switching costs are massive — you know the market, the sources, the quality. Network effects: every user's deal criteria makes the agent smarter for everyone.
+### <span style="color: #FF9800">AgentForge — Build Your First AI Employee in Hours</span>
+**Problem:** phantom shows AI co-workers are possible, but building one from scratch takes weeks of engineering. Small businesses want "an AI that does X" but can't hire a developer to build it.
+**Market:** 30M+ small businesses in the US alone, each wanting automation but lacking engineering resources. The "no-code AI employee" market is untapped.
+**Why now:** The building blocks exist (MCP, persistent memory, credential management). What's missing: a no-code builder that lets anyone create an AI employee for their specific business need in hours, not weeks.
+**MVP hint:** A drag-and-drop builder where users select: (1) Role (sales rep, researcher, assistant) (2) Integrations (email, CRM, Slack, calendar) (3) Memory (what the agent remembers about customers, tasks, preferences). Output: a working API-key-authenticated agent that connects to their tools.
+**Why this wins long-term:** Every small business wants "one more employee but can't afford one." The winner is whoever makes it fastest to create an AI employee. Network effects: templates shared between users build a marketplace of best-practice AI employees.
 
 ---
 
-### <span style="color: #FF9800">ContextBank — Token-Efficient Context Management for Agents</span>
-**Problem:** Every agentic app faces the same trade-off: longer context = better performance but 10x higher API costs. lean-ctx shows 89-99% token reduction is possible, but it's a DIY tool for engineers. No one offers "context optimization as a service" for agent builders.
-**Market:** Every company building AI agents: coding assistants (Cursor, Copilot), research agents (Perplexity, Arc), customer support agents (Intercom, Zendesk). The market is 50k+ companies spending $1B+ on LLM tokens.
-**Why now:** lean-ctx proves the technical breakthrough. But it's a tool, not a product. The startup gap: a managed service that sits between your agent and the LLM, automatically compressing context, prioritizing relevant info, and reducing your token bill by 90%.
-**MVP hint:** A middleware (Python library + API) that wraps any LLM call. It analyzes the conversation, applies compression strategies, and returns the same response with 90% fewer tokens. Charge based on token savings (50% of savings = $10K/month for a company spending $20K).
-**Why this wins long-term:** Every agent company is your potential customer. The more tokens you save them, the more they pay. Moat: your compression models get better with more data, creating a flywheel. Eventually, you become the "Akamai of LLM context" — every agent passes through you.
+### <span style="color: #FF9800">ResearchGraph — AI Research Synthesis for Decision Makers</span>
+**Problem:** last30days-skill proves multi-source research works, but the output is raw. Decision makers (CEOs, investors, policy makers) need synthesized, actionable insights — not just a list of links.
+**Market:** Decision makers who pay for research: institutional investors ($50B+ research budgets), strategy consultants ($30B), corporate executives ($100B+ in strategic planning). Each needs "research I can act on."
+**Why now:** The technical capability exists (multi-source AI research). The gap: turning research output into decision-grade insights with source verification, confidence scoring, and executive-ready formatting.
+**MVP hint:** Input: a strategic question ("Will AI agents replace software engineers by 2028?"). Output: a 5-page memo with: (1) Answer with confidence level (2) Supporting evidence with sources (3) Key assumptions (4) What would change the answer. Use last30days-style multi-source + LLM synthesis + human-editor review loop. Charge $2K/research or $10K/year subscription.
+**Why this wins long-term:** The "AI analyst" replaces the junior analyst. Every decision maker needs research, but few have teams. Subscription model creates predictable revenue. Moat: proprietary training data from thousands of research memos.
 
 ---
 
-### <span style="color: #FF9800">AgentAudit — Compliance Layer for Enterprise AI Agents</span>
-**Problem:** Enterprises want to deploy AI agents but can't because they can't audit what the agent did. Financial services, healthcare, and legal need every agent decision logged, explainable, and reconcilable. Current agents are black boxes.
-**Problem (deeper):** crabtalk shows lightweight, auditable agents are technically possible. But no one offers "audit layer for enterprise" — the middleware that sits between the agent and corporate systems and logs everything.
-**Market:** Regulated enterprises: banks ($200B compliance budget), healthcare ($100B), legal ($50B). Each has explicit AI governance requirements now.
-**Why now:** New regulations (EU AI Act, SEC AI disclosure rules) require enterprises to explain AI decisions. crabtalk proves "transparent by default" is achievable. The gap: production-grade audit layers for enterprise agent deployments.
-**MVP hint:** An MCP server that wraps any agent and logs all inputs/outputs to a tamper-proof audit trail (blockchain or append-only log). Provides dashboard for compliance teams to search, replay, and export agent sessions. Charge per agent-seat-month.
-**Why this wins long-term:** Compliance is a forced adopter market — once regulation requires auditability, every enterprise agent needs an audit layer. Network effects: your audit data improves your anomaly detection, which improves your product.
+### <span style="color: #FF9800">SkillMarket — Verified Prompt Engineering Marketplace</span>
+**Problem:** Every company building AI agents needs skilled prompt engineers, but there's no way to verify "expertise." Companies hire expensive prompt engineers who underperform. Engineers claim "prompt engineering" on resumes without proof.
+**Market:** 50k+ companies building AI products, each needing 1-10 prompt engineers. The market for AI talent is $10B+ and growing.
+**Why now:** open-agent-sdk and similar tools make prompt engineering "skill-based" rather than "art-based." This enables verifiable skill testing. The gap: a marketplace that certifies prompt engineers and connects them with companies.
+**MVP hint:** A platform where prompt engineers take standardized tests (build an agent that does X, optimize a prompt for Y). Scoring is automated. Engineers get a "certified" badge. Companies post jobs or commission prompts directly. Take 10% commission on placements.
+**Why this wins long-term:** Talent marketplaces are winner-take-most. The first-mover that builds credentialing credibility wins. Network effects: more tested engineers attract more companies, which attracts more engineers.
