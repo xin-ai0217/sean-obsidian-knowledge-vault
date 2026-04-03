@@ -41,14 +41,14 @@ _Daily AI trends, startup ideas, and emerging patterns. Updated daily._
 - **In plain language:** ByteDance's open-source agent framework that can research, code, and create — using sandboxes for isolation, memory systems, tools, skills, and sub-agents to handle tasks ranging from minutes to hours.
 - **For AI founders:** deer-flow shows that SuperAgents (agents that do everything) are going open-source. The competitive moat shifts from "build the agent" to "optimize the agent for your use case" and "build the workflow around the agent." The real opportunity: pre-built agent configurations for specific verticals that beat generic agents out of the box.
 
-### <span style="color: #FF9800">Arcee Trinity-Large-Thinking — Open Weights SOTA Reasoning Model</span>
+### Arcee Trinity-Large-Thinking — Open Weights SOTA Reasoning Model
 > *"400B total / 13B active MoE, Apache 2.0 open weights, #2 on PinchBench behind Opus 4.6."* — [Arcee AI](https://x.com/arcee_ai/status/2039369121591120030) · April 1, 2026
 
 **💡 What this means:**
 - **In plain language:** Arcee released a state-of-the-art reasoning model with open weights under Apache 2.0 license — a 400B total / 13B active mixture-of-experts model that ranks #2 on PinchBench, behind only Claude Opus 4.6. OpenRouter immediately made it available.
 - **For AI founders:** This is a major milestone for "American open source" AI. The opportunity: enterprises that want to inspect, host, distill, and post-train their own reasoning models now have a serious alternative to closed APIs. The business angle: hosting/distillation services, enterprise support, and specialized fine-tuned variants for specific industries.
 
-### <span style="color: #FF9800">Claude Code Source Leak Reveals Agent Architecture</span>
+### Claude Code Source Leak Reveals Agent Architecture
 > *"4-layer context compression stack, 40+ tool modular architecture, streaming + parallel tool execution."* — [ZhihuFrontier](https://x.com/ZhihuFrontier/status/2039229986339688581) · April 1, 2026
 
 **💡 What this means:**
@@ -101,23 +101,72 @@ _Daily AI trends, startup ideas, and emerging patterns. Updated daily._
 - **In plain language:** An open-source project that enables real-time face swapping using deep learning — now with camera support for live video calls, streams, and content creation. It runs locally, preserving privacy.
 - **For AI founders:** Real-time face manipulation is moving from academic labs to any developer's laptop. The implications are massive for content creation, entertainment, and accessibility (helping people who can't make certain facial expressions). The startup angle: pre-built face AI tools for specific verticals — virtual avatars for remote work, personalized video messaging at scale, or accessibility tools for the speech-impaired.
 
-### <span style="color: #FF9800">learn-coding-agent — Open-Source Coding Agent Research</span>
+### learn-coding-agent — Open-Source Coding Agent Research
 > *"Research on Coding Agents. 10,961 stars in first week."* — [sanbuphy/learn-coding-agent](https://github.com/sanbuphy/learn-coding-agent) · April 2, 2026
 
 **💡 What this means:**
 - **In plain language:** An open-source repository aggregating research on coding agents — patterns, architectures, techniques, and implementations from the frontier of AI-assisted software development.
 - **For AI founders:** The "coding agent" category is exploding. This repo shows the breadth of research happening. The opportunity: synthesize this research into actionable guides, build specialized coding agents for specific languages/frameworks, or create tooling that implements the latest patterns.
 
-### <span style="color: #FF9800">openclaude — Claude Code for Any LLM</span>
+### openclaude — Claude Code for Any LLM
 > *"Claude Code opened to any LLM — OpenAI, Gemini, DeepSeek, Ollama, and 200+ models."* — [Gitlawb/openclaude](https://github.com/Gitlawb/openclaude) · April 2, 2026 · 6,074 stars
 
 **💡 What this means:**
 - **In plain language:** An open-source project that lets you use Claude Code's agentic capabilities with any LLM provider — not just Anthropic's models. Supports OpenAI, Gemini, DeepSeek, Ollama, and 200+ other models.
 - **For AI founders:** This proves the "agent framework" layer is separable from the "model" layer. The opportunity: build better agent frameworks that work with any model, or specialize the framework for specific verticals/use cases while letting users choose their model.
 
+### claude-code — The Fastest Repo to 100K Stars
+> *"The fastest repo in history to surpass 100K stars. Built in Rust using oh-my-codex."* — [ultraworkers/claw-code](https://github.com/ultraworkers/claw-code) · April 3, 2026 · 159k stars
+
+**💡 What this means:**
+- **In plain language:** The most starred repository in history to reach 100K stars — built in Rust, a coding agent from the ultraworkers team. It's a Rust-native implementation of AI coding capabilities that's setting the pace for the ecosystem.
+- **For AI founders:** This proves Rust is the language of choice for next-gen AI tooling. The opportunity: Rust-based agent frameworks, Rust-native MCP servers, and tools that integrate with the growing Rust AI ecosystem. The moat: performance and memory safety at scale.
+
 ---
 
 ## 🚀 Applications
+
+### <span style="color: #FF9800">Claude Code Voice Mode — Speak Your Prompts</span>
+> *"Speak your prompts into Claude Code"* — [Product Hunt](https://www.producthunt.com/products/claude-code-voice-mode) · April 2, 2026 · 361 votes
+
+**💡 What this means:**
+- **In plain language:** A voice input mode for Claude Code that lets developers speak their prompts rather than type them — enabling hands-free coding with AI assistance.
+- **For AI founders:** Voice coding is the next frontier. This shows the pattern: voice-first AI coding interfaces where developers narrate their code. Opportunity: specialized voice coding tools for specific IDEs, languages, or workflows.
+
+### <span style="color: #FF9800">Denovo — Build and Run Your Business While You Sleep</span>
+> *"Build and run your business while you sleep."* — [Product Hunt](https://www.producthunt.com/products/denovo) · April 2, 2026 · 281 votes
+
+**💡 What this means:**
+- **In plain language:** An AI-powered business builder that handles operations autonomously — the idea is "set it up once, let it run."
+- **For AI founders:** This is the "autonomous business" category. The pattern: AI agents that run entire micro-businesses (e-commerce, content, services). Opportunity: vertical autonomous businesses for specific niches.
+
+### <span style="color: #FF9800">GLM-5V-Turbo — Vision-to-Code Foundation Model</span>
+> *"Vision-to-code foundation model for real GUI automation"* — [Product Hunt](https://www.producthunt.com/products/z-ai) · April 2, 2026 · 209 votes
+
+**💡 What this means:**
+- **In plain language:** A vision-enabled model that understands UI/screenshots and converts them to code — enabling true GUI automation where the AI sees what you see.
+- **For AI founders:** Vision-to-code is the missing link for AI agents that work on visual interfaces. The opportunity: build agents that can automate any GUI task (testing, data entry, form filling) by seeing the screen.
+
+### <span style="color: #FF9800">Cosyra — Run AI Coding Agents from Your Phone</span>
+> *"Run AI coding agents from your phone"* — [Product Hunt](https://www.producthunt.com/products/cosyra) · April 2, 2026 · 179 votes
+
+**💡 What this means:**
+- **In plain language:** A mobile app that lets you run AI coding agents from your phone — enabling on-the-go code generation and agent management.
+- **For AI founders:** Mobile-first AI coding is an untapped market. The opportunity: mobile IDEs with embedded agents, phone-based code review, on-the-go agent management.
+
+### <span style="color: #FF9800">Mngr — Run 100s of Claude Agents in Parallel</span>
+> *"Run 100s of Claude agents in parallel"* — [Product Hunt](https://www.producthunt.com/products/mngr-2) · April 2, 2026 · 136 votes
+
+**💡 What this means:**
+- **A platform for running massive parallel AI agent workloads — orchestrating hundreds of Claude instances simultaneously for large-scale tasks.**
+- **For AI founders:** This is "agent farm" architecture — the pattern for enterprises that need AI agents working at scale. Opportunity: managed agent orchestration services, parallel agent infrastructure for specific workloads.
+
+### <span style="color: #FF9800">Stitch 2.0 by Google — Vibe Design Production UI</span>
+> *"Vibe design beautiful production-ready UI in seconds"* — [Product Hunt](https://www.producthunt.com/products/stitch-2-0-by-google-2) · March 19, 2026 · 820 votes
+
+**💡 What this means:**
+- **In plain language:** Google's AI design tool that converts natural language "vibe" descriptions into production-ready UI code — bridging the gap between design intent and implementation.
+- **For AI founders:** "Vibe coding" meets "vibe design" — this shows the pattern of AI translating intent to implementation across the stack. Opportunity: vertical vibe design tools for specific industries or design systems.
 
 ### Agentplace — Create Specialized AI Agents for Real Tasks
 > *"Create specialized AI agents for real tasks and workflows."* — [Product Hunt](https://www.producthunt.com/products/agentplace) · March 31, 2026 · 708 votes
@@ -203,21 +252,21 @@ _Daily AI trends, startup ideas, and emerging patterns. Updated daily._
 - **In plain language:** An AI agent that's designed as a "co-worker" — it has its own persistent memory, can authenticate with services, manages credentials securely, and can act on your behalf in email and other systems.
 - **For AI founders:** The "AI employee" is closer than we think. phantom shows the pattern: agents that don't just assist but actually do work autonomously. The startup angle: pre-configured "employees" for specific roles (research assistant, sales development rep, customer support agent) that come with all the integrations built in.
 
-### <span style="color: #FF9800">Roger AI — Your Friendly Screen Guide</span>
+### Roger AI — Your Friendly Screen Guide
 > *"Your friendly screen guide for any task!"* — [Product Hunt](https://www.producthunt.com/products/roger-ai-2) · April 1, 2026
 
 **💡 What this means:**
 - **In plain language:** A screen guidance AI that helps users navigate and complete tasks on their computer — providing real-time assistance and walking through complex processes.
 - **For AI founders:** This is the "AI onboarding" category — helping users learn new software. The pattern: AI that watches what you're doing and teaches you in real-time. Opportunity: vertical versions for specific software (CRM onboarding, coding environment setup, design tool tutorials).
 
-### <span style="color: #FF9800">Mode AI — AI Mode for Your Workflow</span>
+### Mode AI — AI Mode for Your Workflow
 > *"AI-powered workflow optimization"* — [Product Hunt](https://www.producthunt.com/products/mode-ai) · April 1, 2026
 
 **💡 What this means:**
 - **In plain language:** An AI tool that optimizes your workflow — identifying bottlenecks, suggesting improvements, and automating repetitive tasks.
 - **For AI founders:** Workflow AI is a crowded space. The differentiator is vertical specialization. Build workflow AI for specific professions (lawyer document review, accountant reconciliation, nurse scheduling) with deep domain knowledge.
 
-### <span style="color: #FF9800">Lightning V3 — Text-to-Speech for Voice Agents</span>
+### Lightning V3 — Text-to-Speech for Voice Agents
 > *"Text-to-Speech built for Voice Agents"* — [Product Hunt](https://www.producthunt.com/products/smallest-ai) · March 9, 2026
 
 **💡 What this means:**
@@ -234,45 +283,27 @@ _Criteria: (1) MVP-executable, solves a real pain point in a niche market (2) Lo
 
 ---
 
-### <span style="color: #FF9800">AgentForge — Build Your First AI Employee in Hours</span>
-**Problem:** phantom shows AI co-workers are possible, but building one from scratch takes weeks of engineering. Small businesses want "an AI that does X" but can't hire a developer to build it.
-**Market:** 30M+ small businesses in the US alone, each wanting automation but lacking engineering resources. The "no-code AI employee" market is untapped.
-**Why now:** The building blocks exist (MCP, persistent memory, credential management). What's missing: a no-code builder that lets anyone create an AI employee for their specific business need in hours, not weeks.
-**MVP hint:** A drag-and-drop builder where users select: (1) Role (sales rep, researcher, assistant) (2) Integrations (email, CRM, Slack, calendar) (3) Memory (what the agent remembers about customers, tasks, preferences). Output: a working API-key-authenticated agent that connects to their tools.
-**Why this wins long-term:** Every small business wants "one more employee but can't afford one." The winner is whoever makes it fastest to create an AI employee. Network effects: templates shared between users build a marketplace of best-practice AI employees.
+### <span style="color: #FF9800">VoiceAgent SDK — The Voice-First Agent Framework</span>
+**Problem:** Lightning V3 shows TTS for voice agents is maturing, but there's no unified framework to build voice-first AI agents. Developers stitch together TTS, STT, and LLM APIs manually. Voice agents are 10x harder to build than text agents.
+**Market:** Every company building voice AI: customer service ($80B market), telemedicine ($30B), smart home ($150B), accessibility tools. The voice agent SDK market is untapped.
+**Why now:** Lightning V3, VibeVoice, and Claude Code Voice Mode all point to voice as the next interface. The building blocks exist, but the orchestration layer is missing.
+**MVP hint:** A SDK that combines: (1) Optimized TTS integration (Lightning V3, VibeVoice) (2) Low-latency STT (3) Turn-taking logic (detecting when to listen vs speak) (4) Voice activity detection. Package as: `npm install voice-agent-sdk`. Docs with 5-min tutorial. Open source core, paid for enterprise features (analytics, custom voices).
+**Why this wins long-term:** Voice is the next "touchscreen" — every app will need a voice interface. The SDK that makes voice agents easy wins. Network effects: more skills/plugins = more adoption.
 
 ---
 
-### <span style="color: #FF9800">ResearchGraph — AI Research Synthesis for Decision Makers</span>
-**Problem:** last30days-skill proves multi-source research works, but the output is raw. Decision makers (CEOs, investors, policy makers) need synthesized, actionable insights — not just a list of links.
-**Market:** Decision makers who pay for research: institutional investors ($50B+ research budgets), strategy consultants ($30B), corporate executives ($100B+ in strategic planning). Each needs "research I can act on."
-**Why now:** The technical capability exists (multi-source AI research). The gap: turning research output into decision-grade insights with source verification, confidence scoring, and executive-ready formatting.
-**MVP hint:** Input: a strategic question ("Will AI agents replace software engineers by 2028?"). Output: a 5-page memo with: (1) Answer with confidence level (2) Supporting evidence with sources (3) Key assumptions (4) What would change the answer. Use last30days-style multi-source + LLM synthesis + human-editor review loop. Charge $2K/research or $10K/year subscription.
-**Why this wins long-term:** The "AI analyst" replaces the junior analyst. Every decision maker needs research, but few have teams. Subscription model creates predictable revenue. Moat: proprietary training data from thousands of research memos.
+### <span style="color: #FF9800">AgentOps — Observability for AI Agent Fleets</span>
+**Problem:** Mngr shows companies run hundreds of agents in parallel, but there's no observability. How do you debug when 100 agents fail? Which agent caused the bug? What did each agent spend tokens on?
+**Market:** Enterprises running agent fleets: tech companies (thousands of dev agents), agencies (hundreds of client agents), enterprises (cross-functional agent teams). The agent ops market is emerging.
+**Why now:** As companies scale from 1-10 agents to 100-1000, observability becomes critical. Current tools (LangSmith, Helicone) are for LLM tracing, not agent orchestration.
+**MVP hint:** A dashboard that: (1) Visualizes all running agents (2) Shows token usage per agent, per task (3) Logs full conversation traces with search (4) Alerts on failures. Integrate with claude-code, openclaude, and any MCP agent. $500/month for startup, $5K/month for enterprise.
+**Why this wins long-term:** Every company with 10+ agents needs this. The "Datadog for AI agents" — observability is the first infrastructure layer needed at scale.
 
 ---
 
-### <span style="color: #FF9800">SkillMarket — Verified Prompt Engineering Marketplace</span>
-**Problem:** Every company building AI agents needs skilled prompt engineers, but there's no way to verify "expertise." Companies hire expensive prompt engineers who underperform. Engineers claim "prompt engineering" on resumes without proof.
-**Market:** 50k+ companies building AI products, each needing 1-10 prompt engineers. The market for AI talent is $10B+ and growing.
-**Why now:** open-agent-sdk and similar tools make prompt engineering "skill-based" rather than "art-based." This enables verifiable skill testing. The gap: a marketplace that certifies prompt engineers and connects them with companies.
-**MVP hint:** A platform where prompt engineers take standardized tests (build an agent that does X, optimize a prompt for Y). Scoring is automated. Engineers get a "certified" badge. Companies post jobs or commission prompts directly. Take 10% commission on placements.
-**Why this wins long-term:** Talent marketplaces are winner-take-most. The first-mover that builds credentialing credibility wins. Network effects: more tested engineers attract more companies, which attracts more engineers.
-
----
-
-### <span style="color: #FF9800">ContextVault — Enterprise Context Management for AI Agents</span>
-**Problem:** lean-ctx shows context compression works, but enterprises need more: they need audit trails, access control, compliance, and multi-agent context sharing. Current solutions are either too simple (just compression) or too complex (full vector DB).
-**Market:** Enterprises deploying AI agents: Fortune 500 companies (thousands of agents each), regulated industries (finance, healthcare, legal) requiring audit trails. The enterprise agent infrastructure market is $10B+.
-**Why now:** As enterprises deploy more agents, context management becomes the bottleneck. Regulations require explainability. Current tools don't meet enterprise needs.
-**MVP hint:** A context management platform that: (1) Compresses context using lean-ctx-style techniques (2) Maintains audit logs of what context was used for which decisions (3) Provides role-based access control to context (4) Enables multi-agent context sharing. Self-hosted or SaaS. $50K/year enterprise seat.
-**Why this wins long-term:** The "Datadog for agent context" — every enterprise deploying agents needs this. Moat: compliance certifications, enterprise integrations, and context governance expertise.
-
----
-
-### <span style="color: #FF9800">AgentSOP — Build and Execute Standard Operating Procedures with AI Agents</span>
-**Problem:** Companies have Standard Operating Procedures (SOPs) — but they're static documents. AI agents exist, but there's no way to turn an SOP into an executable agent that follows the procedure exactly.
-**Market:** Every company with SOPs: banks (AML/KYC procedures), healthcare (clinical workflows), manufacturing (quality control), logistics (fulfillment). The SOP management market is $5B+.
-**Why now:** The gap between "documented procedures" and "executed procedures" is massive. AI agents can bridge this, but they need a way to "read" and "execute" SOPs.
-**MVP hint:** A platform where users upload SOPs (PDF, Notion, Confluence) and the system converts them into executable agent workflows. The agent follows the exact steps, flags deviations, and reports completion. Integrations with enterprise systems (ticketing, CRM, ERP). $2K/month per SOP workflow.
-**Why this wins long-term:** Every company has SOPs that aren't followed. The "AI that follows your procedures" is a massive market. Moat: SOP format parsers, enterprise system integrations, and compliance mapping.
+### <span style="color: #FF9800">SOP2Agent — Turn Documents into Working AI Agents</span>
+**Problem:** Companies have SOPs (Standard Operating Procedures) but they're static PDFs. Denovo shows autonomous businesses work, but how do you program them? The gap: there's no way to say "read this procedure and execute it."
+**Market:** Every company with SOPs: banks (compliance), healthcare (clinical protocols), manufacturing (quality), logistics (fulfillment). The SOP automation market is $10B+.
+**Why now:** GLM-5V-Turbo shows vision-to-code works. Apply the same pattern: vision-to-action. Parse SOPs (PDF, Notion, Confluence) and convert to executable agent workflows.
+**MVP hint:** Upload a PDF SOP → the system extracts steps, creates an agent workflow with checkpoints, integrates with company tools (ticketing, CRM, email). The agent follows the SOP exactly, flags deviations. $1K/month per SOP. Early adopters: compliance-heavy industries.
+**Why this wins long-term:** Every company has SOPs they don't follow. The "no-code process automation" tool — non-engineers automate their own workflows.
