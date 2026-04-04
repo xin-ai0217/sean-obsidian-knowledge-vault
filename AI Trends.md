@@ -122,46 +122,53 @@ _Daily AI trends, startup ideas, and emerging patterns. Updated daily._
 - **In plain language:** The most starred repository in history to reach 100K stars — built in Rust, a coding agent from the ultraworkers team. It's a Rust-native implementation of AI coding capabilities that's setting the pace for the ecosystem.
 - **For AI founders:** This proves Rust is the language of choice for next-gen AI tooling. The opportunity: Rust-based agent frameworks, Rust-native MCP servers, and tools that integrate with the growing Rust AI ecosystem. The moat: performance and memory safety at scale.
 
+### <span style="color: #FF9800">Gemma 4 — Google's Best Open Model Yet, Apache 2.0</span>
+> *"Gemma 4 is Google's strongest open model yet with Apache 2.0 license, outperforming models 10x larger."* — [@demishassabis](https://x.com/demishassabis/status/2040067244349063326) · April 3, 2026
+
+**💡 What this means:**
+- **In plain language:** Google launched Gemma 4 under Apache 2.0 license — the most permissive open model release yet. It runs on a single RTX 4090 at 162 tok/s with 262K context, and even works on Mac Mini M4 (34 tok/s) and iPhones. Day-0 ecosystem support across vLLM, llama.cpp, Ollama, and Intel hardware.
+- **For AI founders:** This is the tipping point for "local AI-first" products. The combination of open weights + permissive license + consumer hardware performance = every app will embed a local model. The startup opportunity: build on top of Gemma 4 for specific verticals (legal, medical, financial) where data privacy means local inference is required.
+
 ---
 
 ## 🚀 Applications
 
-### <span style="color: #FF9800">Claude Code Voice Mode — Speak Your Prompts</span>
+### Claude Code Voice Mode — Speak Your Prompts
 > *"Speak your prompts into Claude Code"* — [Product Hunt](https://www.producthunt.com/products/claude-code-voice-mode) · April 2, 2026 · 361 votes
 
 **💡 What this means:**
 - **In plain language:** A voice input mode for Claude Code that lets developers speak their prompts rather than type them — enabling hands-free coding with AI assistance.
 - **For AI founders:** Voice coding is the next frontier. This shows the pattern: voice-first AI coding interfaces where developers narrate their code. Opportunity: specialized voice coding tools for specific IDEs, languages, or workflows.
 
-### <span style="color: #FF9800">Denovo — Build and Run Your Business While You Sleep</span>
+### Denovo — Build and Run Your Business While You Sleep
 > *"Build and run your business while you sleep."* — [Product Hunt](https://www.producthunt.com/products/denovo) · April 2, 2026 · 281 votes
 
 **💡 What this means:**
 - **In plain language:** An AI-powered business builder that handles operations autonomously — the idea is "set it up once, let it run."
 - **For AI founders:** This is the "autonomous business" category. The pattern: AI agents that run entire micro-businesses (e-commerce, content, services). Opportunity: vertical autonomous businesses for specific niches.
 
-### <span style="color: #FF9800">GLM-5V-Turbo — Vision-to-Code Foundation Model</span>
+### GLM-5V-Turbo — Vision-to-Code Foundation Model
 > *"Vision-to-code foundation model for real GUI automation"* — [Product Hunt](https://www.producthunt.com/products/z-ai) · April 2, 2026 · 209 votes
 
 **💡 What this means:**
 - **In plain language:** A vision-enabled model that understands UI/screenshots and converts them to code — enabling true GUI automation where the AI sees what you see.
 - **For AI founders:** Vision-to-code is the missing link for AI agents that work on visual interfaces. The opportunity: build agents that can automate any GUI task (testing, data entry, form filling) by seeing the screen.
 
-### <span style="color: #FF9800">Cosyra — Run AI Coding Agents from Your Phone</span>
+### Cosyra — Run AI Coding Agents from Your Phone
 > *"Run AI coding agents from your phone"* — [Product Hunt](https://www.producthunt.com/products/cosyra) · April 2, 2026 · 179 votes
 
 **💡 What this means:**
 - **In plain language:** A mobile app that lets you run AI coding agents from your phone — enabling on-the-go code generation and agent management.
 - **For AI founders:** Mobile-first AI coding is an untapped market. The opportunity: mobile IDEs with embedded agents, phone-based code review, on-the-go agent management.
 
-### <span style="color: #FF9800">Mngr — Run 100s of Claude Agents in Parallel</span>
+### Mngr — Run 100s of Claude Agents in Parallel
 > *"Run 100s of Claude agents in parallel"* — [Product Hunt](https://www.producthunt.com/products/mngr-2) · April 2, 2026 · 136 votes
 
 **💡 What this means:**
 - **A platform for running massive parallel AI agent workloads — orchestrating hundreds of Claude instances simultaneously for large-scale tasks.**
 - **For AI founders:** This is "agent farm" architecture — the pattern for enterprises that need AI agents working at scale. Opportunity: managed agent orchestration services, parallel agent infrastructure for specific workloads.
 
-### <span style="color: #FF9800">Stitch 2.0 by Google — Vibe Design Production UI</span>
+### Stitch 2.0 by Google — Vibe Design Production UI
 > *"Vibe design beautiful production-ready UI in seconds"* — [Product Hunt](https://www.producthunt.com/products/stitch-2-0-by-google-2) · March 19, 2026 · 820 votes
 
 **💡 What this means:**
@@ -266,6 +273,27 @@ _Daily AI trends, startup ideas, and emerging patterns. Updated daily._
 - **In plain language:** An AI tool that optimizes your workflow — identifying bottlenecks, suggesting improvements, and automating repetitive tasks.
 - **For AI founders:** Workflow AI is a crowded space. The differentiator is vertical specialization. Build workflow AI for specific professions (lawyer document review, accountant reconciliation, nurse scheduling) with deep domain knowledge.
 
+### <span style="color: #FF9800">Cursor 3 — Unified Workspace for Parallel Agents and MCPs</span>
+> *"Unified workspace for parallel local/cloud agents and MCPs"* — [Product Hunt](https://www.producthunt.com/products/cursor-3) · April 3, 2026 · 344 votes
+
+**💡 What this means:**
+- **In plain language:** Cursor 3 introduced a unified workspace that runs parallel agents — both local and cloud-based — with native MCP server support, enabling complex multi-agent workflows within the IDE.
+- **For AI founders:** This signals the "agent orchestration inside IDE" trend. The opportunity: build specialized agent workspaces for specific development workflows (mobile-first, backend-first, DevOps-first).
+
+### <span style="color: #FF9800">ZooClaw — Your Proactive Team of AI Specialists</span>
+> *"Your proactive team of AI specialists in one place"* — [Product Hunt](https://www.producthunt.com/products/zooclaw) · April 3, 2026 · 368 votes
+
+**💡 What this means:**
+- **In plain language:** A platform that provides a team of AI agents, each specialized for different tasks — research, coding, writing, data analysis — working together proactively rather than waiting for commands.
+- **For AI founders:** This is the "AI team" pattern — multiple specialized agents collaborating. The opportunity: build industry-specific AI teams (legal research team, healthcare intake team, financial analysis team) with deep domain expertise.
+
+### <span style="color: #FF9800">VoiceOS — Say It and It's Done. Work 10x Faster</span>
+> *"Say it and it's done. Work 10x faster with your voice."* — [Product Hunt](https://www.producthunt.com/products/voiceos) · April 3, 2026 · 266 votes
+
+**💡 What this means:**
+- **In plain language:** A voice-first productivity tool that lets you control your computer, navigate apps, and execute tasks using voice commands — essentially giving you hands-free superpowers over your entire digital workflow.
+- **For AI founders:** VoiceOS shows the "voice as the new UI" pattern is going mainstream. The opportunity: vertical voice OS for specific workflows (voice-first CRM, voice-first coding, voice-first design tools).
+
 ### Lightning V3 — Text-to-Speech for Voice Agents
 > *"Text-to-Speech built for Voice Agents"* — [Product Hunt](https://www.producthunt.com/products/smallest-ai) · March 9, 2026
 
@@ -283,27 +311,27 @@ _Criteria: (1) MVP-executable, solves a real pain point in a niche market (2) Lo
 
 ---
 
-### <span style="color: #FF9800">VoiceAgent SDK — The Voice-First Agent Framework</span>
-**Problem:** Lightning V3 shows TTS for voice agents is maturing, but there's no unified framework to build voice-first AI agents. Developers stitch together TTS, STT, and LLM APIs manually. Voice agents are 10x harder to build than text agents.
-**Market:** Every company building voice AI: customer service ($80B market), telemedicine ($30B), smart home ($150B), accessibility tools. The voice agent SDK market is untapped.
-**Why now:** Lightning V3, VibeVoice, and Claude Code Voice Mode all point to voice as the next interface. The building blocks exist, but the orchestration layer is missing.
-**MVP hint:** A SDK that combines: (1) Optimized TTS integration (Lightning V3, VibeVoice) (2) Low-latency STT (3) Turn-taking logic (detecting when to listen vs speak) (4) Voice activity detection. Package as: `npm install voice-agent-sdk`. Docs with 5-min tutorial. Open source core, paid for enterprise features (analytics, custom voices).
-**Why this wins long-term:** Voice is the next "touchscreen" — every app will need a voice interface. The SDK that makes voice agents easy wins. Network effects: more skills/plugins = more adoption.
+### <span style="color: #FF9800">LocalAI Gateway — The API Gateway for On-Device Models</span>
+**Problem:** Gemma 4 runs locally at 162 tok/s on RTX 4090, even on Mac Mini M4 and iPhone. But developers face a fragmented landscape: different quantization methods, different inference engines (llama.cpp, MLX, vLLM), no standard API. Building "local-first" AI features means reinventing the wheel every time.
+**Market:** Every app that wants local inference: mobile apps (privacy, offline), enterprise (data residency), edge devices (IoT, robotics). The local AI market is exploding as Gemma 4 proves consumer hardware is "good enough."
+**Why now:** Gemma 4's Apache 2.0 + day-0 ecosystem support (vLLM, llama.cpp, Ollama, Intel) = the fragmentation is solvable. A unified API layer that abstracts the backend engine can become the "Twilio for local AI."
+**MVP hint:** A single API (`POST /v1/chat/completions`) that works regardless of the backend: auto-detect hardware, route to best engine (llama.cpp for Apple Silicon, vLLM for NVIDIA, etc.), handle quantization transparently. SDKs for React Native, Flutter, Swift, Kotlin. Free tier for dev, $99/month for production.
+**Why this wins long-term:** Every AI app will have a "local mode." The gateway that makes local deployment trivial wins. Network effects: more backend support = more developer adoption.
 
 ---
 
-### <span style="color: #FF9800">AgentOps — Observability for AI Agent Fleets</span>
-**Problem:** Mngr shows companies run hundreds of agents in parallel, but there's no observability. How do you debug when 100 agents fail? Which agent caused the bug? What did each agent spend tokens on?
-**Market:** Enterprises running agent fleets: tech companies (thousands of dev agents), agencies (hundreds of client agents), enterprises (cross-functional agent teams). The agent ops market is emerging.
-**Why now:** As companies scale from 1-10 agents to 100-1000, observability becomes critical. Current tools (LangSmith, Helicone) are for LLM tracing, not agent orchestration.
-**MVP hint:** A dashboard that: (1) Visualizes all running agents (2) Shows token usage per agent, per task (3) Logs full conversation traces with search (4) Alerts on failures. Integrate with claude-code, openclaude, and any MCP agent. $500/month for startup, $5K/month for enterprise.
-**Why this wins long-term:** Every company with 10+ agents needs this. The "Datadog for AI agents" — observability is the first infrastructure layer needed at scale.
+### <span style="color: #FF9800">AgentShip — One-Click Deploy Agents to Any Platform</span>
+**Problem:** hermes-agent shows users switching from OpenClaw to Hermes because of the harness. But every time they switch, they lose their agent configuration, memory, and tools. There's no "agent portability" — agents are locked to their harness.
+**Market:** Developers who build agents: agencies (client handover), enterprises (infrastructure changes), individual devs (trying different harnesses). Agent migration is a $1B+ pain.
+**Why now:** Hermes + OpenClaw + claude-code = multiple excellent harnesses, but zero interoperability. The "agent Docker" pattern — package your agent with its memory, tools, and config into a portable format — is the missing layer.
+**MVP hint:** Export any agent (config + memory + tools) to a `.agent` file. Import into any harness. Version control your agents. Share templates. The "GitHub for agents." $19/month for indie, $199/month for teams.
+**Why this wins long-term:** Agent standardization wins. Every harness will need to support the format. First-mover builds the standard.
 
 ---
 
-### <span style="color: #FF9800">SOP2Agent — Turn Documents into Working AI Agents</span>
-**Problem:** Companies have SOPs (Standard Operating Procedures) but they're static PDFs. Denovo shows autonomous businesses work, but how do you program them? The gap: there's no way to say "read this procedure and execute it."
-**Market:** Every company with SOPs: banks (compliance), healthcare (clinical protocols), manufacturing (quality), logistics (fulfillment). The SOP automation market is $10B+.
-**Why now:** GLM-5V-Turbo shows vision-to-code works. Apply the same pattern: vision-to-action. Parse SOPs (PDF, Notion, Confluence) and convert to executable agent workflows.
-**MVP hint:** Upload a PDF SOP → the system extracts steps, creates an agent workflow with checkpoints, integrates with company tools (ticketing, CRM, email). The agent follows the SOP exactly, flags deviations. $1K/month per SOP. Early adopters: compliance-heavy industries.
-**Why this wins long-term:** Every company has SOPs they don't follow. The "no-code process automation" tool — non-engineers automate their own workflows.
+### <span style="color: #FF9800">AgentTeam — Real-Time Multi-Agent Collaboration Dashboard</span>
+**Problem:** ZooClaw shows "proactive AI teams" working together. Cursor 3 shows parallel agents in the IDE. But there's no dashboard to see what each agent is doing, coordinate handoffs, or resolve conflicts when agents disagree.
+**Market:** Teams running multi-agent setups: dev teams (coding + code review + testing agents), agencies (research + writing + outreach agents), enterprises (cross-functional agent squads).
+**Why now:** Mngr proves parallel agent workloads exist. ZooClaw and Cursor 3 prove the pattern. The coordination layer is the missing piece — like "Slack for agents."
+**MVP hint:** Dashboard showing: (1) Each agent's current task and status (2) Message passing between agents (3) Conflict detection (when two agents work on the same file) (4) Handoff orchestration. Integrates with ZooClaw, Cursor 3, Claude Code Teams. $299/month for teams.
+**Why this wins long-term:** Every team with 3+ agents needs coordination. The "Asana for AI agents" — project management for autonomous teams.
