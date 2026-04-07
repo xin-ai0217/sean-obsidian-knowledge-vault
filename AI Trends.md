@@ -301,19 +301,54 @@ _Daily AI trends, startup ideas, and emerging patterns. Updated daily._
 - **In plain language:** A TTS model specifically optimized for voice AI agents — lower latency, more natural prosody, and better handling of the specific patterns voice agents use.
 - **For AI founders:** Voice agents need voice AI that's built for them, not repurposed from human TTS. The opportunity: build the voice layer for specific agent use cases (customer service, telemedicine, education) with custom voice characteristics.
 
-### <span style="color: #FF9800">AgentPulse by Rectify — Visual Agent Terminal</span>
+### AgentPulse by Rectify — Visual Agent Terminal
 > *"Everything in OpenClaw's terminal, you can now do visually"* — [Product Hunt](https://www.producthunt.com/products/agentpulse-by-rectify) · April 6, 2026
 
 **💡 What this means:**
 - **In plain language:** A visual equivalent for OpenClaw's terminal-based agent capabilities — bringing the power of AI coding agents to a graphical interface.
 - **For AI founders:** This shows the demand for "visual agent tools" outside the terminal. The opportunity: build visual debugging, monitoring, and workflow orchestration for AI agents.
 
-### <span style="color: #FF9800">Metoro — AI SRE for Kubernetes</span>
+### Metoro — AI SRE for Kubernetes
 > *"AI SRE that detects, root causes & auto-fixes K8s incidents"* — [Product Hunt](https://www.producthunt.com/products/metoro) · April 6, 2026
 
 **💡 What this means:**
 - **In plain language:** An AI system that acts as a Site Reliability Engineer — monitoring Kubernetes clusters, detecting issues, finding root causes, and automatically fixing problems.
 - **For AI founders:** The "AI for ops" category is maturing. This is a strong signal for vertical AI agents in infrastructure/devops. The startup angle: AI ops for specific platforms (AWS, GCP, specific workloads).
+
+### <span style="color: #FF9800">Google AI Edge Eloquent — Offline-First AI Dictation</span>
+> *"Google's offline-first AI dictation, powered by Gemma"* — [Product Hunt](https://www.producthunt.com/products/google) · April 6, 2026
+
+**💡 What this means:**
+- **In plain language:** Google's offline-first speech-to-text powered by Gemma — runs locally on device without internet, privacy-first dictation.
+- **For AI founders:** This is the "Gemma on edge" pattern proof point. The opportunity: build offline-first AI products that run locally with Gemma or similar models. Privacy-first = enterprise-friendly.
+
+### <span style="color: #FF9800">TestRelic AI — Ask Your Playwright Tests Why They Failed</span>
+> *"Ask your Playwright tests why they failed"* — [Product Hunt](https://www.producthunt.com/products/testrelic-ai) · April 6, 2026
+
+**💡 What this means:**
+- **In plain language:** An AI that analyzes failed Playwright tests and explains why they failed — turning test failures into actionable fix suggestions.
+- **For AI founders:** This is "AI for developer debugging." The pattern: build AI debuggers for specific developer workflows.
+
+### <span style="color: #FF9800">mempalace — Highest-Scoring AI Memory System</span>
+> *"The highest-scoring AI memory system ever benchmarked. And it's free."* — [milla-jovovich/mempalace](https://github.com/milla-jovovich/mempalace) · April 7, 2026
+
+**💡 What this means:**
+- **In plain language:** A new AI memory system that benchmarks as the highest-scoring ever — built as a drop-in replacement for existing memory systems, free to use.
+- **For AI founders:** Memory is the bottleneck. mempalace proving it's solvable at scale unlocks long-running agents.
+
+### <span style="color: #FF9800">OpenBrowser-AI — Connect AI Agents to Browser Through Raw CDP</span>
+> *"Connect AI agents to browser through raw CDP"* — [Product Hunt](https://www.producthunt.com/products/openbrowser-ai-59-less-100-accurate) · April 6, 2026
+
+**💡 What this means:**
+- **In plain language:** An infrastructure tool that connects AI agents directly to browsers via Chrome DevTools Protocol — bypassing intermediate layers for direct, accurate browser control.
+- **For AI founders:** Direct CDP = more reliable browser automation. This enables agents that can truly do browser-based work with better accuracy.
+
+### <span style="color: #FF9800">graphify — Turn Any Folder Into a Queryable Knowledge Graph</span>
+> *"AI coding assistant skill. Turn any folder of code, docs, papers, or images into a queryable knowledge graph"* — [safishamsi/graphify](https://github.com/safishamsi/graphify) · April 7, 2026
+
+**💡 What this means:**
+- **In plain language:** A skill that ingests any codebase, documentation, papers, or images and builds a queryable knowledge graph — enabling agents to "understand" entire codebases.
+- **For AI founders:** This unlocks "codebase-aware" agents. The opportunity: build vertical knowledge graphs for specific ecosystems.
 
 ---
 
@@ -323,29 +358,27 @@ _Generated daily based on trends observed. Not financial advice — just an AI f
 
 _Criteria: (1) MVP-executable, solves a real pain point in a niche market (2) Long-term bet, not a short-term whim (3) Doesn't compete with OpenAI, Google, or Anthropic._
 
----
-
-### <span style="color: #FF9800">MCPHub — The MCP Server Marketplace</span>
-**Problem:** Every AI agent needs tools, but MCP servers are scattered across GitHub, NPM, and custom builds. Finding, evaluating, and integrating MCP servers is a manual nightmare. mcp-brasil shows 41 Brazilian APIs as MCP — imagine the world's APIs as MCP. The discovery problem is unsolved.
-**Market:** Developers building AI agents (coding, research, ops), enterprises integrating AI into workflows. Every agent framework needs tools — MCP is becoming the USB-C of AI.
-**Why now:** MCP servers are exploding (browser, code review, data fetching, ops). But there's no "npm for MCP" — developers copy-paste from GitHub repos. The marketplace opportunity is massive.
-**MVP hint:** Curated MCP server marketplace with: (1) Search by capability (2) One-click install into OpenClaw, Cursor, Claude Code (3) Usage stats and ratings (4) Auto-update. Free for discovery, $29/month for teams with private servers.
-**Why this wins long-term:** The "npm of AI tooling" becomes the standard discovery layer. Network effects: more servers = more users = more server submissions.
+### <span style="color: #FF9800">CodeGraph — Knowledge Graph as a Service for Codebases</span>
+**Problem:** graphify shows "turn any folder into a queryable knowledge graph" — but this is a skill, not a service. Enterprises need a managed solution: indexing, search, and query APIs without maintaining the infrastructure themselves.
+**Market:** AI coding assistants, code review tools, documentation generators, security scanners. Any company building AI that needs to "understand" code.
+**Why now:** Every AI coding product needs codebase context. Building knowledge graphs from scratch is complex. The infrastructure layer is missing — no one offers "knowledge graph API for code" as a service.
+**MVP hint:** API that takes a GitHub/GitLab repo URL and returns: (1) Entities (files, functions, classes) (2) Relationships (imports, calls, inherits) (3) Query endpoint for natural language "find where X is used." $99/repo for indexing, $0.01/query.
+**Why this wins long-term:** Every AI coding tool needs codebase understanding. Be the "ParseTree of AI code understanding." Network effects: more repos indexed = better embeddings = better answers.
 
 ---
 
-### <span style="color: #FF9800">TraceScope — Production AI Debugger for Agents</span>
-**Problem:** Glassbrain shows "visual trace replay for AI apps to fix bugs in one click." But this is for dev. In production, AI apps crash silently, return garbage, or hallucinate — and there's no way to debug. Logs don't help when the LLM goes off rails.
-**Market:** Production AI applications: customer support bots, AI copilots, autonomous agents. The "Datadog for AI" market is untapped.
-**Why now:** The wave of "AI in production" means debugging AI is now a top pain. Every team building AI products struggles with: Why did it say that? Why did it fail? How much did it cost?
-**MVP hint:** Agent that instruments your AI pipeline: (1) Full trace capture (prompt → completion) (2) Cost/latency per request (3) "What went wrong" analysis with diffs (4) Alerting on hallucinations/failures. $199/month for teams.
-**Why this wins long-term:** Every production AI system needs observability. Like Datadog — but for AI. First-mover builds the standard.
+### <span style="color: #FF9800">TestPilot — AI That Writes and Maintains Your Tests</span>
+**Problem:** TestRelic asks "why did tests fail?" — but someone still has to write the tests. Most codebases have 0% or terrible test coverage. AI can write tests, but maintaining them is the pain — every code change breaks tests.
+**Market:** Every developer team that wants tests but hates writing them. The "AI for test coverage" market is wide open.
+**Why now:** LLMs can generate tests. But the maintenance burden (fixing broken tests after every change) makes teams give up. AI-first test maintenance is the gap.
+**MVP hint:** GitHub app that: (1) Auto-writes tests for new PRs (2) Detects test failures on code change (3) Auto-fixes tests that break (4) Reports "what we test and what we don't." Free for open source, $49/dev/month for teams.
+**Why this wins long-term:** Test coverage is a universal pain. The moat: better test generation = better codebase understanding = can power other developer tools.
 
 ---
 
-### <span style="color: #FF9800">VerticalMemory — Domain-Specific Memory for AI Agents</span>
-**Problem:** memoryos shows "episodic + semantic memory for agents." But generic memory doesn't work for vertical agents. A legal research agent needs to remember case law, precedents, jurisdiction. A medical agent needs drug interactions, protocols. Generic memory = generic agents.
-**Market:** Vertical AI agents: legal research, healthcare, financial analysis, compliance. Domain expertise requires domain-specific memory.
-**Why now:** The memory problem is the bottleneck. memoryos proves the architecture. But the vertical layer is missing — no one builds "memory for X" where X is a specific industry.
-**MVP hint:** Pre-built memory systems for specific verticals with domain-specific recall: (1) Legal: case law, citations, jurisdiction (2) Medical: drug interactions, protocols, guidelines (3) Financial: regulations, precedent, tickers. Integrates with any agent framework. $99/month per vertical.
-**Why this wins long-term:** Domain memory is defensible. It's not just the model — it's what the model knows and recalls. Vertical memory = vertical agents that beat generic ones out of the box.
+### <span style="color: #FF9800">EdgeForge — Build Offline-First AI Apps with Gemma</span>
+**Problem:** Google AI Edge Eloquent shows "offline-first AI dictation powered by Gemma." But there's no "build your own offline AI app" platform. Companies want privacy-first AI but don't want to build the infrastructure.
+**Market:** Enterprises that need AI but can't send data to the cloud: healthcare, finance, legal, government. Privacy-first = local-first.
+**Why now:** Gemma runs on consumer hardware (Mac, iPhone, RTX 4090). The model is ready — the "build platform" is missing. Every enterprise will want "our AI, running on our devices."
+**MVP hint:** No-code platform to build offline AI apps: (1) Upload your data (2) Fine-tune Gemma on your data (3) Deploy to your devices. No internet required. $299/month for teams.
+**Why this wins long-term:** Privacy-first AI is a $10B+ market. Enterprises will pay premiums for "our data never leaves our devices." The platform moat: better tooling = more users = more fine-tuned models.
