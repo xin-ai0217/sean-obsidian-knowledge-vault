@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dolphin — Project Dashboard.md",
+                "file": "Dolphin/Tasks/DEV-001 Email Fix.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Dolphin — Project Dashboard"
+              "title": "DEV-001 Email Fix"
             }
           }
         ],
@@ -202,8 +202,30 @@
   },
   "active": "5c40f171faff7d48",
   "lastOpenFiles": [
-    "AI Trends.md",
+    "Dolphin/Task Board.md",
     "Dolphin — Project Dashboard.md",
+    "Dolphin/Bug Board.md",
+    "Dolphin/Tasks/DEV-003 Custom Domain.md",
+    "Dolphin/Bugs/BUG-002 Suspense Boundary.md",
+    "Dolphin/Bugs/BUG-001 Email Deliverability.md",
+    "Dolphin/Tasks/DEV-015 Core Interview Flow.md",
+    "Dolphin/Tasks/DEV-014 Landing Page.md",
+    "Dolphin/Tasks/DEV-013 Study Actions Dropdown.md",
+    "Dolphin/Tasks/DEV-012 Study Question Probing.md",
+    "Dolphin/Tasks/DEV-011 Audio Storage Unified.md",
+    "Dolphin/Tasks/DEV-010 AI Interviewer Prompt.md",
+    "Dolphin/Tasks/DEV-009 Payment Fix.md",
+    "Dolphin/Tasks/DEV-008 Prolific Campaign Dashboard.md",
+    "Dolphin/Tasks/DEV-007 Unified Campaign Pages.md",
+    "Dolphin/Tasks/DEV-006 Prolific Edit Live.md",
+    "Dolphin/Tasks/DEV-005 Researcher Analytics.md",
+    "Dolphin/Tasks/DEV-004 Participant Portal.md",
+    "Dolphin/Tasks/DEV-002 Invite Metrics.md",
+    "Dolphin/Tasks/DEV-001 Email Fix.md",
+    "Dolphin/Tasks",
+    "Dolphin/Bugs",
+    "Dolphin",
+    "AI Trends.md",
     "Stratechery.md",
     "TODO.md",
     "GTM深度推演.md",
@@ -218,8 +240,6 @@
     "Untitled",
     "daily-ai-trends.sh",
     "2026-03-23.md",
-    "Welcome.md",
-    "sync.sh",
     "Untitled.canvas"
   ]
 }
