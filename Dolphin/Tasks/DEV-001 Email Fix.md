@@ -3,25 +3,23 @@ id: DEV-001
 status: In Progress
 priority: 🟠 Medium
 created: 2026-04-09
-completed:
+completed: 2026-04-09
 ---
 
 # DEV-001 — Email Fix
 
-**What:** Invites only land in Gmail. Chinese enterprise email (Tencent etc) silently dropped because the current sender `onboarding@resend.dev` is a shared test address — by design it can only deliver to emails registered on the Resend account. Same restriction applies to SendGrid without a verified sender.
+**What:** Invites only landed in Gmail. Chinese enterprise email (Tencent etc) was silently dropped because `onboarding@resend.dev` is a shared Resend sandbox — by design it only delivers to verified Resend account emails.
 
-**Fix path:**
-- Short term: swap Resend → SendGrid, verify personal email as sender → anyone can receive ✅
-- Permanent: buy a domain, verify DNS → send from `noreply@yourdomain.com`
+**Resolution:**
+- Switched to SendGrid with single sender verification (`seanxin@tencent.com`)
+- `lib/email.ts` now picks SendGrid when `SENDGRID_API_KEY` is present, falls back to Resend
+- `RESEND_API_KEY` commented out in `.env.local` to prevent silent fallback
+- `SENDGRID_API_KEY` + `SENDGRID_FROM_EMAIL` added to Vercel env vars and deployed
+- Production now sends via SendGrid ✅
+
+**Remaining (nice to have):** Buy a domain → use `noreply@yourdomain.com` for professional branding. See [[DEV-003 Custom Domain]].
 
 **Linked bugs:** [[BUG-001 Email Deliverability]]
-
----
-
-### Notes
-
-- Gmail ✅ delivered
-- Tencent ⚠️ delivered to Tencent mail server but blocked internally by their enterprise security policy — recipient never sees it. This is a Tencent IT policy issue, not a sender/deliverability issue on our end. A custom domain with proper SPF/DKIM may improve this but not guaranteed.
 
 ---
 
@@ -30,7 +28,7 @@ completed:
 - [x] Identify root cause (shared sender restriction)
 - [x] Codex: swap Resend → SendGrid
 - [x] Test delivery to Gmail + Tencent enterprise email
-- [ ] Buy domain (Cloudflare Registrar, ~$10/yr)
-- [ ] Verify domain DNS on email provider
-- [ ] Update sender to `noreply@yourdomain.com`
-- [ ] Update `SENDGRID_FROM_EMAIL` env var in Vercel
+- [x] Add `SENDGRID_API_KEY` + `SENDGRID_FROM_EMAIL` to Vercel env vars
+- [x] Redeploy to production — SendGrid now active in prod
+- [x] Comment out `RESEND_API_KEY` in `.env.local` to prevent fallback
+- [ ] Buy domain → update sender to `noreply@yourdomain.com` (tracked in DEV-003)

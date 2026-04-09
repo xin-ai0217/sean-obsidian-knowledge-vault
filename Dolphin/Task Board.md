@@ -7,24 +7,26 @@ kanban-plugin: basic
 - [ ] [[DEV-003 Custom Domain]]
 - [ ] [[DEV-004 Participant Portal]]
 - [ ] [[DEV-005 Researcher Analytics]]
-- [ ] [[DEV-006 Prolific Edit Live]]
+- [ ] [[DEV-007 Prolific Integration Hardening]]
 
 ## 🔵 In Progress
 
 - [ ] [[DEV-001 Email Fix]]
 - [ ] [[DEV-002 Invite Metrics]]
+- [ ] [[DEV-006 Prolific Edit Live]]
 
 ## 🟢 Done
 
-- [x] [[DEV-007 Unified Campaign Pages]]
-- [x] [[DEV-008 Prolific Campaign Dashboard]]
-- [x] [[DEV-009 Payment Fix]]
-- [x] [[DEV-010 AI Interviewer Prompt]]
-- [x] [[DEV-011 Audio Storage Unified]]
-- [x] [[DEV-012 Study Question Probing]]
-- [x] [[DEV-013 Study Actions Dropdown]]
-- [x] [[DEV-014 Landing Page]]
-- [x] [[DEV-015 Core Interview Flow]]
+- [x] [[DEV-008 Unified Campaign Pages]]
+- [x] [[DEV-009 Prolific Campaign Dashboard]]
+- [x] [[DEV-010 Payment Fix]]
+- [x] [[DEV-011 AI Interviewer Prompt]]
+- [x] [[DEV-012 Audio Storage Unified]]
+- [x] [[DEV-013 Study Question Probing]]
+- [x] [[DEV-014 Study Actions Dropdown]]
+- [x] [[DEV-015 Landing Page]]
+- [x] [[DEV-016 Core Interview Flow]]
+- [x] [[DEV-017 SendGrid Integration]]
 
 ## ⚫ Archived
 
