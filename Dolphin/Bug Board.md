@@ -6,12 +6,12 @@ kanban-plugin: basic
 
 - [ ] [[BUG-001 Email Deliverability]]
 - [ ] [[BUG-002 Suspense Boundary]]
-- [ ] [[BUG-004 Prolific Filter IDs Hardcoded]]
 - [ ] [[BUG-005 Prolific Draft Not Saved]]
 
 ## 🟢 Fixed
 
 - [x] [[BUG-003 Prolific Double Spend Risk]]
+- [x] [[BUG-004 Prolific Filter IDs Hardcoded]]
 
 ## ⚫ Archived
 
