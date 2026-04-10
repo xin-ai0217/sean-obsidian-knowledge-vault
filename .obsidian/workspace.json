@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI新品.md",
+                "file": "Dolphin/Task Board.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AI新品"
+              "title": "Task Board"
             }
           }
         ],
@@ -201,6 +201,8 @@
   },
   "active": "5c40f171faff7d48",
   "lastOpenFiles": [
+    "Dolphin — Project Dashboard.md",
+    "AI新品.md",
     "Dolphin/Tasks/DEV-018 Multi-Platform Recruitment Architecture.md",
     "TODO.md",
     "Dolphin/Bugs/BUG-005 Prolific Draft Not Saved.md",
@@ -211,7 +213,6 @@
     "Dolphin/Task Board.md",
     "Dolphin/Tasks/DEV-002 Invite Metrics.md",
     "Dolphin/Tasks/DEV-001 Email Fix.md",
-    "Dolphin — Project Dashboard.md",
     "Dolphin/Bug Board.md",
     "Dolphin/Tasks/DEV-003 Custom Domain.md",
     "Dolphin/Bugs/BUG-002 Suspense Boundary.md",
@@ -226,7 +227,6 @@
     "Dolphin/Tasks/DEV-008 Prolific Campaign Dashboard.md",
     "Dolphin/Tasks/DEV-007 Unified Campaign Pages.md",
     "Dolphin/Tasks/DEV-006 Prolific Edit Live.md",
-    "Dolphin/Tasks/DEV-005 Researcher Analytics.md",
     "Dolphin/Tasks",
     "Dolphin/Bugs",
     "Dolphin",
