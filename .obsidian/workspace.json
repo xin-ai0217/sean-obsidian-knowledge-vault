@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TODO.md",
+                "file": "AI新品.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "TODO"
+              "title": "AI新品"
             }
           }
         ],
@@ -201,6 +201,7 @@
   },
   "active": "5c40f171faff7d48",
   "lastOpenFiles": [
+    "TODO.md",
     "Dolphin/Bugs/BUG-005 Prolific Draft Not Saved.md",
     "Dolphin/Bugs/BUG-004 Prolific Filter IDs Hardcoded.md",
     "Dolphin/Bugs/BUG-003 Prolific Double Spend Risk.md",
@@ -229,7 +230,6 @@
     "Dolphin/Tasks",
     "Dolphin/Bugs",
     "Dolphin",
-    "AI Trends.md",
     "Vault_change_notify",
     "Knowledge",
     "AI新品.md.tmp.5.1774932417949",
