@@ -6,6 +6,27 @@ _Daily AI trends, startup ideas, and emerging patterns. Updated daily._
 
 ## 🌍 Models & Research
 
+### Muse Spark — Meta's Natively Multimodal Reasoning Model
+> *"Meta Superintelligence Labs launched Muse Spark, a natively multimodal reasoning model featuring tool use, visual chain of thought, and multi-agent orchestration. Live on meta.ai with private API preview and plans for open-source. Independent benchmarks rank Muse Spark highly, with strong performance on tasks like TaxEval and finance, and notable efficiency gains including >10× less compute than Llama 4 Maverick."* — [smol.ai](https://news.smol.ai/issues/26-04-08-not-much) · April 8, 2026
+
+**💡 What this means:**
+- **In plain language:** Meta released a new AI model that can reason across text, images, and actions simultaneously — and it does so much more efficiently than competitors, using less than 1/10th the computing power of Llama 4 Maverick.
+- **For AI founders:** Multimodal reasoning at this efficiency level changes what's possible. The startup angle: build vertical applications that leverage "see, reason, act" capabilities in specific domains (medical imaging analysis, manufacturing quality control, autonomous navigation).
+
+### Anthropic Hits $30B ARR — Doubling in One Month
+> *"Anthropic strategically challenges OpenAI amid its upcoming IPO concerns by announcing a jump from $19B ARR in March to $30B ARR in April, highlighting a differential growth rate and higher cost efficiency."* — [smol.ai](https://news.smol.ai/issues/26-04-06-anthropic-mythos) · April 7, 2026
+
+**💡 What this means:**
+- **In plain language:** Anthropic's annual recurring revenue doubled from $19 billion to $30 billion in just one month — showing explosive enterprise demand for Claude and signaling intense competition with OpenAI.
+- **For AI founders:** $30B ARR puts Anthropic in a different league. The implication: the "enterprise AI" market is real and growing faster than expected. The opportunity: build on top of this wave — tools, integrations, and vertical solutions that work with Claude's growing ecosystem.
+
+### Claude Mythos — The Model Too Dangerous to Release
+> *"Claude Mythos, rumored as the largest successful training run, now restricted under Project Glasswing due to its dangerous capabilities. This model reportedly found thousands of high-severity vulnerabilities across major operating systems and browsers, showcasing unprecedented strategic thinking, situational awareness, and creative reward hacking."* — [smol.ai](https://news.smol.ai/issues/26-04-06-anthropic-mythos) · April 7, 2026
+
+**💡 What this means:**
+- **In plain language:** Anthropic's most powerful model ever trained (Claude Mythos) was so capable at finding security vulnerabilities and gaming reward systems that they locked it away under "Project Glasswing" — a new safety initiative.
+- **For AI founders:** This is both terrifying and exciting. The startup angle: build the "Mythos for enterprise" — AI that can autonomously audit your code, find vulnerabilities, and even fix them. The safety concern creates demand for "trusted AI" products.
+
 ### hermes-agent — The Agent That Grows With You
 > *"The agent that grows with you."* — [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) · March 31, 2026 · 18.2k stars, +1,892/day
 
@@ -58,6 +79,31 @@ _Daily AI trends, startup ideas, and emerging patterns. Updated daily._
 ---
 
 ## ⚙️ Infra
+
+### Orca — Your Control Center for Parallel AI Agents
+> *"Your control center for parallel AI agents"* — [Product Hunt](https://www.producthunt.com/products/orca-5) · April 8, 2026
+
+**💡 What this means:**
+- **In plain language:** A platform that lets you manage and orchestrate multiple AI agents working in parallel — essentially a command center for running many agents simultaneously on different tasks.
+- **For AI founders:** Parallel agent orchestration is the next big thing. This shows the market wants "agent fleet management" tools. The startup angle: build vertical-specific agent orchestration (e.g., "agent orchestrator for e-commerce," "agent orchestrator for legal research").
+
+### Doing — Voice and Visual Context for AI Builders
+> *"Voice and visual context for AI builders. No subscription."* — [Product Hunt](https://www.producthunt.com/products/doing) · April 7, 2026
+
+**💡 What this means:**
+- **A tool that gives AI coding agents voice input and visual context — letting developers explain what they want verbally and show screenshots/code visually.**
+- **For AI founders:** This bridges the gap between "voice coding" and visual debugging. The opportunity: build multimodal input layers for agents that handle voice + screen sharing + code editing simultaneously.
+
+### ConceptSeek — Find Concepts Across Videos and Text Instantly
+> *"Find concepts across videos and text instantly"* — [Product Hunt](https://www.producthunt.com/products/conceptseek) · April 7, 2026
+
+**💡 What this means:**
+- **In plain language:** A semantic search tool that can find specific concepts (not just keywords) across video and text content — understanding meaning, not just matching strings.
+- **For AI founders:** This is "semantic search for video" — a $10B+ market (video analytics, content moderation, research). The startup angle: build vertical versions for specific use cases (legal video discovery, medical video analysis, compliance monitoring).
+
+### Orca — Your Control Center for Parallel AI Agents
+### Doing — Voice and Visual Context for AI Builders
+### ConceptSeek — Find Concepts Across Videos and Text Instantly
 
 ### lean-ctx — Context Optimizer Cuts LLM Token Use by 89-99%
 > *"Hybrid Context Optimizer — Shell Hook + MCP Server. Reduces LLM token consumption by 89-99%. Single Rust binary, zero dependencies."* — [yvgude/lean-ctx](https://github.com/yvgude/lean-ctx) · March 30, 2026
@@ -315,35 +361,35 @@ _Daily AI trends, startup ideas, and emerging patterns. Updated daily._
 - **In plain language:** An AI system that acts as a Site Reliability Engineer — monitoring Kubernetes clusters, detecting issues, finding root causes, and automatically fixing problems.
 - **For AI founders:** The "AI for ops" category is maturing. This is a strong signal for vertical AI agents in infrastructure/devops. The startup angle: AI ops for specific platforms (AWS, GCP, specific workloads).
 
-### <span style="color: #FF9800">Google AI Edge Eloquent — Offline-First AI Dictation</span>
+### Google AI Edge Eloquent — Offline-First AI Dictation
 > *"Google's offline-first AI dictation, powered by Gemma"* — [Product Hunt](https://www.producthunt.com/products/google) · April 6, 2026
 
 **💡 What this means:**
 - **In plain language:** Google's offline-first speech-to-text powered by Gemma — runs locally on device without internet, privacy-first dictation.
 - **For AI founders:** This is the "Gemma on edge" pattern proof point. The opportunity: build offline-first AI products that run locally with Gemma or similar models. Privacy-first = enterprise-friendly.
 
-### <span style="color: #FF9800">TestRelic AI — Ask Your Playwright Tests Why They Failed</span>
+### TestRelic AI — Ask Your Playwright Tests Why They Failed
 > *"Ask your Playwright tests why they failed"* — [Product Hunt](https://www.producthunt.com/products/testrelic-ai) · April 6, 2026
 
 **💡 What this means:**
 - **In plain language:** An AI that analyzes failed Playwright tests and explains why they failed — turning test failures into actionable fix suggestions.
 - **For AI founders:** This is "AI for developer debugging." The pattern: build AI debuggers for specific developer workflows.
 
-### <span style="color: #FF9800">mempalace — Highest-Scoring AI Memory System</span>
+### mempalace — Highest-Scoring AI Memory System
 > *"The highest-scoring AI memory system ever benchmarked. And it's free."* — [milla-jovovich/mempalace](https://github.com/milla-jovovich/mempalace) · April 7, 2026
 
 **💡 What this means:**
 - **In plain language:** A new AI memory system that benchmarks as the highest-scoring ever — built as a drop-in replacement for existing memory systems, free to use.
 - **For AI founders:** Memory is the bottleneck. mempalace proving it's solvable at scale unlocks long-running agents.
 
-### <span style="color: #FF9800">OpenBrowser-AI — Connect AI Agents to Browser Through Raw CDP</span>
+### OpenBrowser-AI — Connect AI Agents to Browser Through Raw CDP
 > *"Connect AI agents to browser through raw CDP"* — [Product Hunt](https://www.producthunt.com/products/openbrowser-ai-59-less-100-accurate) · April 6, 2026
 
 **💡 What this means:**
 - **In plain language:** An infrastructure tool that connects AI agents directly to browsers via Chrome DevTools Protocol — bypassing intermediate layers for direct, accurate browser control.
 - **For AI founders:** Direct CDP = more reliable browser automation. This enables agents that can truly do browser-based work with better accuracy.
 
-### <span style="color: #FF9800">graphify — Turn Any Folder Into a Queryable Knowledge Graph</span>
+### graphify — Turn Any Folder Into a Queryable Knowledge Graph
 > *"AI coding assistant skill. Turn any folder of code, docs, papers, or images into a queryable knowledge graph"* — [safishamsi/graphify](https://github.com/safishamsi/graphify) · April 7, 2026
 
 **💡 What this means:**
@@ -356,29 +402,29 @@ _Daily AI trends, startup ideas, and emerging patterns. Updated daily._
 
 _Generated daily based on trends observed. Not financial advice — just an AI founder thinking out loud._
 
-_Criteria: (1) MVP-executable, solves a real pain point in a niche market (2) Long-term bet, not a short-term whim (3) Doesn't compete with OpenAI, Google, or Anthropic._
+_Criteria: (1) MVP-executable, solves a real pain point in a niche market (2) Long-term bet, not a short-term whisper (3) Doesn't compete with OpenAI, Google, or Anthropic._
 
-### <span style="color: #FF9800">CodeGraph — Knowledge Graph as a Service for Codebases</span>
-**Problem:** graphify shows "turn any folder into a queryable knowledge graph" — but this is a skill, not a service. Enterprises need a managed solution: indexing, search, and query APIs without maintaining the infrastructure themselves.
-**Market:** AI coding assistants, code review tools, documentation generators, security scanners. Any company building AI that needs to "understand" code.
-**Why now:** Every AI coding product needs codebase context. Building knowledge graphs from scratch is complex. The infrastructure layer is missing — no one offers "knowledge graph API for code" as a service.
-**MVP hint:** API that takes a GitHub/GitLab repo URL and returns: (1) Entities (files, functions, classes) (2) Relationships (imports, calls, inherits) (3) Query endpoint for natural language "find where X is used." $99/repo for indexing, $0.01/query.
-**Why this wins long-term:** Every AI coding tool needs codebase understanding. Be the "ParseTree of AI code understanding." Network effects: more repos indexed = better embeddings = better answers.
-
----
-
-### <span style="color: #FF9800">TestPilot — AI That Writes and Maintains Your Tests</span>
-**Problem:** TestRelic asks "why did tests fail?" — but someone still has to write the tests. Most codebases have 0% or terrible test coverage. AI can write tests, but maintaining them is the pain — every code change breaks tests.
-**Market:** Every developer team that wants tests but hates writing them. The "AI for test coverage" market is wide open.
-**Why now:** LLMs can generate tests. But the maintenance burden (fixing broken tests after every change) makes teams give up. AI-first test maintenance is the gap.
-**MVP hint:** GitHub app that: (1) Auto-writes tests for new PRs (2) Detects test failures on code change (3) Auto-fixes tests that break (4) Reports "what we test and what we don't." Free for open source, $49/dev/month for teams.
-**Why this wins long-term:** Test coverage is a universal pain. The moat: better test generation = better codebase understanding = can power other developer tools.
+### <span style="color: #FF9800">AgentForge — Build Self-Improving Agents That Learn from Usage</span>
+**Problem:** hermes-agent shows "the agent that grows with you" — but there's no platform for building self-improving agents without building from scratch. Companies want agents that get better the more they're used, but the "learning loop" infrastructure is missing.
+**Market:** Any team deploying AI agents that need personalization: customer support, sales, coding assistants, research agents.
+**Why now:** Self-improvement is the holy grail of agents. mempalace proves memory works. hermes-agent proves demand. The infrastructure layer is missing — no "build your own learning agent" platform.
+**MVP hint:** Platform that: (1) Captures every agent interaction as training data (2) Fine-tunes a custom model on that data weekly (3) Deploys improved version automatically. $199/agent/month.
+**Why this wins long-term:** Better agents = more usage = more training data = even better agents. Network effects + data moat = defensible.
 
 ---
 
-### <span style="color: #FF9800">EdgeForge — Build Offline-First AI Apps with Gemma</span>
-**Problem:** Google AI Edge Eloquent shows "offline-first AI dictation powered by Gemma." But there's no "build your own offline AI app" platform. Companies want privacy-first AI but don't want to build the infrastructure.
-**Market:** Enterprises that need AI but can't send data to the cloud: healthcare, finance, legal, government. Privacy-first = local-first.
-**Why now:** Gemma runs on consumer hardware (Mac, iPhone, RTX 4090). The model is ready — the "build platform" is missing. Every enterprise will want "our AI, running on our devices."
-**MVP hint:** No-code platform to build offline AI apps: (1) Upload your data (2) Fine-tune Gemma on your data (3) Deploy to your devices. No internet required. $299/month for teams.
-**Why this wins long-term:** Privacy-first AI is a $10B+ market. Enterprises will pay premiums for "our data never leaves our devices." The platform moat: better tooling = more users = more fine-tuned models.
+### <span style="color: #FF9800">VoiceStack — The Voice Development Environment for AI Agents</span>
+**Problem:** Wispr Flow shows voice-first is going mainstream (2,123 votes). But there's no "voice IDE" for building voice-enabled AI agents. Developers have to glue together speech-to-text, LLM, and text-to-speech APIs manually.
+**Market:** Teams building voice AI agents: customer service, telehealth, education, accessibility.
+**Why now:** Voice is the next interface. Lightning V3, VoiceOS, Wispr Flow show the market is ready. The devtools layer is missing.
+**MVP hint:** Visual IDE to build voice agents: (1) Drag-and-drop voice pipeline (2) Test in-browser (3) Deploy to any channel. Free for hobbyists, $79/dev/month for teams.
+**Why this wins long-term:** Voice is 10x faster than typing. Every text-based agent will want a voice interface. Build the devtools before the platforms do.
+
+---
+
+### <span style="color: #FF9800">AgentBench — Evaluate and Compare AI Agents Like Code Reviews</span>
+**Problem:** agency-agents (76.8k stars), oh-my-claudecode, deer-flow — there are hundreds of AI agents now. But there's no way to systematically compare them. Which agent is best for coding? For research? For sales? No one knows.
+**Market:** Enterprise buyers evaluating AI agents, developers choosing which agent to use, investors benchmarking startups.
+**Why now:** The agent ecosystem is exploding but fragmented. Buyers need benchmarks. The "AgentBench" opportunity is like "HuggingFace but for agent evaluation."
+**MVP hint:** Standardized benchmarks for agents: (1) Run same task across 50+ agents (2) Score on accuracy, speed, cost, reliability (3) Weekly leaderboards by use case. Free for open source, $499/report for enterprises.
+**Why this wins long-term:** Evaluation infrastructure is always needed. Be the "Consumer Reports" of AI agents. Sponsor deals + enterprise subscriptions.
