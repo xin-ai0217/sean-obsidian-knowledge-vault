@@ -201,6 +201,7 @@
   },
   "active": "5c40f171faff7d48",
   "lastOpenFiles": [
+    "Dolphin/Tasks/DEV-018 Multi-Platform Recruitment Architecture.md",
     "TODO.md",
     "Dolphin/Bugs/BUG-005 Prolific Draft Not Saved.md",
     "Dolphin/Bugs/BUG-004 Prolific Filter IDs Hardcoded.md",
@@ -226,7 +227,6 @@
     "Dolphin/Tasks/DEV-007 Unified Campaign Pages.md",
     "Dolphin/Tasks/DEV-006 Prolific Edit Live.md",
     "Dolphin/Tasks/DEV-005 Researcher Analytics.md",
-    "Dolphin/Tasks/DEV-004 Participant Portal.md",
     "Dolphin/Tasks",
     "Dolphin/Bugs",
     "Dolphin",

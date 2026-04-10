@@ -7,13 +7,14 @@ kanban-plugin: basic
 - [ ] [[DEV-003 Custom Domain]]
 - [ ] [[DEV-004 Participant Portal]]
 - [ ] [[DEV-005 Researcher Analytics]]
-- [ ] [[DEV-007 Prolific Integration Hardening]]
+- [ ] [[DEV-018 Multi-Platform Recruitment Architecture]]
 
 ## 🔵 In Progress
 
 - [ ] [[DEV-001 Email Fix]]
 - [ ] [[DEV-002 Invite Metrics]]
 - [ ] [[DEV-006 Prolific Edit Live]]
+- [ ] [[DEV-007 Prolific Integration Hardening]]
 
 ## 🟢 Done
 
