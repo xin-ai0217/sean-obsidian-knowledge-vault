@@ -404,7 +404,7 @@ _Generated daily based on trends observed. Not financial advice — just an AI f
 
 _Criteria: (1) MVP-executable, solves a real pain point in a niche market (2) Long-term bet, not a short-term whisper (3) Doesn't compete with OpenAI, Google, or Anthropic._
 
-### <span style="color: #FF9800">AgentForge — Build Self-Improving Agents That Learn from Usage</span>
+### AgentForge — Build Self-Improving Agents That Learn from Usage
 **Problem:** hermes-agent shows "the agent that grows with you" — but there's no platform for building self-improving agents without building from scratch. Companies want agents that get better the more they're used, but the "learning loop" infrastructure is missing.
 **Market:** Any team deploying AI agents that need personalization: customer support, sales, coding assistants, research agents.
 **Why now:** Self-improvement is the holy grail of agents. mempalace proves memory works. hermes-agent proves demand. The infrastructure layer is missing — no "build your own learning agent" platform.
@@ -413,7 +413,7 @@ _Criteria: (1) MVP-executable, solves a real pain point in a niche market (2) Lo
 
 ---
 
-### <span style="color: #FF9800">VoiceStack — The Voice Development Environment for AI Agents</span>
+### VoiceStack — The Voice Development Environment for AI Agents
 **Problem:** Wispr Flow shows voice-first is going mainstream (2,123 votes). But there's no "voice IDE" for building voice-enabled AI agents. Developers have to glue together speech-to-text, LLM, and text-to-speech APIs manually.
 **Market:** Teams building voice AI agents: customer service, telehealth, education, accessibility.
 **Why now:** Voice is the next interface. Lightning V3, VoiceOS, Wispr Flow show the market is ready. The devtools layer is missing.
@@ -422,9 +422,82 @@ _Criteria: (1) MVP-executable, solves a real pain point in a niche market (2) Lo
 
 ---
 
-### <span style="color: #FF9800">AgentBench — Evaluate and Compare AI Agents Like Code Reviews</span>
+### AgentBench — Evaluate and Compare AI Agents Like Code Reviews
 **Problem:** agency-agents (76.8k stars), oh-my-claudecode, deer-flow — there are hundreds of AI agents now. But there's no way to systematically compare them. Which agent is best for coding? For research? For sales? No one knows.
 **Market:** Enterprise buyers evaluating AI agents, developers choosing which agent to use, investors benchmarking startups.
 **Why now:** The agent ecosystem is exploding but fragmented. Buyers need benchmarks. The "AgentBench" opportunity is like "HuggingFace but for agent evaluation."
 **MVP hint:** Standardized benchmarks for agents: (1) Run same task across 50+ agents (2) Score on accuracy, speed, cost, reliability (3) Weekly leaderboards by use case. Free for open source, $499/report for enterprises.
 **Why this wins long-term:** Evaluation infrastructure is always needed. Be the "Consumer Reports" of AI agents. Sponsor deals + enterprise subscriptions.
+
+---
+
+## 📅 April 12, 2026
+
+### multica — The Open-Source Managed Agents Platform
+> *"The open-source managed agents platform. Turn coding agents into real teammates — assign tasks, track progress, compound skills."* — [multica-ai/multica](https://github.com/multica-ai/multica) · April 12, 2026 · 7.6k stars, +1,731/day
+
+**💡 What this means:**
+- **In plain language:** A platform that transforms coding agents into "team members" — you can assign them tasks, track their progress, and compound their skills over time. Think of it as "GitHub for AI agents" where agents have identity, memory, and can learn from past work.
+- **For AI founders:** This is the "agent management" layer emerging. The opportunity: build vertical-specific agent management platforms that come pre-configured for specific workflows (e.g., "agent manager for QA," "agent manager for data analysis").
+
+### andrej-karpathy-skills — Karpathy's AI Skills Collection
+> *"Curated AI skills from Andrej Karpathy"* — [forrestchang/andrej-karpathy-skills](https://github.com/forrestchang/andrej-karpathy-skills) · April 12, 2026 · 13.1k stars, +1,565/day
+
+**💡 What this means:**
+- **In plain language:** A collection of AI "skills" (prompt patterns, agent configurations, workflows) curated from Andrej Karpathy's work — essentially the "best practices" from one of the most influential AI researchers.
+- **For AI founders:** Karpathy's influence signals where the industry is going. The commercial angle: build "skill marketplaces" where developers can share, discover, and monetize AI workflows — similar to how Shopify apps work.
+
+### Kronos — Foundation Model for Financial Markets
+> *"Kronos: A Foundation Model for the Language of Financial Markets"* — [shiyu-coder/Kronos](https://github.com/shiyu-coder/Kronos) · April 12, 2026 · 13.9k stars, +1,294/day
+
+**💡 What this means:**
+- **In plain language:** A foundation model specifically trained on financial data — designed to understand the "language" of markets, trading, and financial text. It can analyze earnings calls, parse SEC filings, and generate financial insights.
+- **For AI founders:** Vertical foundation models are the next frontier. Kronos proves there's demand for domain-specific models. The opportunity: build vertical AI for specific financial workflows (investment research, risk assessment, compliance) using specialized models.
+
+### Clicky — AI Buddy Next to Your Cursor on Mac
+> *"AI buddy next to your cursor on Mac—sees, guides, helps you!"* — [Product Hunt](https://www.producthunt.com/products/clicky-2) · April 11, 2026 · 130 votes
+
+**💡 What this means:**
+- **In plain language:** A Mac app that puts an AI assistant right next to your cursor — it can see what you're doing, provide guidance, and help you complete tasks in any application. It's like having a pair of eyes watching your screen and offering help in real-time.
+- **For AI founders:** This is the "ambient AI" pattern — AI that lives in the background of your workflow. The opportunity: build ambient AI for specific contexts (coding assistant that watches your IDE, design assistant that watches Figma, writing assistant that watches your editor).
+
+### Capso — Open-Source Screenshot & Screen Recorder for Mac
+> *"Free open-source screenshot & screen recorder for Mac"* — [Product Hunt](https://www.producthunt.com/products/capso) · April 11, 2026 · 223 votes
+
+**💡 What this means:**
+- **In plain language:** A free, open-source screenshot and screen recording tool for Mac — built with modern design, simple UX, and no subscription. It captures screenshots, records screens, and organizes your captures.
+- **For AI founders:** Capso shows that "boring utility" tools can still win with great UX and AI integration. The angle: add AI features to utility apps (auto-caption screenshots, AI search through captures, transcription of recordings).
+
+### LaReview — Next-Generation Open-Source Code Review
+> *"Open-source free next-generation code review"* — [Product Hunt](https://www.producthunt.com/products/lareview) · April 11, 2026 · 182 votes
+
+**💡 What this means:**
+- **An AI-powered code review tool that's open-source and free — it analyzes your code, finds issues, suggests improvements, and explains its reasoning.**
+- **For AI founders:** Code review is low-hanging fruit for AI. The opportunity: build vertical code review for specific languages/frameworks (React code review, Python data science review, Rust systems code review) with deep domain expertise.
+
+---
+
+### <span style="color: #FF9800">SkillMarket — The Airbnb for AI Skills and Agent Workflows</span>
+**Problem:** andrej-karpathy-skills (13.1k stars), person-skills, and the broader "AI skills" ecosystem show that reusable prompt patterns and agent workflows are valuable. But there's no marketplace to buy/sell them.
+**Market:** Developers and teams using AI agents who want to leverage proven workflows rather than reinventing them.
+**Why now:** The "skills" pattern is proven — karpathy-skills went viral in days. The missing piece: a marketplace where creators can monetize their skills and buyers can discover tested workflows.
+**MVP hint:** Marketplace platform: (1) Skills as installable packages (2) Ratings/reviews (3) Revenue share 70/30. Free to list, 20% transaction fee.
+**Why this wins long-term:** Skills become more valuable over time as they get refined. Network effects: more sellers attract buyers, more buyers attract sellers. Like the App Store for AI workflows.
+
+---
+
+### <span style="color: #FF9800">FinAgent — Vertical AI Agents for Financial Services</span>
+**Problem:** Kronos shows the demand for financial AI (13.9k stars). But models alone aren't enough — financial services need complete agent solutions that understand compliance, risk, and workflow.
+**Market:** Financial services firms (hedge funds, banks, fintechs) that need AI agents for research, compliance, and risk analysis.
+**Why now:** Kronos proves financial AI works. Regulations (SEC, MiFID II) create moats. Incumbents are slow. The window is now.
+**MVP hint:** Pre-built financial agent: (1) Reads 10-Ks, earnings calls, news (2) Generates investment memos with citations (3) Compliance-checked output. $5k/month per analyst seat.
+**Why this wins long-term:** Financial data is proprietary. Agents trained on specific firm data become irreplaceable. Compliance moat keeps competitors out.
+
+---
+
+### <span style="color: #FF9800">AgentWatch — Production Monitoring for AI Agents</span>
+**Problem:** multica shows the rise of "managed agents" (7.6k stars). But as agents go into production, there's no way to monitor their health, catch failures, or debug issues.
+**Market:** Enterprises deploying AI agents in production who need reliability and observability.
+**Why now:** Agent platforms are shipping, but observability is 2 years behind. The "Datadog for agents" opportunity is wide open.
+**MVP hint:** Agent monitoring dashboard: (1) Real-time task status (2) Cost tracking per agent (3) Failure alerts and retry logic. $99/agent/month.
+**Why this wins long-term:** Monitoring is always needed in production. Be the infrastructure layer that every agent platform integrates with.
