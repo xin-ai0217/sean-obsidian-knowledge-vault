@@ -201,6 +201,7 @@
   },
   "active": "5c40f171faff7d48",
   "lastOpenFiles": [
+    "Dolphin/Tasks/DEV-019 Stripe Production Keys.md",
     "Dolphin/Bugs/BUG-007 Duplicate Stripe Webhook Routes.md",
     "Dolphin/Bugs/BUG-006 Orphaned Prolific Drafts on Estimate.md",
     "Dolphin — Project Dashboard.md",
@@ -226,7 +227,6 @@
     "Dolphin/Tasks/DEV-011 Audio Storage Unified.md",
     "Dolphin/Tasks/DEV-010 AI Interviewer Prompt.md",
     "Dolphin/Tasks/DEV-009 Payment Fix.md",
-    "Dolphin/Tasks/DEV-008 Prolific Campaign Dashboard.md",
     "Dolphin/Tasks",
     "Dolphin/Bugs",
     "Dolphin",

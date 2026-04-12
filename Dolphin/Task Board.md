@@ -11,6 +11,7 @@ kanban-plugin: basic
 
 ## 🔵 In Progress
 
+- [ ] [[DEV-019 Stripe Production Keys]]
 - [ ] [[DEV-001 Email Fix]]
 - [ ] [[DEV-002 Invite Metrics]]
 - [ ] [[DEV-006 Prolific Edit Live]]
