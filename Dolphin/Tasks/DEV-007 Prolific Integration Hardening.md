@@ -36,6 +36,9 @@ Now uses correct Prolific formula: `Math.ceil(2 + 2t + 2√t)`.
 **BUG-005 — Draft study lost on publish failure**
 If Prolific balance is insufficient: draft is created on Prolific → publish fails → we auto-refund → but the Prolific draft ID is never saved to our DB. Orphaned draft sits on Prolific. Researcher can't find or retry it.
 
+**BUG-007 — Duplicate Stripe webhook routes** ← NEW
+Two webhook handlers exist: `/api/stripe/webhook` (current, correct) and `/api/stripe/stripe-webhook` (old, uses `lib/prolific.ts` without `rejectFastSubmissions`). Must verify Stripe is pointed at the new route and delete the old one. See [[BUG-007 Duplicate Stripe Webhook Routes]].
+
 **No alerting when keyword fallback fires**
 `resolveFilterDef()` logs a `console.warn` when keyword fallback is used — but nobody reads console logs. Needs a real alert to admin (email/Slack) so the registry can be updated promptly. See [[DEV-018 Multi-Platform Recruitment Architecture]].
 
@@ -59,3 +62,4 @@ Current implementation fetches live Prolific filter options when the recruit for
 - [ ] Add `prolific_status` column: `draft` | `active` | `paused` | `completed`
 - [ ] Add alerting when keyword fallback fires → see DEV-018
 - [ ] Fetch and store workspace/project ID on first campaign creation
+- [ ] Verify Stripe webhook URL points to `/api/stripe/webhook`, then delete `stripe-webhook/route.ts` (BUG-007)
