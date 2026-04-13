@@ -201,6 +201,7 @@
   },
   "active": "5c40f171faff7d48",
   "lastOpenFiles": [
+    "Dolphin/Tasks/DEV-021 Auto Top-Up Prolific Balance.md",
     "Dolphin/Tasks/DEV-020 Respondent API Integration.md",
     "Dolphin/Tasks/DEV-019 Stripe Production Keys.md",
     "Dolphin/Bugs/BUG-007 Duplicate Stripe Webhook Routes.md",
@@ -226,7 +227,6 @@
     "Dolphin/Tasks/DEV-013 Study Actions Dropdown.md",
     "Dolphin/Tasks/DEV-012 Study Question Probing.md",
     "Dolphin/Tasks/DEV-011 Audio Storage Unified.md",
-    "Dolphin/Tasks/DEV-010 AI Interviewer Prompt.md",
     "Dolphin/Tasks",
     "Dolphin/Bugs",
     "Dolphin",

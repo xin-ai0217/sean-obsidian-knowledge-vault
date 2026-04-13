@@ -9,6 +9,7 @@ kanban-plugin: basic
 - [ ] [[DEV-005 Researcher Analytics]]
 - [ ] [[DEV-018 Multi-Platform Recruitment Architecture]]
 - [ ] [[DEV-020 Respondent API Integration]]
+- [ ] [[DEV-021 Auto Top-Up Prolific Balance]]
 
 ## 🔵 In Progress
 
