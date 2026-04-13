@@ -10,6 +10,7 @@ kanban-plugin: basic
 - [ ] [[DEV-018 Multi-Platform Recruitment Architecture]]
 - [ ] [[DEV-020 Respondent API Integration]]
 - [ ] [[DEV-021 Auto Top-Up Prolific Balance]]
+- [ ] [[DEV-022 Guest Trial Mode for Researchers]]
 
 ## 🔵 In Progress
 
