@@ -11,6 +11,7 @@ kanban-plugin: basic
 - [ ] [[DEV-020 Respondent API Integration]]
 - [ ] [[DEV-021 Auto Top-Up Prolific Balance]]
 - [ ] [[DEV-022 Guest Trial Mode for Researchers]]
+- [ ] [[DEV-023 Re-evaluate Email Requirement at Sign-up]]
 
 ## 🔵 In Progress
 
