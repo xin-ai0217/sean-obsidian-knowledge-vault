@@ -8,35 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a741dfa1527cb132",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AI新品.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "AI新品"
-            }
-          },
-          {
             "id": "5c40f171faff7d48",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dolphin — Project Dashboard.md",
+                "file": "Dolphin/Tasks/DEV-031 Screener Questions.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Dolphin — Project Dashboard"
+              "title": "DEV-031 Screener Questions"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -93,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "0109c5003761eb44",
@@ -201,14 +187,23 @@
   },
   "active": "5c40f171faff7d48",
   "lastOpenFiles": [
+    "Dolphin/Task Board.md",
+    "Dolphin/Tasks/DEV-002 Invite Metrics.md",
+    "Dolphin/Tasks/DEV-001 Email Fix.md",
+    "Dolphin — Project Dashboard.md",
+    "Dolphin/Tasks/DEV-037 Talk to Your Data.md",
+    "Dolphin/Tasks/DEV-036 Cross-Study Thematic Analysis.md",
+    "Dolphin/Tasks/DEV-035 Changelog Page.md",
+    "Dolphin/Tasks/DEV-034 Study Templates.md",
+    "Dolphin/Tasks/DEV-033 Public Sharing Links for Reports.md",
+    "Dolphin/Tasks/DEV-032 Quality Score in Sessions List.md",
+    "Dolphin/Tasks/DEV-031 Screener Questions.md",
     "Dolphin/Tasks/DEV-030 Prolific Compliance - PII Removal.md",
     "Dolphin/Tasks/DEV-029 Sessions List Interactions.md",
     "Dolphin/Tasks/DEV-028 Report UI and Scoring Overhaul.md",
     "Dolphin/Tasks/DEV-027 Interview UX Polish.md",
     "Dolphin/Bug Board.md",
     "Dolphin/Tasks/DEV-026 Participant Join Flow.md",
-    "Dolphin — Project Dashboard.md",
-    "Dolphin/Task Board.md",
     "Dolphin/Tasks/DEV-025 Clerk Username-Password Auth.md",
     "Dolphin/Tasks/DEV-024 Landing Page Polish.md",
     "Dolphin/Tasks/DEV-023 Re-evaluate Email Requirement at Sign-up.md",
@@ -218,15 +213,6 @@
     "Dolphin/Tasks/DEV-019 Stripe Production Keys.md",
     "Dolphin/Bugs/BUG-007 Duplicate Stripe Webhook Routes.md",
     "Dolphin/Bugs/BUG-006 Orphaned Prolific Drafts on Estimate.md",
-    "AI新品.md",
-    "Dolphin/Tasks/DEV-018 Multi-Platform Recruitment Architecture.md",
-    "TODO.md",
-    "Dolphin/Bugs/BUG-005 Prolific Draft Not Saved.md",
-    "Dolphin/Bugs/BUG-004 Prolific Filter IDs Hardcoded.md",
-    "Dolphin/Bugs/BUG-003 Prolific Double Spend Risk.md",
-    "Dolphin/Tasks/DEV-017 SendGrid Integration.md",
-    "Dolphin/Tasks/DEV-007 Prolific Integration Hardening.md",
-    "Dolphin/Tasks/DEV-002 Invite Metrics.md",
     "Dolphin/Tasks",
     "Dolphin/Bugs",
     "Dolphin",

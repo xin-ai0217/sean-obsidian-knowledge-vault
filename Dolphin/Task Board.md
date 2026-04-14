@@ -8,6 +8,20 @@ kanban-plugin: basic
 
 ## 🟣 Planned
 
+### 🔴 P1 — High Priority
+- [ ] [[DEV-031 Screener Questions]]
+- [ ] [[DEV-032 Quality Score in Sessions List]]
+- [ ] [[DEV-033 Public Sharing Links for Reports]]
+
+### 🟡 P2 — Medium Priority
+- [ ] [[DEV-034 Study Templates]]
+- [ ] [[DEV-035 Changelog Page]]
+- [ ] [[DEV-036 Cross-Study Thematic Analysis]]
+
+### 🟢 P3 — Strategic
+- [ ] [[DEV-037 Talk to Your Data]]
+
+### Existing Backlog
 - [ ] [[DEV-003 Custom Domain]]
 - [ ] [[DEV-004 Participant Portal]]
 - [ ] [[DEV-005 Researcher Analytics]]
