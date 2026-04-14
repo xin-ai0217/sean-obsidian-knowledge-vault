@@ -1,6 +1,6 @@
 ---
 tags: bug
-status: open
+status: fixed
 severity: critical
 area: recruitment, payments
 ---
@@ -21,9 +21,8 @@ There are two separate Stripe webhook handler routes in the codebase:
 3. No `sendAdminAlert` on failure
 4. Doesn't use the multi-platform `launchRecruitment` orchestration layer
 
-## Required Action
-1. Check which URL is configured in the Stripe webhook dashboard
-2. Update Stripe to point to: `POST /api/stripe/webhook`
-3. Delete `app/api/stripe/stripe-webhook/route.ts`
-
-The old file has been marked with a deprecation warning in the header comment.
+## Resolution
+Confirmed 2026-04-14:
+- Stripe webhook dashboard points to `https://research-platform-ivory.vercel.app/api/stripe/webhook` ✅
+- Deprecated route `app/api/stripe/stripe-webhook/route.ts` does not exist in the codebase ✅
+- No action required. Bug was a false alarm — old route was already removed.
