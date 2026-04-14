@@ -15,7 +15,6 @@ kanban-plugin: basic
 
 ## 🔵 In Progress
 
-- [ ] [[DEV-019 Stripe Production Keys]]
 - [ ] [[DEV-001 Email Fix]]
 - [ ] [[DEV-002 Invite Metrics]]
 - [ ] [[DEV-006 Prolific Edit Live]]
@@ -33,13 +32,13 @@ kanban-plugin: basic
 - [x] [[DEV-015 Landing Page]]
 - [x] [[DEV-016 Core Interview Flow]]
 - [x] [[DEV-017 SendGrid Integration]]
+- [x] [[DEV-019 Stripe Production Keys]]
+- [x] [[DEV-024 Landing Page Polish]]
+- [x] [[DEV-025 Clerk Username-Password Auth]]
+- [x] [[DEV-026 Participant Join Flow]]
+- [x] [[DEV-027 Interview UX Polish]]
+- [x] [[DEV-028 Report UI and Scoring Overhaul]]
+- [x] [[DEV-029 Sessions List Interactions]]
 
 ## ⚫ Archived
 
-
-
-%% kanban:settings
-```json
-{"kanban-plugin":"basic","lane-width":260}
-```
-%%

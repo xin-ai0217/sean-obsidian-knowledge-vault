@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dolphin/Task Board.md",
+                "file": "Dolphin — Project Dashboard.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Task Board"
+              "title": "Dolphin — Project Dashboard"
             }
           }
         ],
@@ -201,6 +201,15 @@
   },
   "active": "5c40f171faff7d48",
   "lastOpenFiles": [
+    "Dolphin/Tasks/DEV-029 Sessions List Interactions.md",
+    "Dolphin/Tasks/DEV-028 Report UI and Scoring Overhaul.md",
+    "Dolphin/Tasks/DEV-027 Interview UX Polish.md",
+    "Dolphin/Bug Board.md",
+    "Dolphin/Tasks/DEV-026 Participant Join Flow.md",
+    "Dolphin — Project Dashboard.md",
+    "Dolphin/Task Board.md",
+    "Dolphin/Tasks/DEV-025 Clerk Username-Password Auth.md",
+    "Dolphin/Tasks/DEV-024 Landing Page Polish.md",
     "Dolphin/Tasks/DEV-023 Re-evaluate Email Requirement at Sign-up.md",
     "Dolphin/Tasks/DEV-022 Guest Trial Mode for Researchers.md",
     "Dolphin/Tasks/DEV-021 Auto Top-Up Prolific Balance.md",
@@ -208,7 +217,6 @@
     "Dolphin/Tasks/DEV-019 Stripe Production Keys.md",
     "Dolphin/Bugs/BUG-007 Duplicate Stripe Webhook Routes.md",
     "Dolphin/Bugs/BUG-006 Orphaned Prolific Drafts on Estimate.md",
-    "Dolphin — Project Dashboard.md",
     "AI新品.md",
     "Dolphin/Tasks/DEV-018 Multi-Platform Recruitment Architecture.md",
     "TODO.md",
@@ -217,16 +225,8 @@
     "Dolphin/Bugs/BUG-003 Prolific Double Spend Risk.md",
     "Dolphin/Tasks/DEV-017 SendGrid Integration.md",
     "Dolphin/Tasks/DEV-007 Prolific Integration Hardening.md",
-    "Dolphin/Task Board.md",
     "Dolphin/Tasks/DEV-002 Invite Metrics.md",
     "Dolphin/Tasks/DEV-001 Email Fix.md",
-    "Dolphin/Bug Board.md",
-    "Dolphin/Tasks/DEV-003 Custom Domain.md",
-    "Dolphin/Bugs/BUG-002 Suspense Boundary.md",
-    "Dolphin/Bugs/BUG-001 Email Deliverability.md",
-    "Dolphin/Tasks/DEV-015 Core Interview Flow.md",
-    "Dolphin/Tasks/DEV-014 Landing Page.md",
-    "Dolphin/Tasks/DEV-013 Study Actions Dropdown.md",
     "Dolphin/Tasks",
     "Dolphin/Bugs",
     "Dolphin",

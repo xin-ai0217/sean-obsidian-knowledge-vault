@@ -17,10 +17,3 @@ kanban-plugin: basic
 
 ## ⚫ Archived
 
-
-
-%% kanban:settings
-```json
-{"kanban-plugin":"basic","lane-width":280}
-```
-%%
