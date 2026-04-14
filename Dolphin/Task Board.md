@@ -2,6 +2,10 @@
 kanban-plugin: basic
 ---
 
+## 🚨 Blocked
+
+- [ ] [[DEV-030 Prolific Compliance - PII Removal]]
+
 ## 🟣 Planned
 
 - [ ] [[DEV-003 Custom Domain]]
