@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dolphin/Tasks/DEV-031 Screener Questions.md",
+                "file": "Dolphin/Task Board.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DEV-031 Screener Questions"
+              "title": "Task Board"
             }
           }
         ]
@@ -187,7 +187,9 @@
   },
   "active": "5c40f171faff7d48",
   "lastOpenFiles": [
+    "Dolphin/Tasks/DEV-032 Quality Score in Sessions List.md",
     "Dolphin/Task Board.md",
+    "Dolphin/Tasks/DEV-031 Screener Questions.md",
     "Dolphin/Tasks/DEV-002 Invite Metrics.md",
     "Dolphin/Tasks/DEV-001 Email Fix.md",
     "Dolphin — Project Dashboard.md",
@@ -196,8 +198,6 @@
     "Dolphin/Tasks/DEV-035 Changelog Page.md",
     "Dolphin/Tasks/DEV-034 Study Templates.md",
     "Dolphin/Tasks/DEV-033 Public Sharing Links for Reports.md",
-    "Dolphin/Tasks/DEV-032 Quality Score in Sessions List.md",
-    "Dolphin/Tasks/DEV-031 Screener Questions.md",
     "Dolphin/Tasks/DEV-030 Prolific Compliance - PII Removal.md",
     "Dolphin/Tasks/DEV-029 Sessions List Interactions.md",
     "Dolphin/Tasks/DEV-028 Report UI and Scoring Overhaul.md",

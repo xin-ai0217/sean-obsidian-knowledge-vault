@@ -1,14 +1,14 @@
 ---
 tags: task
 status: planned
-priority: p1
+priority: p3
 area: study-design, participant-quality
 inspired-by: Conveo
 ---
 
 # DEV-031 Screener Questions
 
-## Priority: 🔴 P1 — High
+## Priority: 🟢 P3 — Strategic (deprioritised)
 
 ## Why
 Right now anyone with the study link can start an interview regardless of whether they qualify. Screener questions pre-qualify participants before they enter the interview — wrong-fit participants never start, so researchers get cleaner data and don't waste interview slots on unusable responses.
