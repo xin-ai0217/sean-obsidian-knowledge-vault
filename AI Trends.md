@@ -477,7 +477,7 @@ _Criteria: (1) MVP-executable, solves a real pain point in a niche market (2) Lo
 
 ---
 
-### <span style="color: #FF9800">SkillMarket — The Airbnb for AI Skills and Agent Workflows</span>
+### SkillMarket — The Airbnb for AI Skills and Agent Workflows
 **Problem:** andrej-karpathy-skills (13.1k stars), person-skills, and the broader "AI skills" ecosystem show that reusable prompt patterns and agent workflows are valuable. But there's no marketplace to buy/sell them.
 **Market:** Developers and teams using AI agents who want to leverage proven workflows rather than reinventing them.
 **Why now:** The "skills" pattern is proven — karpathy-skills went viral in days. The missing piece: a marketplace where creators can monetize their skills and buyers can discover tested workflows.
@@ -486,7 +486,7 @@ _Criteria: (1) MVP-executable, solves a real pain point in a niche market (2) Lo
 
 ---
 
-### <span style="color: #FF9800">FinAgent — Vertical AI Agents for Financial Services</span>
+### FinAgent — Vertical AI Agents for Financial Services
 **Problem:** Kronos shows the demand for financial AI (13.9k stars). But models alone aren't enough — financial services need complete agent solutions that understand compliance, risk, and workflow.
 **Market:** Financial services firms (hedge funds, banks, fintechs) that need AI agents for research, compliance, and risk analysis.
 **Why now:** Kronos proves financial AI works. Regulations (SEC, MiFID II) create moats. Incumbents are slow. The window is now.
@@ -495,9 +495,75 @@ _Criteria: (1) MVP-executable, solves a real pain point in a niche market (2) Lo
 
 ---
 
-### <span style="color: #FF9800">AgentWatch — Production Monitoring for AI Agents</span>
+### AgentWatch — Production Monitoring for AI Agents
 **Problem:** multica shows the rise of "managed agents" (7.6k stars). But as agents go into production, there's no way to monitor their health, catch failures, or debug issues.
 **Market:** Enterprises deploying AI agents in production who need reliability and observability.
 **Why now:** Agent platforms are shipping, but observability is 2 years behind. The "Datadog for agents" opportunity is wide open.
 **MVP hint:** Agent monitoring dashboard: (1) Real-time task status (2) Cost tracking per agent (3) Failure alerts and retry logic. $99/agent/month.
 **Why this wins long-term:** Monitoring is always needed in production. Be the infrastructure layer that every agent platform integrates with.
+
+---
+
+## 📅 April 14, 2026
+
+### fireworks-tech-graph — Claude Code Skill for Production-Quality Technical Diagrams
+> *"Claude Code skill for generating production-quality SVG+PNG technical diagrams. Supports 8 diagram types, 5 visual styles, and deep AI/Agent domain knowledge."* — [yizhiyanhua-ai/fireworks-tech-graph](https://github.com/yizhiyanhua-ai/fireworks-tech-graph) · April 14, 2026 · 2,303 stars
+
+**💡 What this means:**
+- **In plain language:** A Claude Code skill that generates professional technical diagrams — architecture diagrams, flowcharts, sequence diagrams, and more — directly from prompts. Supports multiple visual styles and understands AI/agent-specific terminology.
+- **For AI founders:** Technical diagrams are a massive time sink for developers and architects. This skill proves AI can automate visual output. The opportunity: build vertical diagram generators for specific use cases (API documentation, system architecture, 3D visualization).
+
+### llm_wiki — Turn Documents Into Interlinked Knowledge Bases
+> *"LLM Wiki is a cross-platform desktop application that turns your documents into an organized, interlinked knowledge base — automatically. Instead of traditional RAG, the LLM incrementally builds and maintains a persistent wiki from your sources."* — [nashsu/llm_wiki](https://github.com/nashsu/llm_wiki) · April 14, 2026 · 1,265 stars
+
+**💡 What this means:**
+- **In plain language:** A desktop app that takes your documents and automatically builds an interconnected wiki — unlike RAG which retrieves and forgets, this persistently builds and updates a knowledge graph over time.
+- **For AI founders:** This is the "second brain" evolution — from retrieval to relationship-building. The startup angle: build the hosted, collaborative version for teams with enterprise features (permissions, audit logs, integrations).
+
+### Skills Janitor — Find Which Claude Code Skills You Actually Use
+> *"Find which Claude Code skills you actually use"* — [Product Hunt](https://www.producthunt.com/products/skills-janitor) · April 13, 2026 · 188 votes
+
+**💡 What this means:**
+- **In plain language:** A tool that analyzes your Claude Code usage to discover which skills you actually use versus which ones you installed and forgot — helping you declutter and optimize your agent setup.
+- **For AI founders:** The "skills" ecosystem is exploding but users are drowning in unused skills. This proves demand for "skill lifecycle management." The angle: build skill optimization platforms that recommend which skills to keep, add, or remove based on usage patterns.
+
+### ContextPool — Persistent Memory for AI Coding Agents
+> *"Persistent memory for AI coding agents"* — [Product Hunt](https://www.producthunt.com/products/contextpool) · April 13, 2026 · 158 votes
+
+**💡 What this means:**
+- **In plain language:** A memory management system for AI coding agents that persists context across sessions — so agents remember your codebase, preferences, and project state between sessions.
+- **For AI founders:** This is the "long-running agent" enabler. The opportunity: build memory-as-a-service for specific agent platforms with features like memory segmentation, privacy controls, and team memory sharing.
+
+### Offsite — Build Teams of Humans and Agents
+> *"Build teams of humans and agents, watch them work."* — [Product Hunt](https://www.producthunt.com/products/offsite-2) · April 9, 2026 · 581 votes
+
+**💡 What this means:**
+- **In plain language:** A platform that lets you orchestrate teams mixing human workers and AI agents — assigning tasks, tracking progress, and managing the collaboration between human and AI team members.
+- **For AI founders:** This is the "human-AI hybrid workforce" pattern emerging. The opportunity: build vertical-specific orchestration for industries (construction, healthcare, manufacturing) where human-AI collaboration is complex.
+
+---
+
+### <span style="color: #FF9800">CodeTutor — AI-Powered Code Learning That Adapts to Your Mistakes</span>
+**Problem:** pyre-code shows demand for ML coding practice (678 stars). But existing platforms give generic feedback. No code learning platform adapts to your specific mistakes and learning style.
+**Market:** Developers learning new languages/frameworks, bootcamp students, self-taught engineers.
+**Why now:** AI can finally understand *why* you make mistakes, not just *that* you made them. Personalization at scale is now possible.
+**MVP hint:** Adaptive coding tutor: (1) Watch you code in browser (2) Identify patterns in your mistakes (3) Generate personalized exercises targeting your gaps. Freemium, $19/mo for unlimited.
+**Why this wins long-term:** Learning data is proprietary. Better personalization → better outcomes → more users → more data. Flywheel effect.
+
+---
+
+### <span style="color: #FF9800">AgentAudit — Compliance and Security Auditing for AI Agents</span>
+**Problem:** As agents go into production (multica, ContextPool), companies need to audit them for security, compliance, and bias. But there's no "agent audit" tool — it's all manual.
+**Market:** Enterprises deploying AI agents in regulated industries (finance, healthcare, legal).
+**Why now:** Regulatory pressure is increasing. EU AI Act, SEC rules, and internal compliance teams all need agent auditing. The "SOC 2 for agents" opportunity is wide open.
+**MVP hint:** Agent audit platform: (1) Scan agent behavior logs (2) Detect policy violations (3) Generate compliance reports. $499/agent/month.
+**Why this wins long-term:** Compliance is a forced moat. Every enterprise agent needs auditing. Be the standard.
+
+---
+
+### <span style="color: #FF9800">VibeFlow — Visual Workflow Builder for AI Agents</span>
+**Problem:** deer-flow, hermes-agent, oh-my-claudecode — agent frameworks are multiplying. But there's no easy way to visualize and edit agent workflows. Developers are building complex agents in code, not visual diagrams.
+**Market:** Teams building AI agents who want to design, visualize, and iterate on agent workflows.
+**Why now:** Agent complexity is hitting a wall. Code-based workflow definition is hard to maintain. Visual tools exist for everything else (CI/CD, data pipelines) — agents need the same.
+**MVP hint:** Visual workflow builder: (1) Drag-and-drop agent nodes (2) Connect with logic branches (3) Test in sandbox. Free for individuals, $199/mo for teams.
+**Why this wins long-term:** Visual tooling always wins for complex systems. Be the "Figma for AI agents."
