@@ -187,6 +187,7 @@
   },
   "active": "5c40f171faff7d48",
   "lastOpenFiles": [
+    "Dolphin/Bugs/BUG-008 iOS Mic Silent After AI Audio.md",
     "Dolphin — Project Dashboard.md",
     "Dolphin/Task Board.md",
     "Dolphin/Tasks/DEV-032 Quality Score in Sessions List.md",
@@ -212,7 +213,6 @@
     "Dolphin/Tasks/DEV-020 Respondent API Integration.md",
     "Dolphin/Tasks/DEV-019 Stripe Production Keys.md",
     "Dolphin/Bugs/BUG-007 Duplicate Stripe Webhook Routes.md",
-    "Dolphin/Bugs/BUG-006 Orphaned Prolific Drafts on Estimate.md",
     "Dolphin/Tasks",
     "Dolphin/Bugs",
     "Dolphin",

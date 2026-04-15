@@ -14,6 +14,7 @@ kanban-plugin: basic
 - [x] [[BUG-004 Prolific Filter IDs Hardcoded]]
 - [x] [[BUG-006 Orphaned Prolific Drafts on Estimate]]
 - [x] [[BUG-007 Duplicate Stripe Webhook Routes]]
+- [x] [[BUG-008 iOS Mic Silent After AI Audio]]
 
 ## ⚫ Archived
 
