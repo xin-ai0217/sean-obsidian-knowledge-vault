@@ -187,6 +187,8 @@
   },
   "active": "5c40f171faff7d48",
   "lastOpenFiles": [
+    "Dolphin/Tasks/DEV-039 LLM Response Streaming.md",
+    "Dolphin/Tasks/DEV-038 Probing Taxonomy.md",
     "Dolphin/Bug Board.md",
     "Dolphin/Bugs/BUG-008 iOS Mic Silent After AI Audio.md",
     "Dolphin — Project Dashboard.md",
@@ -211,8 +213,6 @@
     "Dolphin/Tasks/DEV-022 Guest Trial Mode for Researchers.md",
     "Dolphin/Tasks/DEV-021 Auto Top-Up Prolific Balance.md",
     "Dolphin/Tasks/DEV-020 Respondent API Integration.md",
-    "Dolphin/Tasks/DEV-019 Stripe Production Keys.md",
-    "Dolphin/Bugs/BUG-007 Duplicate Stripe Webhook Routes.md",
     "Dolphin/Tasks",
     "Dolphin/Bugs",
     "Dolphin",
