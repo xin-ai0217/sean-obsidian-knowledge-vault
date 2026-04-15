@@ -4,7 +4,6 @@ kanban-plugin: basic
 
 ## 🔴 Open
 
-- [ ] [[BUG-001 Email Deliverability]]
 - [ ] [[BUG-002 Suspense Boundary]]
 - [ ] [[BUG-005 Prolific Draft Not Saved]]
 
@@ -15,6 +14,7 @@ kanban-plugin: basic
 - [x] [[BUG-006 Orphaned Prolific Drafts on Estimate]]
 - [x] [[BUG-007 Duplicate Stripe Webhook Routes]]
 - [x] [[BUG-008 iOS Mic Silent After AI Audio]]
+- [x] [[BUG-001 Email Deliverability]]
 
 ## ⚫ Archived
 

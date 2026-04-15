@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dolphin/Bug Board.md",
+                "file": "Dolphin/Bugs/BUG-002 Suspense Boundary.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Bug Board"
+              "title": "BUG-002 Suspense Boundary"
             }
           }
         ]
@@ -187,6 +187,7 @@
   },
   "active": "5c40f171faff7d48",
   "lastOpenFiles": [
+    "Dolphin/Bug Board.md",
     "Dolphin/Bugs/BUG-008 iOS Mic Silent After AI Audio.md",
     "Dolphin — Project Dashboard.md",
     "Dolphin/Task Board.md",
@@ -203,7 +204,6 @@
     "Dolphin/Tasks/DEV-029 Sessions List Interactions.md",
     "Dolphin/Tasks/DEV-028 Report UI and Scoring Overhaul.md",
     "Dolphin/Tasks/DEV-027 Interview UX Polish.md",
-    "Dolphin/Bug Board.md",
     "Dolphin/Tasks/DEV-026 Participant Join Flow.md",
     "Dolphin/Tasks/DEV-025 Clerk Username-Password Auth.md",
     "Dolphin/Tasks/DEV-024 Landing Page Polish.md",

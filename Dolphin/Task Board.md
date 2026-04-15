@@ -8,9 +8,10 @@ kanban-plugin: basic
 
 ## 🟣 Planned
 
+### 🔴 P0 — Top Priority
+- [ ] [[DEV-022 Guest Trial Mode for Researchers]]
+
 ### 🔴 P1 — High Priority
-- [ ] [[DEV-032 Quality Score in Sessions List]]
-- [ ] [[DEV-033 Public Sharing Links for Reports]]
 
 ### 🟡 P2 — Medium Priority
 - [ ] [[DEV-034 Study Templates]]
@@ -57,6 +58,8 @@ kanban-plugin: basic
 - [x] [[DEV-027 Interview UX Polish]]
 - [x] [[DEV-028 Report UI and Scoring Overhaul]]
 - [x] [[DEV-029 Sessions List Interactions]]
+- [x] [[DEV-032 Quality Score in Sessions List]]
+- [x] [[DEV-033 Public Sharing Links for Reports]]
 
 ## ⚫ Archived
 

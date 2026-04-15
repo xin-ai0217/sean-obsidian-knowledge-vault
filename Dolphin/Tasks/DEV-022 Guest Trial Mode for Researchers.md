@@ -4,7 +4,7 @@
 Planned
 
 ## Priority
-🟢 Low — Nice-to-have, not blocking growth
+🔴 P0 — Top priority. Primary growth lever before Product Hunt launch.
 
 ## Summary
 Allow researchers to try Dolphin AI without creating a Clerk account — a lightweight "Continue without account" flow that lets them explore the product and create a test study before committing to sign-up.
