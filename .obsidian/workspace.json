@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dolphin/Bugs/BUG-002 Suspense Boundary.md",
+                "file": "AI Trends.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "BUG-002 Suspense Boundary"
+              "title": "AI Trends"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "0109c5003761eb44",
@@ -187,6 +186,9 @@
   },
   "active": "5c40f171faff7d48",
   "lastOpenFiles": [
+    "AI新品.md",
+    "AI Trends.md",
+    "Dolphin/Bugs/BUG-002 Suspense Boundary.md",
     "Dolphin/Tasks/DEV-039 LLM Response Streaming.md",
     "Dolphin/Tasks/DEV-038 Probing Taxonomy.md",
     "Dolphin/Bug Board.md",
@@ -210,9 +212,6 @@
     "Dolphin/Tasks/DEV-025 Clerk Username-Password Auth.md",
     "Dolphin/Tasks/DEV-024 Landing Page Polish.md",
     "Dolphin/Tasks/DEV-023 Re-evaluate Email Requirement at Sign-up.md",
-    "Dolphin/Tasks/DEV-022 Guest Trial Mode for Researchers.md",
-    "Dolphin/Tasks/DEV-021 Auto Top-Up Prolific Balance.md",
-    "Dolphin/Tasks/DEV-020 Respondent API Integration.md",
     "Dolphin/Tasks",
     "Dolphin/Bugs",
     "Dolphin",
