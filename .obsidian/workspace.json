@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI Trends.md",
+                "file": "Stratechery.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AI Trends"
+              "title": "Stratechery"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "0109c5003761eb44",
@@ -186,8 +187,8 @@
   },
   "active": "5c40f171faff7d48",
   "lastOpenFiles": [
-    "AI新品.md",
     "AI Trends.md",
+    "AI新品.md",
     "Dolphin/Bugs/BUG-002 Suspense Boundary.md",
     "Dolphin/Tasks/DEV-039 LLM Response Streaming.md",
     "Dolphin/Tasks/DEV-038 Probing Taxonomy.md",
