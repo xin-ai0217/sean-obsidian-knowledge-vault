@@ -60,6 +60,8 @@ kanban-plugin: basic
 - [x] [[DEV-029 Sessions List Interactions]]
 - [x] [[DEV-032 Quality Score in Sessions List]]
 - [x] [[DEV-033 Public Sharing Links for Reports]]
+- [x] [[DEV-038 Probing Taxonomy]]
+- [x] [[DEV-039 LLM Response Streaming]]
 
 ## ⚫ Archived
 
