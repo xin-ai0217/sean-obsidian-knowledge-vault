@@ -62,6 +62,7 @@ kanban-plugin: basic
 - [x] [[DEV-033 Public Sharing Links for Reports]]
 - [x] [[DEV-038 Probing Taxonomy]]
 - [x] [[DEV-039 LLM Response Streaming]]
+- [x] [[DEV-040 Study Page Redesign]]
 
 ## ⚫ Archived
 
