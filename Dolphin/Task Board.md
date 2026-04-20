@@ -38,6 +38,7 @@ kanban-plugin: basic
 - [ ] [[DEV-002 Invite Metrics]]
 - [ ] [[DEV-006 Prolific Edit Live]]
 - [ ] [[DEV-007 Prolific Integration Hardening]]
+- [ ] [[DEV-041 CloudResearch Integration]]
 
 ## 🟢 Done
 
